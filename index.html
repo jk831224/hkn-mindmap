@@ -17,8 +17,10 @@
       --accent: #8ab4f8;
       --reader-bg: #14161c;
       --reader-paper: #1c1f28;
-      --reader-max: 1080px;
-      --sidebar-w: 280px;
+      --reader-max: 1200px;
+      --sidebar-w: 300px;
+      --reader-zoom: 1;
+      --side-zoom: 1;
     }
     * { box-sizing: border-box; }
     html, body {
@@ -81,8 +83,9 @@
       position: relative;
       width: min(var(--reader-max), 100%);
       height: min(88vh, 920px);
-      display: grid;
-      grid-template-columns: 1fr var(--sidebar-w);
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
       background: var(--reader-paper);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -91,9 +94,29 @@
     }
     #reader-main {
       display: flex; flex-direction: column; min-width: 0; min-height: 0;
-      border-right: 1px solid var(--border);
+      flex: 1 1 auto;
       background: var(--reader-bg);
     }
+    #reader-resizer {
+      flex: 0 0 6px;
+      width: 6px;
+      cursor: col-resize;
+      background: var(--border);
+      position: relative;
+      touch-action: none;
+      user-select: none;
+    }
+    #reader-resizer::after {
+      content: "";
+      position: absolute;
+      inset: 0 -4px;
+    }
+    #reader-resizer:hover,
+    #reader-shell.resizing #reader-resizer {
+      background: var(--accent);
+    }
+    #reader-shell.resizing { cursor: col-resize; user-select: none; }
+    #reader-shell.resizing iframe { pointer-events: none; }
     #reader-toolbar {
       flex: none;
       display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
@@ -101,9 +124,19 @@
       border-bottom: 1px solid var(--border);
       background: var(--panel);
     }
-    #reader-toolbar .spacer { flex: 1; }
+    #reader-toolbar .zoom-group {
+      display: inline-flex; align-items: center; gap: 4px;
+    }
+    #reader-toolbar .zoom-group span {
+      min-width: 40px; text-align: center; font-size: 11px;
+      color: var(--muted); font-variant-numeric: tabular-nums;
+    }
+    #reader-toolbar button.iconish {
+      min-width: 32px; padding-left: 8px; padding-right: 8px;
+    }
+    #reader-toolbar .spacer { flex: 1; min-width: 8px; }
     #reader-toolbar .path {
-      color: var(--muted); font-size: 11px; max-width: 42%;
+      color: var(--muted); font-size: 11px; max-width: 36%;
       overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     }
     #reader-scroll {
@@ -136,7 +169,8 @@
     }
     /* Markdown body — Medium-like */
     .md-body {
-      font-size: 17px; line-height: 1.75; color: #e4e6eb;
+      font-size: calc(17px * var(--reader-zoom, 1));
+      line-height: 1.75; color: #e4e6eb;
       font-family: "Charter", "Iowan Old Style", "Palatino Linotype", Palatino,
         "Noto Serif TC", "Source Han Serif TC", Georgia, serif;
     }
@@ -189,32 +223,65 @@
     /* Reader right sidebar — parents / children */
     #reader-side {
       display: flex; flex-direction: column; min-height: 0;
+      flex: 0 0 var(--sidebar-w);
+      width: var(--sidebar-w);
+      max-width: 70%;
       background: var(--panel);
+      min-width: 0;
+      overflow: hidden;
+      transition: none;
+    }
+    #reader-shell.side-collapsed #reader-side {
+      flex-basis: 0 !important;
+      width: 0 !important;
+      border: none;
+    }
+    #reader-shell.side-collapsed #reader-resizer {
+      display: none;
     }
     #reader-side-head {
-      flex: none; padding: 12px 14px 8px;
+      flex: none; padding: 10px 12px 8px;
       border-bottom: 1px solid var(--border);
     }
+    #reader-side-head .side-title-row {
+      display: flex; align-items: center; gap: 6px; justify-content: space-between;
+    }
     #reader-side-head h2 {
-      margin: 0; font-size: 13px; font-weight: 600;
+      margin: 0; font-size: calc(13px * var(--side-zoom, 1)); font-weight: 600;
     }
     #reader-side-head p {
-      margin: 4px 0 0; color: var(--muted); font-size: 11px; line-height: 1.4;
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: calc(11px * var(--side-zoom, 1));
+      line-height: 1.4;
+    }
+    #reader-side-head .side-zoom-group {
+      display: inline-flex; align-items: center; gap: 3px;
+    }
+    #reader-side-head .side-zoom-group button {
+      min-width: 28px; padding: 4px 6px; font-size: 11px;
+    }
+    #reader-side-head .side-zoom-group span {
+      font-size: 10px; color: var(--muted); min-width: 34px; text-align: center;
+      font-variant-numeric: tabular-nums;
     }
     #reader-side-body {
       flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
       padding: 8px 10px 16px;
+      font-size: calc(12px * var(--side-zoom, 1));
     }
     .rel-section { margin-bottom: 14px; }
     .rel-section h3 {
-      margin: 0 0 6px; font-size: 11px; text-transform: uppercase;
+      margin: 0 0 6px;
+      font-size: calc(11px * var(--side-zoom, 1));
+      text-transform: uppercase;
       letter-spacing: .06em; color: var(--muted); font-weight: 600;
       display: flex; align-items: center; justify-content: space-between;
     }
     .rel-section h3 .count {
       font-variant-numeric: tabular-nums;
       background: #2a2f3a; color: var(--text); padding: 1px 7px; border-radius: 999px;
-      font-size: 10px; letter-spacing: 0;
+      font-size: calc(10px * var(--side-zoom, 1)); letter-spacing: 0;
     }
     .rel-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
     .rel-list button.rel-item {
@@ -227,26 +294,50 @@
       border-color: var(--accent); background: #1a2436;
     }
     .rel-list button.rel-item .name {
-      font-size: 12px; font-weight: 500; line-height: 1.35;
+      font-size: calc(12px * var(--side-zoom, 1));
+      font-weight: 500; line-height: 1.35;
     }
     .rel-list button.rel-item .meta {
-      font-size: 10px; color: var(--muted);
+      font-size: calc(10px * var(--side-zoom, 1));
+      color: var(--muted);
     }
-    .rel-empty { color: var(--muted); font-size: 11px; padding: 4px 2px; }
+    .rel-empty {
+      color: var(--muted);
+      font-size: calc(11px * var(--side-zoom, 1));
+      padding: 4px 2px;
+    }
 
     @media (max-width: 860px) {
       #main { grid-template-columns: 1fr; }
       aside.panel { display: none; }
       #reader-shell {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         height: min(92vh, 100%);
       }
-      #reader-side {
-        border-top: 1px solid var(--border);
-        max-height: 36vh;
+      #reader-resizer {
+        flex: 0 0 6px;
+        width: 100%;
+        height: 6px;
+        cursor: row-resize;
       }
-      #reader-main { border-right: none; }
+      #reader-resizer::after {
+        inset: -4px 0;
+      }
+      #reader-side {
+        flex: 0 0 auto;
+        width: 100% !important;
+        max-width: none;
+        height: var(--sidebar-h, 32vh);
+        max-height: 55vh;
+        border-top: none;
+      }
+      #reader-shell.side-collapsed #reader-side {
+        height: 0 !important;
+        flex-basis: 0 !important;
+        width: 100% !important;
+      }
       #reader-scroll { padding: 20px 18px 48px; }
+      #reader-toolbar .path { max-width: 28%; }
     }
   </style>
 </head>
@@ -301,6 +392,12 @@
           <button type="button" id="btnForward" title="下一頁 (Alt+→)">下一頁 →</button>
           <span class="path" id="readerPath"></span>
           <span class="spacer"></span>
+          <div class="zoom-group" title="正文縮放">
+            <button type="button" class="iconish" id="btnTextZoomOut" aria-label="正文縮小">A−</button>
+            <span id="textZoomLabel">100%</span>
+            <button type="button" class="iconish" id="btnTextZoomIn" aria-label="正文放大">A+</button>
+          </div>
+          <button type="button" id="btnToggleSide" title="收合／展開側欄">側欄</button>
           <button type="button" id="btnFocusGraph" title="在圖譜上定位">Locate</button>
           <button type="button" id="btnClose" title="關閉 (Esc)">關閉</button>
         </div>
@@ -313,10 +410,18 @@
           </article>
         </div>
       </div>
+      <div id="reader-resizer" role="separator" aria-orientation="vertical" aria-label="拖曳調整側欄寬度" tabindex="0"></div>
       <aside id="reader-side">
         <div id="reader-side-head">
-          <h2>關聯</h2>
-          <p>父節點 = 連進來 · 子節點 = 連出去（含 wikilink / hierarchy）</p>
+          <div class="side-title-row">
+            <h2>關聯</h2>
+            <div class="side-zoom-group" title="側欄縮放">
+              <button type="button" id="btnSideZoomOut" aria-label="側欄縮小">−</button>
+              <span id="sideZoomLabel">100%</span>
+              <button type="button" id="btnSideZoomIn" aria-label="側欄放大">+</button>
+            </div>
+          </div>
+          <p>拖曳中線調寬 · 父=連入 · 子=連出</p>
         </div>
         <div id="reader-side-body">
           <div class="rel-section">
@@ -504,14 +609,151 @@
 
     /* —— Reader —— */
     const readerRoot = document.getElementById("reader-root");
+    const readerShell = document.getElementById("reader-shell");
     const readerScroll = document.getElementById("reader-scroll");
     const readerBody = document.getElementById("readerBody");
+    const readerResizer = document.getElementById("reader-resizer");
     const btnBack = document.getElementById("btnBack");
     const btnForward = document.getElementById("btnForward");
+    const textZoomLabel = document.getElementById("textZoomLabel");
+    const sideZoomLabel = document.getElementById("sideZoomLabel");
+    const btnToggleSide = document.getElementById("btnToggleSide");
 
     let hist = [];
     let histIdx = -1;
     let currentId = null;
+
+    /* layout prefs: sidebar width/height, zoom, collapse — persisted */
+    const PREF_KEY = "hkn-mindmap-reader-prefs-v1";
+    const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
+    function loadPrefs() {
+      try {
+        return JSON.parse(localStorage.getItem(PREF_KEY) || "{}") || {};
+      } catch (_) {
+        return {};
+      }
+    }
+    function savePrefs(p) {
+      try {
+        localStorage.setItem(PREF_KEY, JSON.stringify(p));
+      } catch (_) {}
+    }
+    let prefs = Object.assign(
+      {
+        sidebarW: 300,
+        sidebarHvh: 32,
+        readerZoom: 1,
+        sideZoom: 1,
+        sideCollapsed: false,
+      },
+      loadPrefs()
+    );
+    prefs.sidebarW = clamp(Number(prefs.sidebarW) || 300, 180, 640);
+    prefs.sidebarHvh = clamp(Number(prefs.sidebarHvh) || 32, 18, 55);
+    prefs.readerZoom = clamp(Number(prefs.readerZoom) || 1, 0.85, 1.8);
+    prefs.sideZoom = clamp(Number(prefs.sideZoom) || 1, 0.85, 1.8);
+
+    function isMobileReader() {
+      return window.matchMedia("(max-width: 860px)").matches;
+    }
+    function applyLayoutPrefs() {
+      readerShell.style.setProperty("--sidebar-w", `${prefs.sidebarW}px`);
+      readerShell.style.setProperty("--sidebar-h", `${prefs.sidebarHvh}vh`);
+      readerShell.style.setProperty("--reader-zoom", String(prefs.readerZoom));
+      readerShell.style.setProperty("--side-zoom", String(prefs.sideZoom));
+      // also set on root for any calc outside shell
+      document.documentElement.style.setProperty("--reader-zoom", String(prefs.readerZoom));
+      document.documentElement.style.setProperty("--side-zoom", String(prefs.sideZoom));
+      readerShell.classList.toggle("side-collapsed", !!prefs.sideCollapsed);
+      if (textZoomLabel) textZoomLabel.textContent = `${Math.round(prefs.readerZoom * 100)}%`;
+      if (sideZoomLabel) sideZoomLabel.textContent = `${Math.round(prefs.sideZoom * 100)}%`;
+      if (btnToggleSide) {
+        btnToggleSide.textContent = prefs.sideCollapsed ? "展開側欄" : "側欄";
+        btnToggleSide.classList.toggle("active", !prefs.sideCollapsed);
+      }
+      savePrefs(prefs);
+    }
+    applyLayoutPrefs();
+
+    function bumpZoom(which, delta) {
+      if (which === "reader") {
+        prefs.readerZoom = clamp(Math.round((prefs.readerZoom + delta) * 100) / 100, 0.85, 1.8);
+      } else {
+        prefs.sideZoom = clamp(Math.round((prefs.sideZoom + delta) * 100) / 100, 0.85, 1.8);
+      }
+      applyLayoutPrefs();
+    }
+
+    // Drag resize sidebar
+    (function bindResizer() {
+      let dragging = false;
+      let startPos = 0;
+      let startVal = 0;
+
+      function onPointerDown(ev) {
+        if (prefs.sideCollapsed) return;
+        dragging = true;
+        readerShell.classList.add("resizing");
+        const mobile = isMobileReader();
+        startPos = mobile ? ev.clientY : ev.clientX;
+        startVal = mobile ? prefs.sidebarHvh : prefs.sidebarW;
+        readerResizer.setPointerCapture?.(ev.pointerId);
+        ev.preventDefault();
+      }
+      function onPointerMove(ev) {
+        if (!dragging) return;
+        const mobile = isMobileReader();
+        if (mobile) {
+          // drag handle upward → taller sidebar
+          const dy = startPos - ev.clientY;
+          const shellH = readerShell.getBoundingClientRect().height || window.innerHeight;
+          const dVh = (dy / shellH) * 100;
+          prefs.sidebarHvh = clamp(startVal + dVh, 18, 55);
+        } else {
+          const shellW = readerShell.getBoundingClientRect().width || window.innerWidth;
+          const dx = startPos - ev.clientX; // drag left → wider sidebar
+          prefs.sidebarW = clamp(startVal + dx, 180, Math.min(640, shellW * 0.7));
+        }
+        applyLayoutPrefs();
+      }
+      function onPointerUp(ev) {
+        if (!dragging) return;
+        dragging = false;
+        readerShell.classList.remove("resizing");
+        try {
+          readerResizer.releasePointerCapture?.(ev.pointerId);
+        } catch (_) {}
+      }
+      readerResizer.addEventListener("pointerdown", onPointerDown);
+      window.addEventListener("pointermove", onPointerMove);
+      window.addEventListener("pointerup", onPointerUp);
+      window.addEventListener("pointercancel", onPointerUp);
+
+      // keyboard resize when resizer focused
+      readerResizer.addEventListener("keydown", (ev) => {
+        if (prefs.sideCollapsed) return;
+        const step = ev.shiftKey ? 24 : 12;
+        if (isMobileReader()) {
+          if (ev.key === "ArrowUp") {
+            prefs.sidebarHvh = clamp(prefs.sidebarHvh + 2, 18, 55);
+            applyLayoutPrefs();
+            ev.preventDefault();
+          } else if (ev.key === "ArrowDown") {
+            prefs.sidebarHvh = clamp(prefs.sidebarHvh - 2, 18, 55);
+            applyLayoutPrefs();
+            ev.preventDefault();
+          }
+        } else if (ev.key === "ArrowLeft") {
+          prefs.sidebarW = clamp(prefs.sidebarW + step, 180, 640);
+          applyLayoutPrefs();
+          ev.preventDefault();
+        } else if (ev.key === "ArrowRight") {
+          prefs.sidebarW = clamp(prefs.sidebarW - step, 180, 640);
+          applyLayoutPrefs();
+          ev.preventDefault();
+        }
+      });
+    })();
 
     if (window.marked) {
       marked.setOptions({ gfm: true, breaks: false });
@@ -704,6 +946,14 @@
     document.getElementById("btnClose").addEventListener("click", closeReader);
     btnBack.addEventListener("click", goBack);
     btnForward.addEventListener("click", goForward);
+    document.getElementById("btnTextZoomOut").addEventListener("click", () => bumpZoom("reader", -0.1));
+    document.getElementById("btnTextZoomIn").addEventListener("click", () => bumpZoom("reader", 0.1));
+    document.getElementById("btnSideZoomOut").addEventListener("click", () => bumpZoom("side", -0.1));
+    document.getElementById("btnSideZoomIn").addEventListener("click", () => bumpZoom("side", 0.1));
+    btnToggleSide.addEventListener("click", () => {
+      prefs.sideCollapsed = !prefs.sideCollapsed;
+      applyLayoutPrefs();
+    });
     document.getElementById("btnFocusGraph").addEventListener("click", () => {
       if (!currentId) return;
       try {
@@ -751,6 +1001,25 @@
       if (ev.altKey && ev.key === "ArrowRight") {
         ev.preventDefault();
         goForward();
+      }
+      // Ctrl/Cmd + '+' / '-' text zoom; Ctrl/Cmd+Shift ± side zoom
+      if ((ev.ctrlKey || ev.metaKey) && (ev.key === "=" || ev.key === "+" || ev.key === "-" || ev.key === "0")) {
+        const side = ev.shiftKey;
+        if (ev.key === "0") {
+          if (side) prefs.sideZoom = 1;
+          else prefs.readerZoom = 1;
+          applyLayoutPrefs();
+          ev.preventDefault();
+          return;
+        }
+        const dir = ev.key === "-" ? -0.1 : 0.1;
+        bumpZoom(side ? "side" : "reader", dir);
+        ev.preventDefault();
+      }
+      if ((ev.ctrlKey || ev.metaKey) && ev.key === "\\") {
+        prefs.sideCollapsed = !prefs.sideCollapsed;
+        applyLayoutPrefs();
+        ev.preventDefault();
       }
     });
 
