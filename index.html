@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HKN Knowledge Graph — Andrew / Hermes</title>
+  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  <script src="graph-data.js"></script>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --panel: #1a1d24;
+      --border: #2a2f3a;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #8ab4f8;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; height: 100%;
+      background: var(--bg); color: var(--text);
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    #app { display: grid; grid-template-rows: auto 1fr; height: 100%; }
+    header {
+      display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center;
+      padding: 10px 14px; border-bottom: 1px solid var(--border); background: var(--panel);
+    }
+    header h1 {
+      font-size: 15px; font-weight: 600; margin: 0; letter-spacing: 0.02em;
+    }
+    header .meta { color: var(--muted); font-size: 12px; }
+    .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-left: auto; }
+    input[type="search"], select, button {
+      background: #0f1115; color: var(--text); border: 1px solid var(--border);
+      border-radius: 8px; padding: 6px 10px; font-size: 12px;
+    }
+    input[type="search"] { min-width: 180px; }
+    button { cursor: pointer; }
+    button:hover { border-color: var(--accent); color: var(--accent); }
+    button.active { background: #243044; border-color: var(--accent); color: var(--accent); }
+    #main { display: grid; grid-template-columns: 1fr 280px; min-height: 0; }
+    #network { width: 100%; height: 100%; min-height: 400px; }
+    aside {
+      border-left: 1px solid var(--border); background: var(--panel);
+      padding: 12px; overflow: auto; font-size: 12px;
+    }
+    aside h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
+    aside h3 { font-size: 14px; margin: 0 0 6px; }
+    .kv { display: grid; grid-template-columns: 72px 1fr; gap: 4px 8px; margin-bottom: 12px; }
+    .kv dt { color: var(--muted); }
+    .kv dd { margin: 0; word-break: break-all; }
+    .legend { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+    .legend label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+    .swatch { width: 12px; height: 12px; border-radius: 50%; flex: none; border: 1px solid #0006; }
+    .tip { color: var(--muted); line-height: 1.45; }
+    .stat { font-variant-numeric: tabular-nums; }
+    @media (max-width: 800px) {
+      #main { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
+      aside { border-left: none; border-top: 1px solid var(--border); max-height: 40vh; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div>
+        <h1>HKN Knowledge Graph</h1>
+        <div class="meta" id="metaLine">loading…</div>
+      </div>
+      <div class="controls">
+        <input id="search" type="search" placeholder="搜尋節點…" />
+        <select id="layerFilter">
+          <option value="all">全部層級</option>
+          <option value="atom">Atoms</option>
+          <option value="wiki">Wiki</option>
+          <option value="moc">MOCs</option>
+          <option value="hub">Domain hubs</option>
+          <option value="index">Index / schema</option>
+          <option value="inbox">Inbox</option>
+          <option value="source">Sources</option>
+          <option value="missing">Missing links</option>
+        </select>
+        <button id="btnPhysics" class="active" type="button">Physics ON</button>
+        <button id="btnFit" type="button">Fit</button>
+        <button id="btnStabilize" type="button">Stabilize</button>
+      </div>
+    </header>
+    <div id="main">
+      <div id="network"></div>
+      <aside>
+        <h2>Domains</h2>
+        <div class="legend" id="domainLegend"></div>
+        <h2>Selected</h2>
+        <div id="detail">
+          <p class="tip">點節點看路徑／層級。滾輪縮放、拖曳平移。只匯出 metadata（標題、路徑、wikilink），不含筆記內文。</p>
+        </div>
+        <h2>Stats</h2>
+        <div class="kv stat" id="stats"></div>
+      </aside>
+    </div>
+  </div>
+  <script>
+    const G = window.HKN_GRAPH;
+    if (!G) {
+      document.getElementById("metaLine").textContent = "graph-data.js missing";
+      throw new Error("HKN_GRAPH not loaded");
+    }
+
+    const meta = G.meta || {};
+    document.getElementById("metaLine").textContent =
+      `${meta.node_count || 0} nodes · ${meta.edge_count || 0} edges · generated ${meta.generated_at || "?"}`;
+
+    const statsEl = document.getElementById("stats");
+    const stats = [
+      ["nodes", meta.node_count],
+      ["edges", meta.edge_count],
+      ["wikilinks", meta.wikilink_edges],
+      ["hierarchy", meta.hierarchy_edges],
+      ["unresolved", meta.unresolved_links],
+      ["domains", (meta.domains || []).length],
+    ];
+    statsEl.innerHTML = stats.map(([k, v]) => `<dt>${k}</dt><dd>${v ?? "—"}</dd>`).join("");
+
+    const domainColors = G.domain_colors || {};
+    const domainLegend = document.getElementById("domainLegend");
+    const enabledDomains = new Set(Object.keys(domainColors));
+    (meta.domains || Object.keys(domainColors)).forEach((d) => {
+      const label = document.createElement("label");
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.checked = true;
+      cb.dataset.domain = d;
+      const sw = document.createElement("span");
+      sw.className = "swatch";
+      sw.style.background = domainColors[d] || "#888";
+      label.append(cb, sw, document.createTextNode(d));
+      domainLegend.appendChild(label);
+      cb.addEventListener("change", () => {
+        if (cb.checked) enabledDomains.add(d);
+        else enabledDomains.delete(d);
+        applyFilters();
+      });
+    });
+
+    const nodesDS = new vis.DataSet(G.nodes);
+    const edgesDS = new vis.DataSet(G.edges.map((e, i) => ({ id: i, ...e })));
+    const container = document.getElementById("network");
+    const network = new vis.Network(
+      container,
+      { nodes: nodesDS, edges: edgesDS },
+      {
+        nodes: {
+          borderWidth: 1,
+          shadow: false,
+          scaling: { min: 8, max: 36 },
+        },
+        edges: {
+          smooth: { type: "continuous", roundness: 0.2 },
+          selectionWidth: 2,
+        },
+        physics: {
+          enabled: true,
+          solver: "forceAtlas2Based",
+          forceAtlas2Based: {
+            gravitationalConstant: -42,
+            centralGravity: 0.008,
+            springLength: 90,
+            springConstant: 0.06,
+            avoidOverlap: 0.4,
+          },
+          stabilization: { iterations: 180, updateInterval: 25 },
+        },
+        interaction: {
+          hover: true,
+          tooltipDelay: 120,
+          hideEdgesOnDrag: true,
+          multiselect: true,
+        },
+      }
+    );
+
+    const allNodeIds = G.nodes.map((n) => n.id);
+    const nodeById = Object.fromEntries(G.nodes.map((n) => [n.id, n]));
+
+    function applyFilters() {
+      const q = (document.getElementById("search").value || "").trim().toLowerCase();
+      const layer = document.getElementById("layerFilter").value;
+      const updates = G.nodes.map((n) => {
+        const domainOk =
+          n.layer === "missing"
+            ? layer === "all" || layer === "missing"
+            : enabledDomains.has(n.domain) || n.domain === "root";
+        const layerOk = layer === "all" || n.layer === layer;
+        const textOk =
+          !q ||
+          (n.label || "").toLowerCase().includes(q) ||
+          (n.path || "").toLowerCase().includes(q) ||
+          (n.id || "").toLowerCase().includes(q) ||
+          (n.domain || "").toLowerCase().includes(q);
+        return { id: n.id, hidden: !(domainOk && layerOk && textOk) };
+      });
+      nodesDS.update(updates);
+
+      // hide edges if either end hidden
+      const hidden = new Set(updates.filter((u) => u.hidden).map((u) => u.id));
+      const eUpdates = G.edges.map((e, i) => ({
+        id: i,
+        hidden: hidden.has(e.from) || hidden.has(e.to),
+      }));
+      edgesDS.update(eUpdates);
+    }
+
+    document.getElementById("search").addEventListener("input", applyFilters);
+    document.getElementById("layerFilter").addEventListener("change", applyFilters);
+
+    let physicsOn = true;
+    document.getElementById("btnPhysics").addEventListener("click", (ev) => {
+      physicsOn = !physicsOn;
+      network.setOptions({ physics: { enabled: physicsOn } });
+      ev.currentTarget.classList.toggle("active", physicsOn);
+      ev.currentTarget.textContent = physicsOn ? "Physics ON" : "Physics OFF";
+    });
+    document.getElementById("btnFit").addEventListener("click", () => network.fit({ animation: true }));
+    document.getElementById("btnStabilize").addEventListener("click", () => {
+      network.setOptions({ physics: { enabled: true } });
+      network.stabilize(120);
+    });
+
+    function showDetail(id) {
+      const n = nodeById[id];
+      const el = document.getElementById("detail");
+      if (!n) {
+        el.innerHTML = `<p class="tip">（無資料）</p>`;
+        return;
+      }
+      el.innerHTML = `
+        <h3>${escapeHtml(n.label || n.id)}</h3>
+        <div class="kv">
+          <dt>layer</dt><dd>${escapeHtml(n.layer || "")}</dd>
+          <dt>domain</dt><dd>${escapeHtml(n.domain || "")}</dd>
+          <dt>cluster</dt><dd>${escapeHtml(n.cluster || "—")}</dd>
+          <dt>status</dt><dd>${escapeHtml(n.status || "—")}</dd>
+          <dt>path</dt><dd>${escapeHtml(n.path || "—")}</dd>
+          <dt>id</dt><dd>${escapeHtml(n.id || "")}</dd>
+        </div>`;
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    network.on("click", (params) => {
+      if (params.nodes.length) showDetail(params.nodes[0]);
+    });
+
+    network.once("stabilizationIterationsDone", () => {
+      // keep physics lightly on so user can drag; optional auto-off:
+      // network.setOptions({ physics: { enabled: false } });
+    });
+  </script>
+</body>
+</html>
