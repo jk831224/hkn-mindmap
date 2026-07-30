@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-30T21:13:12+08:00",
+    "generated_at": "2026-07-30T21:15:21+08:00",
     "vault": "HKN",
     "node_count": 125,
     "edge_count": 507,
@@ -9,7 +9,6 @@
     "unresolved_links": 26,
     "domains": [
       "AI",
-      "AI_Coding",
       "AI_Learning",
       "Career",
       "Craft",
@@ -35,16 +34,15 @@
   },
   "domain_colors": {
     "AI": "#4C8BF5",
-    "AI_Coding": "#34A853",
-    "AI_Learning": "#FBBC05",
-    "Career": "#EA4335",
-    "Craft": "#A142F4",
-    "HKN_System": "#00ACC1",
-    "Inbox": "#F4511E",
-    "Investing_Trading": "#8E24AA",
-    "Setlog": "#3949AB",
-    "YouTube": "#00897B",
-    "ddd": "#C0CA33",
+    "AI_Learning": "#34A853",
+    "Career": "#FBBC05",
+    "Craft": "#EA4335",
+    "HKN_System": "#A142F4",
+    "Inbox": "#00ACC1",
+    "Investing_Trading": "#F4511E",
+    "Setlog": "#8E24AA",
+    "YouTube": "#3949AB",
+    "ddd": "#00897B",
     "root": "#5F6368",
     "missing": "#BDC1C6"
   },
@@ -195,11 +193,11 @@
       "status": "seedling",
       "path": "30_MOCs/ddd/ddd-MOC.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 18,
@@ -222,11 +220,11 @@
       "status": "seedling",
       "path": "30_MOCs/Craft/Craft-MOC.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#EA4335",
+        "border": "#EA4335",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#EA4335"
         }
       },
       "size": 18,
@@ -249,11 +247,11 @@
       "status": "seedling",
       "path": "30_MOCs/Career/Career-MOC.md",
       "color": {
-        "background": "#EA4335",
-        "border": "#EA4335",
+        "background": "#FBBC05",
+        "border": "#FBBC05",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#FBBC05"
         }
       },
       "size": 18,
@@ -268,19 +266,19 @@
     {
       "id": "30_MOCs/AI/AI-Coding-MOC",
       "label": "AI Coding 詞彙大全 MOC",
-      "title": "30_MOCs/AI/AI-Coding-MOC\nlayer=moc · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "30_MOCs/AI/AI-Coding-MOC\nlayer=moc · domain=AI",
+      "group": "AI",
       "layer": "moc",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "",
       "status": "",
       "path": "30_MOCs/AI/AI-Coding-MOC.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 18,
@@ -303,11 +301,11 @@
       "status": "seedling",
       "path": "30_MOCs/Investing_Trading/Investing_Trading-MOC.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 18,
@@ -330,11 +328,11 @@
       "status": "seedling",
       "path": "30_MOCs/HKN_System/HKN_System-MOC.md",
       "color": {
-        "background": "#00ACC1",
-        "border": "#00ACC1",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#A142F4"
         }
       },
       "size": 18,
@@ -357,11 +355,11 @@
       "status": "",
       "path": "30_MOCs/Setlog/Setlog_市場分析_3C框架.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#8E24AA"
         }
       },
       "size": 18,
@@ -384,11 +382,11 @@
       "status": "",
       "path": "30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#8E24AA"
         }
       },
       "size": 18,
@@ -411,11 +409,11 @@
       "status": "seedling",
       "path": "30_MOCs/AI_Learning/AI_Learning-MOC.md",
       "color": {
-        "background": "#FBBC05",
-        "border": "#FBBC05",
+        "background": "#34A853",
+        "border": "#34A853",
         "highlight": {
           "background": "#FFF",
-          "border": "#FBBC05"
+          "border": "#34A853"
         }
       },
       "size": 18,
@@ -438,11 +436,11 @@
       "status": "seedling",
       "path": "30_MOCs/YouTube/YouTube-MOC.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 18,
@@ -465,11 +463,11 @@
       "status": "",
       "path": "00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#00ACC1",
+        "border": "#00ACC1",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#00ACC1"
         }
       },
       "size": 12,
@@ -492,11 +490,11 @@
       "status": "",
       "path": "20_Wiki/YouTube-Wiki.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 18,
@@ -519,11 +517,11 @@
       "status": "budding",
       "path": "20_Wiki/ddd/ddd-Wiki.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 18,
@@ -538,19 +536,19 @@
     {
       "id": "20_Wiki/AI/AI-Coding-Wiki",
       "label": "AI Coding Wiki — Radar",
-      "title": "20_Wiki/AI/AI-Coding-Wiki\nlayer=wiki · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "20_Wiki/AI/AI-Coding-Wiki\nlayer=wiki · domain=AI",
+      "group": "AI",
       "layer": "wiki",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "",
       "status": "budding",
       "path": "20_Wiki/AI/AI-Coding-Wiki.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 18,
@@ -573,11 +571,11 @@
       "status": "",
       "path": "20_Wiki/Investing_Trading/Investing_Trading-Wiki.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 18,
@@ -600,11 +598,11 @@
       "status": "evergreen",
       "path": "20_Wiki/HKN_System/HKN_State_20260513.md",
       "color": {
-        "background": "#00ACC1",
-        "border": "#00ACC1",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#A142F4"
         }
       },
       "size": 18,
@@ -627,11 +625,11 @@
       "status": "budding",
       "path": "20_Wiki/HKN_System/HKN_Onboarding.md",
       "color": {
-        "background": "#00ACC1",
-        "border": "#00ACC1",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#A142F4"
         }
       },
       "size": 18,
@@ -654,11 +652,11 @@
       "status": "evergreen",
       "path": "20_Wiki/HKN_System/Hermes_Escalation_Rules.md",
       "color": {
-        "background": "#00ACC1",
-        "border": "#00ACC1",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#A142F4"
         }
       },
       "size": 18,
@@ -681,11 +679,11 @@
       "status": "",
       "path": "20_Wiki/Setlog/Setlog_Product_Analysis.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#8E24AA"
         }
       },
       "size": 18,
@@ -708,11 +706,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-then.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -735,11 +733,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-avoid-ui-technical-details.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -762,11 +760,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-given.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -789,11 +787,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/specification-by-examples.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -816,11 +814,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-syntax.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -843,11 +841,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-real-world-data.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -870,11 +868,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-scenario-design.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -897,11 +895,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-feature-user-story.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -924,11 +922,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-when-hourglass-principle.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -951,11 +949,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-background.md",
       "color": {
-        "background": "#C0CA33",
-        "border": "#C0CA33",
+        "background": "#00897B",
+        "border": "#00897B",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 14,
@@ -978,11 +976,11 @@
       "status": "seedling",
       "path": "10_Atoms/Craft/封閉式清單.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#EA4335",
+        "border": "#EA4335",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#EA4335"
         }
       },
       "size": 14,
@@ -1005,11 +1003,11 @@
       "status": "seedling",
       "path": "10_Atoms/Craft/動詞即手藝.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#EA4335",
+        "border": "#EA4335",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#EA4335"
         }
       },
       "size": 14,
@@ -1032,11 +1030,11 @@
       "status": "seedling",
       "path": "10_Atoms/Craft/Craft的本質.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#EA4335",
+        "border": "#EA4335",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#EA4335"
         }
       },
       "size": 14,
@@ -1059,11 +1057,11 @@
       "status": "seedling",
       "path": "10_Atoms/Career/三種職業語言.md",
       "color": {
-        "background": "#EA4335",
-        "border": "#EA4335",
+        "background": "#FBBC05",
+        "border": "#FBBC05",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#FBBC05"
         }
       },
       "size": 14,
@@ -1078,19 +1076,19 @@
     {
       "id": "10_Atoms/AI/failure/hallucination",
       "label": "Hallucination（幻覺）",
-      "title": "10_Atoms/AI/failure/hallucination\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/failure/hallucination\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "failure",
       "status": "seedling",
       "path": "10_Atoms/AI/failure/hallucination.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1105,19 +1103,19 @@
     {
       "id": "10_Atoms/AI/failure/parametric-knowledge",
       "label": "Parametric Knowledge（參數化知識）",
-      "title": "10_Atoms/AI/failure/parametric-knowledge\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/failure/parametric-knowledge\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "failure",
       "status": "seedling",
       "path": "10_Atoms/AI/failure/parametric-knowledge.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1132,19 +1130,19 @@
     {
       "id": "10_Atoms/AI/failure/knowledge-cutoff",
       "label": "Knowledge Cutoff（知識截止）",
-      "title": "10_Atoms/AI/failure/knowledge-cutoff\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/failure/knowledge-cutoff\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "failure",
       "status": "seedling",
       "path": "10_Atoms/AI/failure/knowledge-cutoff.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1159,19 +1157,19 @@
     {
       "id": "10_Atoms/AI/failure/sycophancy",
       "label": "Sycophancy（諂媚）",
-      "title": "10_Atoms/AI/failure/sycophancy\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/failure/sycophancy\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "failure",
       "status": "seedling",
       "path": "10_Atoms/AI/failure/sycophancy.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1186,19 +1184,19 @@
     {
       "id": "10_Atoms/AI/failure/contextual-knowledge",
       "label": "Contextual Knowledge（情境知識）",
-      "title": "10_Atoms/AI/failure/contextual-knowledge\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/failure/contextual-knowledge\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "failure",
       "status": "seedling",
       "path": "10_Atoms/AI/failure/contextual-knowledge.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1213,19 +1211,19 @@
     {
       "id": "10_Atoms/AI/handoff/handoff",
       "label": "Handoff（交接）",
-      "title": "10_Atoms/AI/handoff/handoff\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/handoff/handoff\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "handoff",
       "status": "seedling",
       "path": "10_Atoms/AI/handoff/handoff.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1240,19 +1238,19 @@
     {
       "id": "10_Atoms/AI/handoff/clearing",
       "label": "Clearing（清除）",
-      "title": "10_Atoms/AI/handoff/clearing\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/handoff/clearing\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "handoff",
       "status": "seedling",
       "path": "10_Atoms/AI/handoff/clearing.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1267,19 +1265,19 @@
     {
       "id": "10_Atoms/AI/tool/tool-result",
       "label": "Tool Result（工具結果）",
-      "title": "10_Atoms/AI/tool/tool-result\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/tool/tool-result\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "tool",
       "status": "seedling",
       "path": "10_Atoms/AI/tool/tool-result.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1294,19 +1292,19 @@
     {
       "id": "10_Atoms/AI/tool/tool-call",
       "label": "Tool Call（工具呼叫）",
-      "title": "10_Atoms/AI/tool/tool-call\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/tool/tool-call\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "tool",
       "status": "seedling",
       "path": "10_Atoms/AI/tool/tool-call.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1321,19 +1319,19 @@
     {
       "id": "10_Atoms/AI/tool/tool",
       "label": "Tool（工具）",
-      "title": "10_Atoms/AI/tool/tool\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/tool/tool\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "tool",
       "status": "seedling",
       "path": "10_Atoms/AI/tool/tool.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1348,19 +1346,19 @@
     {
       "id": "10_Atoms/AI/agent/system-prompt",
       "label": "System Prompt（系統提示詞）",
-      "title": "10_Atoms/AI/agent/system-prompt\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/agent/system-prompt\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "agent",
       "status": "seedling",
       "path": "10_Atoms/AI/agent/system-prompt.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1375,19 +1373,19 @@
     {
       "id": "10_Atoms/AI/agent/agent-mode",
       "label": "Agent Mode（代理模式）",
-      "title": "10_Atoms/AI/agent/agent-mode\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/agent/agent-mode\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "agent",
       "status": "seedling",
       "path": "10_Atoms/AI/agent/agent-mode.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1402,19 +1400,19 @@
     {
       "id": "10_Atoms/AI/agent/agent",
       "label": "Agent（代理人）",
-      "title": "10_Atoms/AI/agent/agent\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/agent/agent\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "agent",
       "status": "seedling",
       "path": "10_Atoms/AI/agent/agent.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1429,19 +1427,19 @@
     {
       "id": "10_Atoms/AI/model/model-provider-request",
       "label": "Model Provider Request（模型供應商請求）",
-      "title": "10_Atoms/AI/model/model-provider-request\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/model/model-provider-request\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "model",
       "status": "seedling",
       "path": "10_Atoms/AI/model/model-provider-request.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1456,19 +1454,19 @@
     {
       "id": "10_Atoms/AI/model/inference",
       "label": "Inference（推理）",
-      "title": "10_Atoms/AI/model/inference\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/model/inference\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "model",
       "status": "seedling",
       "path": "10_Atoms/AI/model/inference.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1483,19 +1481,19 @@
     {
       "id": "10_Atoms/AI/model/model",
       "label": "Model（模型）",
-      "title": "10_Atoms/AI/model/model\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/model/model\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "model",
       "status": "seedling",
       "path": "10_Atoms/AI/model/model.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1510,19 +1508,19 @@
     {
       "id": "10_Atoms/AI/model/model-provider",
       "label": "Model Provider（模型供應商）",
-      "title": "10_Atoms/AI/model/model-provider\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/model/model-provider\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "model",
       "status": "seedling",
       "path": "10_Atoms/AI/model/model-provider.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1537,19 +1535,19 @@
     {
       "id": "10_Atoms/AI/model/parameters",
       "label": "Parameters（參數）",
-      "title": "10_Atoms/AI/model/parameters\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/model/parameters\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "model",
       "status": "seedling",
       "path": "10_Atoms/AI/model/parameters.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1564,19 +1562,19 @@
     {
       "id": "10_Atoms/AI/model/training",
       "label": "Training（訓練）",
-      "title": "10_Atoms/AI/model/training\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/model/training\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "model",
       "status": "seedling",
       "path": "10_Atoms/AI/model/training.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1591,19 +1589,19 @@
     {
       "id": "10_Atoms/AI/context/turn",
       "label": "Turn（對話輪次）",
-      "title": "10_Atoms/AI/context/turn\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/context/turn\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "context",
       "status": "seedling",
       "path": "10_Atoms/AI/context/turn.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1618,19 +1616,19 @@
     {
       "id": "10_Atoms/AI/context/context-window",
       "label": "Context Window（上下文視窗）",
-      "title": "10_Atoms/AI/context/context-window\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/context/context-window\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "context",
       "status": "seedling",
       "path": "10_Atoms/AI/context/context-window.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1645,19 +1643,19 @@
     {
       "id": "10_Atoms/AI/context/session",
       "label": "Session（工作階段）",
-      "title": "10_Atoms/AI/context/session\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/context/session\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "context",
       "status": "seedling",
       "path": "10_Atoms/AI/context/session.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1672,19 +1670,19 @@
     {
       "id": "10_Atoms/AI/context/context",
       "label": "Context（脈絡 / 上下文）",
-      "title": "10_Atoms/AI/context/context\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/context/context\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "context",
       "status": "seedling",
       "path": "10_Atoms/AI/context/context.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1699,19 +1697,19 @@
     {
       "id": "10_Atoms/AI/context/stateful-vs-stateless",
       "label": "Stateful vs Stateless（有狀態 vs 無狀態）",
-      "title": "10_Atoms/AI/context/stateful-vs-stateless\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/context/stateful-vs-stateless\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "context",
       "status": "seedling",
       "path": "10_Atoms/AI/context/stateful-vs-stateless.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1726,19 +1724,19 @@
     {
       "id": "10_Atoms/AI/permission/permission-mode",
       "label": "Permission Mode（權限模式）",
-      "title": "10_Atoms/AI/permission/permission-mode\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/permission/permission-mode\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "permission",
       "status": "seedling",
       "path": "10_Atoms/AI/permission/permission-mode.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1753,19 +1751,19 @@
     {
       "id": "10_Atoms/AI/permission/permission-request",
       "label": "Permission Request（權限請求）",
-      "title": "10_Atoms/AI/permission/permission-request\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/permission/permission-request\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "permission",
       "status": "seedling",
       "path": "10_Atoms/AI/permission/permission-request.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1780,19 +1778,19 @@
     {
       "id": "10_Atoms/AI/zone/smart-zone",
       "label": "Smart Zone（清晰區）",
-      "title": "10_Atoms/AI/zone/smart-zone\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/zone/smart-zone\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "zone",
       "status": "seedling",
       "path": "10_Atoms/AI/zone/smart-zone.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1807,19 +1805,19 @@
     {
       "id": "10_Atoms/AI/zone/chaos-zone",
       "label": "Chaos Zone（混沌區）",
-      "title": "10_Atoms/AI/zone/chaos-zone\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/zone/chaos-zone\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "zone",
       "status": "seedling",
       "path": "10_Atoms/AI/zone/chaos-zone.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1834,19 +1832,19 @@
     {
       "id": "10_Atoms/AI/environment/sandbox",
       "label": "Sandbox（沙盒）",
-      "title": "10_Atoms/AI/environment/sandbox\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/environment/sandbox\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "environment",
       "status": "seedling",
       "path": "10_Atoms/AI/environment/sandbox.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1861,19 +1859,19 @@
     {
       "id": "10_Atoms/AI/environment/filesystem",
       "label": "Filesystem（檔案系統）",
-      "title": "10_Atoms/AI/environment/filesystem\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/environment/filesystem\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "environment",
       "status": "seedling",
       "path": "10_Atoms/AI/environment/filesystem.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1888,19 +1886,19 @@
     {
       "id": "10_Atoms/AI/environment/environment",
       "label": "Environment（環境）",
-      "title": "10_Atoms/AI/environment/environment\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/environment/environment\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "environment",
       "status": "seedling",
       "path": "10_Atoms/AI/environment/environment.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1915,19 +1913,19 @@
     {
       "id": "10_Atoms/AI/attention/attention-relationship",
       "label": "Attention Relationship（注意力關係）",
-      "title": "10_Atoms/AI/attention/attention-relationship\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/attention/attention-relationship\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "attention",
       "status": "seedling",
       "path": "10_Atoms/AI/attention/attention-relationship.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1942,19 +1940,19 @@
     {
       "id": "10_Atoms/AI/attention/attention-budget",
       "label": "Attention Budget（注意力預算）",
-      "title": "10_Atoms/AI/attention/attention-budget\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/attention/attention-budget\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "attention",
       "status": "seedling",
       "path": "10_Atoms/AI/attention/attention-budget.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1969,19 +1967,19 @@
     {
       "id": "10_Atoms/AI/attention/attention-degradation",
       "label": "Attention Degradation（注意力衰退）",
-      "title": "10_Atoms/AI/attention/attention-degradation\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/attention/attention-degradation\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "attention",
       "status": "seedling",
       "path": "10_Atoms/AI/attention/attention-degradation.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -1996,19 +1994,19 @@
     {
       "id": "10_Atoms/AI/token/prefix-cache",
       "label": "Prefix Cache（前綴快取）",
-      "title": "10_Atoms/AI/token/prefix-cache\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/token/prefix-cache\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "token",
       "status": "seedling",
       "path": "10_Atoms/AI/token/prefix-cache.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2023,19 +2021,19 @@
     {
       "id": "10_Atoms/AI/token/next-token-prediction",
       "label": "Next-token Prediction（下一個詞元預測）",
-      "title": "10_Atoms/AI/token/next-token-prediction\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/token/next-token-prediction\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "token",
       "status": "seedling",
       "path": "10_Atoms/AI/token/next-token-prediction.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2050,19 +2048,19 @@
     {
       "id": "10_Atoms/AI/token/cache-tokens",
       "label": "Cache Tokens（快取詞元）",
-      "title": "10_Atoms/AI/token/cache-tokens\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/token/cache-tokens\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "token",
       "status": "seedling",
       "path": "10_Atoms/AI/token/cache-tokens.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2077,19 +2075,19 @@
     {
       "id": "10_Atoms/AI/token/non-determinism",
       "label": "Non-determinism（非確定性）",
-      "title": "10_Atoms/AI/token/non-determinism\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/token/non-determinism\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "token",
       "status": "seedling",
       "path": "10_Atoms/AI/token/non-determinism.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2104,19 +2102,19 @@
     {
       "id": "10_Atoms/AI/token/token",
       "label": "Token（詞元）",
-      "title": "10_Atoms/AI/token/token\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/token/token\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "token",
       "status": "seedling",
       "path": "10_Atoms/AI/token/token.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2131,19 +2129,19 @@
     {
       "id": "10_Atoms/AI/harness/harness",
       "label": "Harness（駕馭）",
-      "title": "10_Atoms/AI/harness/harness\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/harness/harness\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "harness",
       "status": "seedling",
       "path": "10_Atoms/AI/harness/harness.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2158,19 +2156,19 @@
     {
       "id": "10_Atoms/AI/harness/require-move-confirmation",
       "label": "強制確認需求（Require-Move-Confirmation）",
-      "title": "10_Atoms/AI/harness/require-move-confirmation\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/harness/require-move-confirmation\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "harness",
       "status": "seedling",
       "path": "10_Atoms/AI/harness/require-move-confirmation.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2185,19 +2183,19 @@
     {
       "id": "10_Atoms/AI/harness/reject-over-engineering",
       "label": "拒絕過度設計（Reject-Over-Engineering）",
-      "title": "10_Atoms/AI/harness/reject-over-engineering\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/harness/reject-over-engineering\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "harness",
       "status": "seedling",
       "path": "10_Atoms/AI/harness/reject-over-engineering.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2212,19 +2210,19 @@
     {
       "id": "10_Atoms/AI/harness/constraint-based-prompting",
       "label": "約束型指令（Constraint-Based Prompting）",
-      "title": "10_Atoms/AI/harness/constraint-based-prompting\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/harness/constraint-based-prompting\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "harness",
       "status": "seedling",
       "path": "10_Atoms/AI/harness/constraint-based-prompting.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2239,19 +2237,19 @@
     {
       "id": "10_Atoms/AI/harness/define-acceptance-criteria",
       "label": "建立驗收標準（Define-Acceptance-Criteria）",
-      "title": "10_Atoms/AI/harness/define-acceptance-criteria\nlayer=atom · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "10_Atoms/AI/harness/define-acceptance-criteria\nlayer=atom · domain=AI",
+      "group": "AI",
       "layer": "atom",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "harness",
       "status": "seedling",
       "path": "10_Atoms/AI/harness/define-acceptance-criteria.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 14,
@@ -2274,11 +2272,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/人性之極逆向操作.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2301,11 +2299,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/散戶情緒調查.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2328,11 +2326,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/熊市是財富放大器.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2355,11 +2353,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/錯過最大漲幅交易日的代價.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2382,11 +2380,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/放棄精準擇時.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2409,11 +2407,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/價值平均法.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2436,11 +2434,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/優勝劣汰ETF策略.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2463,11 +2461,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/定額定投法.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2490,11 +2488,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Capital_Allocation/DCA_BTD混合策略.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2517,11 +2515,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Market_Structure/美股供不應求結構.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2544,11 +2542,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Market_Structure/市場寬度極值.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2571,11 +2569,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Market_Structure/國際資本淨流入.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 14,
@@ -2598,11 +2596,11 @@
       "status": "budding",
       "path": "10_Atoms/HKN_System/LLM_Atomic_Wiki_Core.md",
       "color": {
-        "background": "#00ACC1",
-        "border": "#00ACC1",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#A142F4"
         }
       },
       "size": 14,
@@ -2625,11 +2623,11 @@
       "status": "budding",
       "path": "10_Atoms/HKN_System/HKN_Architecture.md",
       "color": {
-        "background": "#00ACC1",
-        "border": "#00ACC1",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#A142F4"
         }
       },
       "size": 14,
@@ -2652,11 +2650,11 @@
       "status": "seedling",
       "path": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維.md",
       "color": {
-        "background": "#FBBC05",
-        "border": "#FBBC05",
+        "background": "#34A853",
+        "border": "#34A853",
         "highlight": {
           "background": "#FFF",
-          "border": "#FBBC05"
+          "border": "#34A853"
         }
       },
       "size": 14,
@@ -2679,11 +2677,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/不得不安裝的-AI-Skills-GitHub-萬星項目/索引.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2706,11 +2704,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/不得不安裝的-AI-Skills-GitHub-萬星項目/摘要.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2733,11 +2731,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/AI的正確打開方式/索引.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2760,11 +2758,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/AI的正確打開方式/摘要.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2787,11 +2785,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2814,11 +2812,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2841,11 +2839,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2868,11 +2866,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2895,11 +2893,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 14,
@@ -2914,19 +2912,19 @@
     {
       "id": "40_Sources/AI-Coding-Dict-Source",
       "label": "AI Coding 術語辭典 (miniasp)",
-      "title": "40_Sources/AI-Coding-Dict-Source\nlayer=source · domain=AI_Coding",
-      "group": "AI_Coding",
+      "title": "40_Sources/AI-Coding-Dict-Source\nlayer=source · domain=AI",
+      "group": "AI",
       "layer": "source",
-      "domain": "AI_Coding",
+      "domain": "AI",
       "cluster": "",
       "status": "external",
       "path": "40_Sources/AI-Coding-Dict-Source.md",
       "color": {
-        "background": "#34A853",
-        "border": "#34A853",
+        "background": "#4C8BF5",
+        "border": "#4C8BF5",
         "highlight": {
           "background": "#FFF",
-          "border": "#34A853"
+          "border": "#4C8BF5"
         }
       },
       "size": 12,
@@ -2949,11 +2947,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#C0CA33",
+        "background": "#00897B",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#C0CA33"
+          "border": "#00897B"
         }
       },
       "size": 28,
@@ -2975,11 +2973,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#A142F4",
+        "background": "#EA4335",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#EA4335"
         }
       },
       "size": 28,
@@ -3001,11 +2999,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#EA4335",
+        "background": "#FBBC05",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#FBBC05"
         }
       },
       "size": 28,
@@ -3053,11 +3051,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#8E24AA",
+        "background": "#F4511E",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#F4511E"
         }
       },
       "size": 28,
@@ -3079,11 +3077,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#00ACC1",
+        "background": "#A142F4",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#A142F4"
         }
       },
       "size": 28,
@@ -3105,11 +3103,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#FBBC05",
+        "background": "#34A853",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#FBBC05"
+          "border": "#34A853"
         }
       },
       "size": 28,
@@ -3131,11 +3129,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#00897B",
+        "background": "#3949AB",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#3949AB"
         }
       },
       "size": 28,
@@ -5554,7 +5552,7 @@
     },
     {
       "from": "20_Wiki/YouTube-Wiki",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -5565,7 +5563,7 @@
     },
     {
       "from": "20_Wiki/YouTube-Wiki",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -6863,7 +6861,7 @@
     },
     {
       "from": "10_Atoms/Craft/動詞即手藝",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -6874,7 +6872,7 @@
     },
     {
       "from": "10_Atoms/Craft/動詞即手藝",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -6885,7 +6883,7 @@
     },
     {
       "from": "10_Atoms/Craft/Craft的本質",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -6896,7 +6894,7 @@
     },
     {
       "from": "10_Atoms/Career/三種職業語言",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8381,7 +8379,7 @@
     },
     {
       "from": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8436,7 +8434,7 @@
     },
     {
       "from": "10_Atoms/YouTube/不得不安裝的-AI-Skills-GitHub-萬星項目/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8491,7 +8489,7 @@
     },
     {
       "from": "10_Atoms/YouTube/AI的正確打開方式/索引",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8502,7 +8500,7 @@
     },
     {
       "from": "10_Atoms/YouTube/AI的正確打開方式/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8557,7 +8555,7 @@
     },
     {
       "from": "10_Atoms/YouTube/AI的正確打開方式/摘要",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8634,7 +8632,18 @@
     },
     {
       "from": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8755,18 +8764,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
-      "arrows": "to",
-      "dashes": false,
-      "color": {
-        "color": "#9AA0A6"
-      },
-      "width": 1.2,
-      "kind": "wikilink"
-    },
-    {
-      "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8821,7 +8819,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
-      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
+      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
