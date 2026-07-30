@@ -3,8 +3,8 @@
 Interactive force-directed view of Andrew's **HKN (Hermes Knowledge Nexus)** topology.
 
 - **Live page**: https://jk831224.github.io/hkn-mindmap/
-- **What is published**: node titles, paths, domains, wikilink edges (metadata only)
-- **What is NOT published**: note bodies, personal items (`40_Personal-Items`), private logs content dump
+- **What is published**: node titles/paths/domains, wikilink edges, **and note markdown** for the in-page reader modal
+- **What is NOT published**: personal items (`40_Personal-Items`), Templates, Log (default), raw Obsidian config
 
 ## Rebuild locally
 

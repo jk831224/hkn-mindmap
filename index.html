@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>HKN Knowledge Graph — Andrew / Hermes</title>
   <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
   <script src="graph-data.js"></script>
   <style>
     :root {
@@ -14,21 +15,24 @@
       --text: #e8eaed;
       --muted: #9aa0a6;
       --accent: #8ab4f8;
+      --reader-bg: #14161c;
+      --reader-paper: #1c1f28;
+      --reader-max: 1080px;
+      --sidebar-w: 280px;
     }
     * { box-sizing: border-box; }
     html, body {
       margin: 0; height: 100%;
       background: var(--bg); color: var(--text);
-      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      font-family: "Segoe UI", system-ui, -apple-system, "Noto Sans TC", sans-serif;
     }
     #app { display: grid; grid-template-rows: auto 1fr; height: 100%; }
     header {
       display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center;
       padding: 10px 14px; border-bottom: 1px solid var(--border); background: var(--panel);
+      z-index: 2;
     }
-    header h1 {
-      font-size: 15px; font-weight: 600; margin: 0; letter-spacing: 0.02em;
-    }
+    header h1 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: 0.02em; }
     header .meta { color: var(--muted); font-size: 12px; }
     .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-left: auto; }
     input[type="search"], select, button {
@@ -37,16 +41,20 @@
     }
     input[type="search"] { min-width: 180px; }
     button { cursor: pointer; }
-    button:hover { border-color: var(--accent); color: var(--accent); }
+    button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
     button.active { background: #243044; border-color: var(--accent); color: var(--accent); }
     #main { display: grid; grid-template-columns: 1fr 280px; min-height: 0; }
     #network { width: 100%; height: 100%; min-height: 400px; }
-    aside {
+    aside.panel {
       border-left: 1px solid var(--border); background: var(--panel);
       padding: 12px; overflow: auto; font-size: 12px;
     }
-    aside h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
-    aside h3 { font-size: 14px; margin: 0 0 6px; }
+    aside.panel h2 {
+      font-size: 12px; text-transform: uppercase; letter-spacing: .06em;
+      color: var(--muted); margin: 0 0 8px;
+    }
+    aside.panel h3 { font-size: 14px; margin: 0 0 6px; }
     .kv { display: grid; grid-template-columns: 72px 1fr; gap: 4px 8px; margin-bottom: 12px; }
     .kv dt { color: var(--muted); }
     .kv dd { margin: 0; word-break: break-all; }
@@ -55,9 +63,190 @@
     .swatch { width: 12px; height: 12px; border-radius: 50%; flex: none; border: 1px solid #0006; }
     .tip { color: var(--muted); line-height: 1.45; }
     .stat { font-variant-numeric: tabular-nums; }
-    @media (max-width: 800px) {
-      #main { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
-      aside { border-left: none; border-top: 1px solid var(--border); max-height: 40vh; }
+    .hint-click { color: var(--accent); font-size: 11px; margin-top: 8px; }
+
+    /* —— Reader modal (Notion / Medium-ish) —— */
+    #reader-root[hidden] { display: none !important; }
+    #reader-root {
+      position: fixed; inset: 0; z-index: 1000;
+      display: flex; align-items: center; justify-content: center;
+      padding: 24px 16px;
+    }
+    #reader-backdrop {
+      position: absolute; inset: 0;
+      background: rgba(0, 0, 0, 0.62);
+      backdrop-filter: blur(6px);
+    }
+    #reader-shell {
+      position: relative;
+      width: min(var(--reader-max), 100%);
+      height: min(88vh, 920px);
+      display: grid;
+      grid-template-columns: 1fr var(--sidebar-w);
+      background: var(--reader-paper);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 24px 80px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.03) inset;
+      overflow: hidden;
+    }
+    #reader-main {
+      display: flex; flex-direction: column; min-width: 0; min-height: 0;
+      border-right: 1px solid var(--border);
+      background: var(--reader-bg);
+    }
+    #reader-toolbar {
+      flex: none;
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+    }
+    #reader-toolbar .spacer { flex: 1; }
+    #reader-toolbar .path {
+      color: var(--muted); font-size: 11px; max-width: 42%;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    #reader-scroll {
+      flex: 1; min-height: 0;
+      overflow-y: auto; overflow-x: hidden;
+      overscroll-behavior: contain;
+      scroll-behavior: smooth;
+      padding: 28px 40px 64px;
+    }
+    #reader-article {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    #reader-article .meta-row {
+      display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px;
+    }
+    #reader-article .chip {
+      font-size: 11px; padding: 3px 8px; border-radius: 999px;
+      background: #243044; color: var(--accent); border: 1px solid #2f3b52;
+    }
+    #reader-article .chip.muted { color: var(--muted); background: #22262f; border-color: var(--border); }
+    #reader-article h1.doc-title {
+      font-size: clamp(1.55rem, 2.4vw, 2rem);
+      line-height: 1.25; font-weight: 700; letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    #reader-article .subtitle-path {
+      color: var(--muted); font-size: 13px; margin: 0 0 28px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    /* Markdown body — Medium-like */
+    .md-body {
+      font-size: 17px; line-height: 1.75; color: #e4e6eb;
+      font-family: "Charter", "Iowan Old Style", "Palatino Linotype", Palatino,
+        "Noto Serif TC", "Source Han Serif TC", Georgia, serif;
+    }
+    .md-body > *:first-child { margin-top: 0; }
+    .md-body h1, .md-body h2, .md-body h3, .md-body h4 {
+      font-family: "Segoe UI", system-ui, -apple-system, "Noto Sans TC", sans-serif;
+      letter-spacing: -0.015em; line-height: 1.3; color: #f1f3f4;
+      margin: 1.6em 0 0.55em;
+    }
+    .md-body h1 { font-size: 1.55em; }
+    .md-body h2 { font-size: 1.28em; border-bottom: 1px solid var(--border); padding-bottom: 0.25em; }
+    .md-body h3 { font-size: 1.1em; }
+    .md-body p { margin: 0 0 1.05em; }
+    .md-body a {
+      color: var(--accent); text-decoration: underline;
+      text-underline-offset: 3px; text-decoration-thickness: 1px;
+    }
+    .md-body a.wiki-link {
+      text-decoration: none;
+      border-bottom: 1px solid rgba(138, 180, 248, 0.45);
+      padding: 0 1px;
+    }
+    .md-body a.wiki-link:hover { background: rgba(138, 180, 248, 0.12); border-radius: 3px; }
+    .md-body a.wiki-missing { color: var(--muted); border-bottom-style: dashed; }
+    .md-body ul, .md-body ol { padding-left: 1.35em; margin: 0 0 1.05em; }
+    .md-body li { margin: 0.25em 0; }
+    .md-body blockquote {
+      margin: 0 0 1.05em; padding: 0.2em 0 0.2em 1em;
+      border-left: 3px solid var(--accent); color: #c5c9d1;
+    }
+    .md-body code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.86em; background: #2a2f3a; padding: 0.12em 0.4em; border-radius: 4px;
+    }
+    .md-body pre {
+      background: #0d0f14; border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 16px; overflow-x: auto; margin: 0 0 1.2em;
+    }
+    .md-body pre code { background: none; padding: 0; font-size: 0.84em; }
+    .md-body table { border-collapse: collapse; width: 100%; margin: 0 0 1.2em; font-size: 0.92em; }
+    .md-body th, .md-body td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; }
+    .md-body th { background: #22262f; }
+    .md-body hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+    .md-body img { max-width: 100%; border-radius: 8px; }
+    .empty-state {
+      color: var(--muted); text-align: center; padding: 48px 16px;
+      font-family: "Segoe UI", system-ui, sans-serif; font-size: 14px; line-height: 1.6;
+    }
+
+    /* Reader right sidebar — parents / children */
+    #reader-side {
+      display: flex; flex-direction: column; min-height: 0;
+      background: var(--panel);
+    }
+    #reader-side-head {
+      flex: none; padding: 12px 14px 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    #reader-side-head h2 {
+      margin: 0; font-size: 13px; font-weight: 600;
+    }
+    #reader-side-head p {
+      margin: 4px 0 0; color: var(--muted); font-size: 11px; line-height: 1.4;
+    }
+    #reader-side-body {
+      flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+      padding: 8px 10px 16px;
+    }
+    .rel-section { margin-bottom: 14px; }
+    .rel-section h3 {
+      margin: 0 0 6px; font-size: 11px; text-transform: uppercase;
+      letter-spacing: .06em; color: var(--muted); font-weight: 600;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .rel-section h3 .count {
+      font-variant-numeric: tabular-nums;
+      background: #2a2f3a; color: var(--text); padding: 1px 7px; border-radius: 999px;
+      font-size: 10px; letter-spacing: 0;
+    }
+    .rel-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+    .rel-list button.rel-item {
+      width: 100%; text-align: left;
+      background: #12151c; border: 1px solid var(--border); border-radius: 8px;
+      padding: 8px 10px; color: var(--text); cursor: pointer;
+      display: flex; flex-direction: column; gap: 2px;
+    }
+    .rel-list button.rel-item:hover {
+      border-color: var(--accent); background: #1a2436;
+    }
+    .rel-list button.rel-item .name {
+      font-size: 12px; font-weight: 500; line-height: 1.35;
+    }
+    .rel-list button.rel-item .meta {
+      font-size: 10px; color: var(--muted);
+    }
+    .rel-empty { color: var(--muted); font-size: 11px; padding: 4px 2px; }
+
+    @media (max-width: 860px) {
+      #main { grid-template-columns: 1fr; }
+      aside.panel { display: none; }
+      #reader-shell {
+        grid-template-columns: 1fr;
+        height: min(92vh, 100%);
+      }
+      #reader-side {
+        border-top: 1px solid var(--border);
+        max-height: 36vh;
+      }
+      #reader-main { border-right: none; }
+      #reader-scroll { padding: 20px 18px 48px; }
     }
   </style>
 </head>
@@ -88,18 +277,61 @@
     </header>
     <div id="main">
       <div id="network"></div>
-      <aside>
+      <aside class="panel">
         <h2>Domains</h2>
         <div class="legend" id="domainLegend"></div>
         <h2>Selected</h2>
         <div id="detail">
-          <p class="tip">點節點看路徑／層級。滾輪縮放、拖曳平移。只匯出 metadata（標題、路徑、wikilink），不含筆記內文。</p>
+          <p class="tip">點節點開啟閱讀視窗（Notion / Medium 式）。右側關聯可跳轉父／子節點。</p>
+          <p class="hint-click">Click node → open reader</p>
         </div>
         <h2>Stats</h2>
         <div class="kv stat" id="stats"></div>
       </aside>
     </div>
   </div>
+
+  <!-- Reader modal -->
+  <div id="reader-root" hidden role="dialog" aria-modal="true" aria-labelledby="reader-title">
+    <div id="reader-backdrop" title="關閉"></div>
+    <div id="reader-shell">
+      <div id="reader-main">
+        <div id="reader-toolbar">
+          <button type="button" id="btnBack" title="上一頁 (Alt+←)">← 上一頁</button>
+          <button type="button" id="btnForward" title="下一頁 (Alt+→)">下一頁 →</button>
+          <span class="path" id="readerPath"></span>
+          <span class="spacer"></span>
+          <button type="button" id="btnFocusGraph" title="在圖譜上定位">Locate</button>
+          <button type="button" id="btnClose" title="關閉 (Esc)">關閉</button>
+        </div>
+        <div id="reader-scroll">
+          <article id="reader-article">
+            <h1 class="doc-title" id="reader-title"></h1>
+            <div class="meta-row" id="readerChips"></div>
+            <p class="subtitle-path" id="readerSubpath"></p>
+            <div class="md-body" id="readerBody"></div>
+          </article>
+        </div>
+      </div>
+      <aside id="reader-side">
+        <div id="reader-side-head">
+          <h2>關聯</h2>
+          <p>父節點 = 連進來 · 子節點 = 連出去（含 wikilink / hierarchy）</p>
+        </div>
+        <div id="reader-side-body">
+          <div class="rel-section">
+            <h3>父節點 <span class="count" id="parentCount">0</span></h3>
+            <ul class="rel-list" id="parentList"></ul>
+          </div>
+          <div class="rel-section">
+            <h3>子節點 <span class="count" id="childCount">0</span></h3>
+            <ul class="rel-list" id="childList"></ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
   <script>
     const G = window.HKN_GRAPH;
     if (!G) {
@@ -109,12 +341,13 @@
 
     const meta = G.meta || {};
     document.getElementById("metaLine").textContent =
-      `${meta.node_count || 0} nodes · ${meta.edge_count || 0} edges · generated ${meta.generated_at || "?"}`;
+      `${meta.node_count || 0} nodes · ${meta.edge_count || 0} edges · ${meta.content_count || 0} notes · ${meta.generated_at || "?"}`;
 
     const statsEl = document.getElementById("stats");
     const stats = [
       ["nodes", meta.node_count],
       ["edges", meta.edge_count],
+      ["notes", meta.content_count],
       ["wikilinks", meta.wikilink_edges],
       ["hierarchy", meta.hierarchy_edges],
       ["unresolved", meta.unresolved_links],
@@ -175,13 +408,28 @@
           hover: true,
           tooltipDelay: 120,
           hideEdgesOnDrag: true,
-          multiselect: true,
+          multiselect: false,
         },
       }
     );
 
-    const allNodeIds = G.nodes.map((n) => n.id);
     const nodeById = Object.fromEntries(G.nodes.map((n) => [n.id, n]));
+    const contents = G.contents || {};
+    const linkIndex = G.link_index || {};
+
+    // adjacency
+    const parentsOf = {}; // id -> Set
+    const childrenOf = {};
+    for (const n of G.nodes) {
+      parentsOf[n.id] = new Set();
+      childrenOf[n.id] = new Set();
+    }
+    for (const e of G.edges) {
+      if (!parentsOf[e.to]) parentsOf[e.to] = new Set();
+      if (!childrenOf[e.from]) childrenOf[e.from] = new Set();
+      parentsOf[e.to].add(e.from);
+      childrenOf[e.from].add(e.to);
+    }
 
     function applyFilters() {
       const q = (document.getElementById("search").value || "").trim().toLowerCase();
@@ -201,14 +449,13 @@
         return { id: n.id, hidden: !(domainOk && layerOk && textOk) };
       });
       nodesDS.update(updates);
-
-      // hide edges if either end hidden
       const hidden = new Set(updates.filter((u) => u.hidden).map((u) => u.id));
-      const eUpdates = G.edges.map((e, i) => ({
-        id: i,
-        hidden: hidden.has(e.from) || hidden.has(e.to),
-      }));
-      edgesDS.update(eUpdates);
+      edgesDS.update(
+        G.edges.map((e, i) => ({
+          id: i,
+          hidden: hidden.has(e.from) || hidden.has(e.to),
+        }))
+      );
     }
 
     document.getElementById("search").addEventListener("input", applyFilters);
@@ -227,6 +474,14 @@
       network.stabilize(120);
     });
 
+    function escapeHtml(s) {
+      return String(s)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
     function showDetail(id) {
       const n = nodeById[id];
       const el = document.getElementById("detail");
@@ -243,25 +498,287 @@
           <dt>status</dt><dd>${escapeHtml(n.status || "—")}</dd>
           <dt>path</dt><dd>${escapeHtml(n.path || "—")}</dd>
           <dt>id</dt><dd>${escapeHtml(n.id || "")}</dd>
-        </div>`;
+        </div>
+        <p class="hint-click">已開啟閱讀視窗</p>`;
     }
 
-    function escapeHtml(s) {
-      return String(s)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;");
+    /* —— Reader —— */
+    const readerRoot = document.getElementById("reader-root");
+    const readerScroll = document.getElementById("reader-scroll");
+    const readerBody = document.getElementById("readerBody");
+    const btnBack = document.getElementById("btnBack");
+    const btnForward = document.getElementById("btnForward");
+
+    let hist = [];
+    let histIdx = -1;
+    let currentId = null;
+
+    if (window.marked) {
+      marked.setOptions({ gfm: true, breaks: false });
     }
 
+    function resolveWikiTarget(raw) {
+      const t = String(raw || "").trim().replace(/\.md$/i, "");
+      if (!t) return null;
+      const key = t.toLowerCase();
+      if (linkIndex[key]) return linkIndex[key];
+      const leaf = key.split("/").pop();
+      if (linkIndex[leaf]) return linkIndex[leaf];
+      // try 10_Atoms prefix variants
+      for (const pref of ["10_atoms/", "20_wiki/", "30_mocs/"]) {
+        if (linkIndex[pref + key]) return linkIndex[pref + key];
+      }
+      if (nodeById[t]) return t;
+      return null;
+    }
+
+    function preprocessMarkdown(md) {
+      // Convert [[target|alias]] / [[target]] to custom markdown links
+      return md.replace(
+        /\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]/g,
+        (_, target, alias) => {
+          const label = (alias || target).trim();
+          const id = resolveWikiTarget(target);
+          if (id) {
+            return `[${label}](#node/${encodeURIComponent(id)})`;
+          }
+          return `[${label}](#missing/${encodeURIComponent(target.trim())})`;
+        }
+      );
+    }
+
+    function renderMarkdown(md) {
+      const src = preprocessMarkdown(md || "");
+      if (!window.marked) {
+        return `<pre>${escapeHtml(src)}</pre>`;
+      }
+      let html = marked.parse(src);
+      html = html.replace(/href="#node\/([^"]+)"/g, (m, enc) => {
+        const id = decodeURIComponent(enc);
+        return `href="#node/${enc}" class="wiki-link" data-node-id="${escapeHtml(id)}"`;
+      });
+      html = html.replace(/href="#missing\/([^"]+)"/g, (m, enc) => {
+        const raw = decodeURIComponent(enc);
+        return `href="#missing/${enc}" class="wiki-link wiki-missing" title="unresolved: ${escapeHtml(raw)}"`;
+      });
+      return html;
+    }
+
+    function sortedNeighborIds(idSet) {
+      return [...idSet]
+        .map((id) => nodeById[id])
+        .filter(Boolean)
+        .sort((a, b) => {
+          // prefer real notes over hubs/missing
+          const rank = (n) =>
+            n.layer === "atom" ? 0 : n.layer === "wiki" || n.layer === "moc" ? 1 : n.layer === "hub" ? 3 : 2;
+          const d = rank(a) - rank(b);
+          if (d) return d;
+          return (a.label || a.id).localeCompare(b.label || b.id, "zh-Hant");
+        })
+        .map((n) => n.id);
+    }
+
+    function fillRelList(ul, ids, emptyText) {
+      ul.innerHTML = "";
+      if (!ids.length) {
+        ul.innerHTML = `<li class="rel-empty">${escapeHtml(emptyText)}</li>`;
+        return;
+      }
+      for (const id of ids) {
+        const n = nodeById[id];
+        if (!n) continue;
+        const li = document.createElement("li");
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "rel-item";
+        btn.innerHTML = `<span class="name">${escapeHtml(n.label || n.id)}</span>
+          <span class="meta">${escapeHtml(n.layer || "")} · ${escapeHtml(n.domain || "")}${
+          contents[id] ? "" : " · 無內文"
+        }</span>`;
+        btn.addEventListener("click", () => openReader(id, { push: true }));
+        li.appendChild(btn);
+        ul.appendChild(li);
+      }
+    }
+
+    function updateNavButtons() {
+      btnBack.disabled = histIdx <= 0;
+      btnForward.disabled = histIdx < 0 || histIdx >= hist.length - 1;
+    }
+
+    function openReader(id, { push = true } = {}) {
+      const n = nodeById[id];
+      if (!n) return;
+      currentId = id;
+
+      if (push) {
+        // drop forward branch
+        if (histIdx < hist.length - 1) hist = hist.slice(0, histIdx + 1);
+        if (hist[hist.length - 1] !== id) {
+          hist.push(id);
+          histIdx = hist.length - 1;
+        } else {
+          histIdx = hist.length - 1;
+        }
+      }
+
+      document.getElementById("reader-title").textContent = n.label || n.id;
+      document.getElementById("readerPath").textContent = n.path || n.id;
+      document.getElementById("readerSubpath").textContent = n.path
+        ? n.path
+        : n.layer === "hub"
+          ? `Domain hub · ${n.domain}`
+          : n.layer === "missing"
+            ? "Unresolved wikilink target"
+            : n.id;
+
+      const chips = document.getElementById("readerChips");
+      const chipData = [
+        n.layer && { t: n.layer, muted: false },
+        n.domain && { t: n.domain, muted: false },
+        n.cluster && { t: n.cluster, muted: true },
+        n.status && { t: n.status, muted: true },
+      ].filter(Boolean);
+      chips.innerHTML = chipData
+        .map(
+          (c) =>
+            `<span class="chip${c.muted ? " muted" : ""}">${escapeHtml(c.t)}</span>`
+        )
+        .join("");
+
+      const pack = contents[id];
+      if (pack && (pack.body || pack.markdown)) {
+        // Prefer body (no frontmatter) for cleaner Medium-like read; title already shown.
+        const md = pack.body || pack.markdown;
+        readerBody.innerHTML = renderMarkdown(md);
+      } else if (n.layer === "hub") {
+        readerBody.innerHTML = `<div class="empty-state">這是 <strong>${escapeHtml(
+          n.domain
+        )}</strong> domain hub（虛擬節點）。<br/>從右側子節點進入實際筆記。</div>`;
+      } else if (n.layer === "missing") {
+        readerBody.innerHTML = `<div class="empty-state">圖譜裡有人連到 <code>${escapeHtml(
+          n.label
+        )}</code>，但 vault 尚無對應檔案。</div>`;
+      } else {
+        readerBody.innerHTML = `<div class="empty-state">此節點沒有匯出內文。</div>`;
+      }
+
+      // relations
+      const pids = sortedNeighborIds(parentsOf[id] || new Set());
+      const cids = sortedNeighborIds(childrenOf[id] || new Set());
+      document.getElementById("parentCount").textContent = String(pids.length);
+      document.getElementById("childCount").textContent = String(cids.length);
+      fillRelList(document.getElementById("parentList"), pids, "無父節點");
+      fillRelList(document.getElementById("childList"), cids, "無子節點");
+
+      readerRoot.hidden = false;
+      document.body.style.overflow = "hidden";
+      readerScroll.scrollTop = 0;
+      updateNavButtons();
+      showDetail(id);
+
+      // soft-select on graph without stealing scroll
+      try {
+        network.selectNodes([id]);
+      } catch (_) {}
+    }
+
+    function closeReader() {
+      readerRoot.hidden = true;
+      document.body.style.overflow = "";
+    }
+
+    function goBack() {
+      if (histIdx <= 0) return;
+      histIdx -= 1;
+      openReader(hist[histIdx], { push: false });
+    }
+    function goForward() {
+      if (histIdx >= hist.length - 1) return;
+      histIdx += 1;
+      openReader(hist[histIdx], { push: false });
+    }
+
+    document.getElementById("reader-backdrop").addEventListener("click", closeReader);
+    document.getElementById("btnClose").addEventListener("click", closeReader);
+    btnBack.addEventListener("click", goBack);
+    btnForward.addEventListener("click", goForward);
+    document.getElementById("btnFocusGraph").addEventListener("click", () => {
+      if (!currentId) return;
+      try {
+        network.focus(currentId, {
+          scale: 1.2,
+          animation: { duration: 400, easingFunction: "easeInOutQuad" },
+        });
+        network.selectNodes([currentId]);
+      } catch (_) {}
+    });
+
+    // In-article wiki navigation
+    readerBody.addEventListener("click", (ev) => {
+      const a = ev.target.closest("a");
+      if (!a) return;
+      const id = a.getAttribute("data-node-id");
+      if (id) {
+        ev.preventDefault();
+        openReader(id, { push: true });
+        return;
+      }
+      const href = a.getAttribute("href") || "";
+      if (href.startsWith("#node/")) {
+        ev.preventDefault();
+        openReader(decodeURIComponent(href.slice(6)), { push: true });
+      } else if (href.startsWith("#missing/")) {
+        ev.preventDefault();
+      } else if (href.startsWith("http")) {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      }
+    });
+
+    // Keyboard
+    document.addEventListener("keydown", (ev) => {
+      if (readerRoot.hidden) return;
+      if (ev.key === "Escape") {
+        closeReader();
+        return;
+      }
+      if (ev.altKey && ev.key === "ArrowLeft") {
+        ev.preventDefault();
+        goBack();
+      }
+      if (ev.altKey && ev.key === "ArrowRight") {
+        ev.preventDefault();
+        goForward();
+      }
+    });
+
+    // Graph click → open reader (ignore drag micro-moves via vis click)
     network.on("click", (params) => {
-      if (params.nodes.length) showDetail(params.nodes[0]);
+      if (params.nodes && params.nodes.length) {
+        const id = params.nodes[0];
+        showDetail(id);
+        openReader(id, { push: true });
+      }
     });
 
+    // Deep link: ?n=nodeId or #n=nodeId
+    function bootFromUrl() {
+      const sp = new URLSearchParams(location.search);
+      let id = sp.get("n") || sp.get("node");
+      if (!id && location.hash.startsWith("#n=")) {
+        id = decodeURIComponent(location.hash.slice(3));
+      }
+      if (id && nodeById[id]) {
+        openReader(id, { push: true });
+      }
+    }
     network.once("stabilizationIterationsDone", () => {
-      // keep physics lightly on so user can drag; optional auto-off:
-      // network.setOptions({ physics: { enabled: false } });
+      bootFromUrl();
     });
+    // fallback if physics already done quickly
+    setTimeout(bootFromUrl, 1200);
   </script>
 </body>
 </html>
