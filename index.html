@@ -119,26 +119,58 @@
     #reader-shell.resizing iframe { pointer-events: none; }
     #reader-toolbar {
       flex: none;
-      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 10px 12px;
       border-bottom: 1px solid var(--border);
       background: var(--panel);
     }
-    #reader-toolbar .zoom-group {
+    #reader-toolbar .tb-row {
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    }
+    #reader-toolbar .ctrl-group {
       display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 6px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #12151c;
     }
-    #reader-toolbar .zoom-group span {
+    #reader-toolbar .ctrl-group .ctrl-label {
+      font-size: 11px; color: var(--muted); padding: 0 4px 0 2px;
+      white-space: nowrap; user-select: none;
+    }
+    #reader-toolbar .ctrl-group span.val {
       min-width: 40px; text-align: center; font-size: 11px;
-      color: var(--muted); font-variant-numeric: tabular-nums;
+      color: var(--text); font-variant-numeric: tabular-nums;
     }
-    #reader-toolbar button.iconish {
-      min-width: 32px; padding-left: 8px; padding-right: 8px;
+    #reader-toolbar button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+    #reader-toolbar button.primary-action {
+      background: #243044;
+      border-color: #3d4f6f;
+      color: var(--accent);
     }
     #reader-toolbar .spacer { flex: 1; min-width: 8px; }
     #reader-toolbar .path {
-      color: var(--muted); font-size: 11px; max-width: 36%;
+      color: var(--muted); font-size: 11px; max-width: 42%;
       overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     }
+    #btnReopenSide {
+      display: none;
+      position: sticky;
+      top: 12px;
+      float: right;
+      z-index: 5;
+      margin: 0 0 8px 8px;
+      background: #243044 !important;
+      border-color: var(--accent) !important;
+      color: var(--accent) !important;
+      box-shadow: 0 6px 20px rgba(0,0,0,.35);
+    }
+    #reader-shell.side-collapsed #btnReopenSide { display: inline-flex; }
     #reader-scroll {
       flex: 1; min-height: 0;
       overflow-y: auto; overflow-x: hidden;
@@ -240,8 +272,11 @@
       display: none;
     }
     #reader-side-head {
-      flex: none; padding: 10px 12px 8px;
+      flex: none; padding: 10px 12px 10px;
       border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
     #reader-side-head .side-title-row {
       display: flex; align-items: center; gap: 6px; justify-content: space-between;
@@ -250,20 +285,49 @@
       margin: 0; font-size: calc(13px * var(--side-zoom, 1)); font-weight: 600;
     }
     #reader-side-head p {
-      margin: 4px 0 0;
+      margin: 0;
       color: var(--muted);
       font-size: calc(11px * var(--side-zoom, 1));
       line-height: 1.4;
     }
-    #reader-side-head .side-zoom-group {
-      display: inline-flex; align-items: center; gap: 3px;
+    #reader-side-head .side-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
     }
-    #reader-side-head .side-zoom-group button {
-      min-width: 28px; padding: 4px 6px; font-size: 11px;
+    #reader-side-head .ctrl-group {
+      display: flex; align-items: center; gap: 4px;
+      padding: 4px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #12151c;
     }
-    #reader-side-head .side-zoom-group span {
-      font-size: 10px; color: var(--muted); min-width: 34px; text-align: center;
+    #reader-side-head .ctrl-group .ctrl-label {
+      font-size: calc(11px * var(--side-zoom, 1));
+      color: var(--muted);
+      padding: 0 4px;
+      white-space: nowrap;
+      min-width: 2.5em;
+    }
+    #reader-side-head .ctrl-group button {
+      flex: 1;
+      font-size: calc(12px * var(--side-zoom, 1));
+      padding: 7px 8px;
+    }
+    #reader-side-head .ctrl-group span.val {
+      min-width: 42px; text-align: center;
+      font-size: calc(11px * var(--side-zoom, 1));
+      color: var(--text);
       font-variant-numeric: tabular-nums;
+    }
+    #reader-side-head .side-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+    #reader-side-head .side-actions button {
+      font-size: calc(12px * var(--side-zoom, 1));
+      padding: 8px 6px;
     }
     #reader-side-body {
       flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
@@ -388,20 +452,31 @@
     <div id="reader-shell">
       <div id="reader-main">
         <div id="reader-toolbar">
-          <button type="button" id="btnBack" title="上一頁 (Alt+←)">← 上一頁</button>
-          <button type="button" id="btnForward" title="下一頁 (Alt+→)">下一頁 →</button>
-          <span class="path" id="readerPath"></span>
-          <span class="spacer"></span>
-          <div class="zoom-group" title="正文縮放">
-            <button type="button" class="iconish" id="btnTextZoomOut" aria-label="正文縮小">A−</button>
-            <span id="textZoomLabel">100%</span>
-            <button type="button" class="iconish" id="btnTextZoomIn" aria-label="正文放大">A+</button>
+          <div class="tb-row">
+            <button type="button" id="btnBack">← 上一頁</button>
+            <button type="button" id="btnForward">下一頁 →</button>
+            <span class="path" id="readerPath"></span>
+            <span class="spacer"></span>
+            <button type="button" id="btnFocusGraph">圖譜定位</button>
+            <button type="button" id="btnClose">關閉</button>
           </div>
-          <button type="button" id="btnToggleSide" title="收合／展開側欄">側欄</button>
-          <button type="button" id="btnFocusGraph" title="在圖譜上定位">Locate</button>
-          <button type="button" id="btnClose" title="關閉 (Esc)">關閉</button>
+          <div class="tb-row">
+            <div class="ctrl-group" aria-label="正文字級">
+              <span class="ctrl-label">正文</span>
+              <button type="button" id="btnTextZoomOut">縮小</button>
+              <span class="val" id="textZoomLabel">100%</span>
+              <button type="button" id="btnTextZoomIn">放大</button>
+            </div>
+            <div class="ctrl-group" aria-label="側欄寬度">
+              <span class="ctrl-label">側欄寬</span>
+              <button type="button" id="btnSideNarrow">變窄</button>
+              <button type="button" id="btnSideWiden">變寬</button>
+            </div>
+            <button type="button" class="primary-action" id="btnToggleSide">收合側欄</button>
+          </div>
         </div>
         <div id="reader-scroll">
+          <button type="button" id="btnReopenSide">展開側欄</button>
           <article id="reader-article">
             <h1 class="doc-title" id="reader-title"></h1>
             <div class="meta-row" id="readerChips"></div>
@@ -410,18 +485,26 @@
           </article>
         </div>
       </div>
-      <div id="reader-resizer" role="separator" aria-orientation="vertical" aria-label="拖曳調整側欄寬度" tabindex="0"></div>
+      <div id="reader-resizer" role="separator" aria-orientation="vertical" aria-label="拖曳調整側欄寬度"></div>
       <aside id="reader-side">
         <div id="reader-side-head">
           <div class="side-title-row">
             <h2>關聯</h2>
-            <div class="side-zoom-group" title="側欄縮放">
-              <button type="button" id="btnSideZoomOut" aria-label="側欄縮小">−</button>
-              <span id="sideZoomLabel">100%</span>
-              <button type="button" id="btnSideZoomIn" aria-label="側欄放大">+</button>
-            </div>
           </div>
-          <p>拖曳中線調寬 · 父=連入 · 子=連出</p>
+          <p>父節點 = 連進來 · 子節點 = 連出去</p>
+          <div class="side-controls">
+            <div class="ctrl-group" aria-label="側欄字級">
+              <span class="ctrl-label">字級</span>
+              <button type="button" id="btnSideZoomOut">縮小</button>
+              <span class="val" id="sideZoomLabel">100%</span>
+              <button type="button" id="btnSideZoomIn">放大</button>
+            </div>
+            <div class="side-actions">
+              <button type="button" id="btnSideNarrow2">側欄變窄</button>
+              <button type="button" id="btnSideWiden2">側欄變寬</button>
+            </div>
+            <button type="button" id="btnCollapseSide" class="primary-action" style="width:100%">收合側欄</button>
+          </div>
         </div>
         <div id="reader-side-body">
           <div class="rel-section">
@@ -668,7 +751,7 @@
       if (textZoomLabel) textZoomLabel.textContent = `${Math.round(prefs.readerZoom * 100)}%`;
       if (sideZoomLabel) sideZoomLabel.textContent = `${Math.round(prefs.sideZoom * 100)}%`;
       if (btnToggleSide) {
-        btnToggleSide.textContent = prefs.sideCollapsed ? "展開側欄" : "側欄";
+        btnToggleSide.textContent = prefs.sideCollapsed ? "展開側欄" : "收合側欄";
         btnToggleSide.classList.toggle("active", !prefs.sideCollapsed);
       }
       savePrefs(prefs);
@@ -681,6 +764,20 @@
       } else {
         prefs.sideZoom = clamp(Math.round((prefs.sideZoom + delta) * 100) / 100, 0.85, 1.8);
       }
+      applyLayoutPrefs();
+    }
+
+    function bumpSidebarSize(deltaPxOrVh) {
+      if (isMobileReader()) {
+        prefs.sidebarHvh = clamp(prefs.sidebarHvh + deltaPxOrVh, 18, 55);
+      } else {
+        prefs.sidebarW = clamp(prefs.sidebarW + deltaPxOrVh, 180, 640);
+      }
+      applyLayoutPrefs();
+    }
+
+    function setSideCollapsed(collapsed) {
+      prefs.sideCollapsed = !!collapsed;
       applyLayoutPrefs();
     }
 
@@ -950,10 +1047,22 @@
     document.getElementById("btnTextZoomIn").addEventListener("click", () => bumpZoom("reader", 0.1));
     document.getElementById("btnSideZoomOut").addEventListener("click", () => bumpZoom("side", -0.1));
     document.getElementById("btnSideZoomIn").addEventListener("click", () => bumpZoom("side", 0.1));
-    btnToggleSide.addEventListener("click", () => {
-      prefs.sideCollapsed = !prefs.sideCollapsed;
-      applyLayoutPrefs();
-    });
+
+    function onNarrow() {
+      bumpSidebarSize(isMobileReader() ? -4 : -40);
+    }
+    function onWiden() {
+      bumpSidebarSize(isMobileReader() ? 4 : 40);
+    }
+    document.getElementById("btnSideNarrow").addEventListener("click", onNarrow);
+    document.getElementById("btnSideWiden").addEventListener("click", onWiden);
+    document.getElementById("btnSideNarrow2").addEventListener("click", onNarrow);
+    document.getElementById("btnSideWiden2").addEventListener("click", onWiden);
+
+    btnToggleSide.addEventListener("click", () => setSideCollapsed(!prefs.sideCollapsed));
+    document.getElementById("btnCollapseSide").addEventListener("click", () => setSideCollapsed(true));
+    document.getElementById("btnReopenSide").addEventListener("click", () => setSideCollapsed(false));
+
     document.getElementById("btnFocusGraph").addEventListener("click", () => {
       if (!currentId) return;
       try {
@@ -987,40 +1096,10 @@
       }
     });
 
-    // Keyboard
+    // Esc closes modal only. Zoom/sidebar are click controls.
     document.addEventListener("keydown", (ev) => {
       if (readerRoot.hidden) return;
-      if (ev.key === "Escape") {
-        closeReader();
-        return;
-      }
-      if (ev.altKey && ev.key === "ArrowLeft") {
-        ev.preventDefault();
-        goBack();
-      }
-      if (ev.altKey && ev.key === "ArrowRight") {
-        ev.preventDefault();
-        goForward();
-      }
-      // Ctrl/Cmd + '+' / '-' text zoom; Ctrl/Cmd+Shift ± side zoom
-      if ((ev.ctrlKey || ev.metaKey) && (ev.key === "=" || ev.key === "+" || ev.key === "-" || ev.key === "0")) {
-        const side = ev.shiftKey;
-        if (ev.key === "0") {
-          if (side) prefs.sideZoom = 1;
-          else prefs.readerZoom = 1;
-          applyLayoutPrefs();
-          ev.preventDefault();
-          return;
-        }
-        const dir = ev.key === "-" ? -0.1 : 0.1;
-        bumpZoom(side ? "side" : "reader", dir);
-        ev.preventDefault();
-      }
-      if ((ev.ctrlKey || ev.metaKey) && ev.key === "\\") {
-        prefs.sideCollapsed = !prefs.sideCollapsed;
-        applyLayoutPrefs();
-        ev.preventDefault();
-      }
+      if (ev.key === "Escape") closeReader();
     });
 
     // Graph click → open reader (ignore drag micro-moves via vis click)
