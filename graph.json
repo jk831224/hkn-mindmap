@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-07-31T18:11:52+08:00",
+    "generated_at": "2026-07-31T18:36:31+08:00",
     "vault": "HKN",
-    "node_count": 131,
-    "edge_count": 519,
-    "wikilink_edges": 436,
-    "hierarchy_edges": 83,
+    "node_count": 155,
+    "edge_count": 695,
+    "wikilink_edges": 588,
+    "hierarchy_edges": 107,
     "unresolved_links": 26,
-    "content_count": 112,
+    "content_count": 136,
     "domains": [
       "AI",
       "AI_Learning",
@@ -2797,6 +2797,482 @@
       "has_content": true
     },
     {
+      "id": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "label": "財務報表要素",
+      "title": "10_Atoms/Accounting/Fundamentals/財務報表要素\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Fundamentals",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Fundamentals/財務報表要素.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "label": "借貸法則與複式簿記",
+      "title": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Fundamentals",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "label": "會計方程式",
+      "title": "10_Atoms/Accounting/Fundamentals/會計方程式\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Fundamentals",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Fundamentals/會計方程式.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "label": "基本會計假設",
+      "title": "10_Atoms/Accounting/Fundamentals/基本會計假設\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Fundamentals",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Fundamentals/基本會計假設.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "label": "會計意義與功用",
+      "title": "10_Atoms/Accounting/Fundamentals/會計意義與功用\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Fundamentals",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Fundamentals/會計意義與功用.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "label": "交易與非交易事項",
+      "title": "10_Atoms/Accounting/Fundamentals/交易與非交易事項\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Fundamentals",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Fundamentals/交易與非交易事項.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Period-End/結帳",
+      "label": "結帳",
+      "title": "10_Atoms/Accounting/Period-End/結帳\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Period-End",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Period-End/結帳.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Period-End/會計基礎",
+      "label": "會計基礎",
+      "title": "10_Atoms/Accounting/Period-End/會計基礎\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Period-End",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Period-End/會計基礎.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Period-End/財務報表",
+      "label": "財務報表",
+      "title": "10_Atoms/Accounting/Period-End/財務報表\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Period-End",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Period-End/財務報表.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Period-End/調整分錄",
+      "label": "調整分錄",
+      "title": "10_Atoms/Accounting/Period-End/調整分錄\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Period-End",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Period-End/調整分錄.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Period-End/工作底稿",
+      "label": "工作底稿",
+      "title": "10_Atoms/Accounting/Period-End/工作底稿\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Period-End",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Period-End/工作底稿.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "label": "迴轉分錄",
+      "title": "10_Atoms/Accounting/Period-End/迴轉分錄\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Period-End",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Period-End/迴轉分錄.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "label": "營業稅與帳務交界",
+      "title": "10_Atoms/Accounting/Regulation/營業稅與帳務交界\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Regulation",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Regulation/營業稅與帳務交界.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "label": "商業會計法與處理準則",
+      "title": "10_Atoms/Accounting/Regulation/商業會計法與處理準則\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Regulation",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Regulation/商業會計法與處理準則.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "label": "職業道德與工作倫理",
+      "title": "10_Atoms/Accounting/Ethics/職業道德與工作倫理\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Ethics",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Ethics/職業道德與工作倫理.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "label": "會計資訊系統基本概念",
+      "title": "10_Atoms/Accounting/AIS/會計資訊系統基本概念\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "AIS",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/AIS/會計資訊系統基本概念.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "label": "人工記帳術科流程",
+      "title": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Exam_Map",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
       "id": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
       "label": "會計丙級考科結構",
       "title": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構\nlayer=atom · domain=Accounting",
@@ -2806,6 +3282,202 @@
       "cluster": "Exam_Map",
       "status": "seedling",
       "path": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "label": "錯帳更正",
+      "title": "10_Atoms/Accounting/Day-to-Day/錯帳更正\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Day-to-Day",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Day-to-Day/錯帳更正.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "label": "傳票",
+      "title": "10_Atoms/Accounting/Day-to-Day/傳票\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Day-to-Day",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Day-to-Day/傳票.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "label": "過帳",
+      "title": "10_Atoms/Accounting/Day-to-Day/過帳\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Day-to-Day",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Day-to-Day/過帳.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "label": "原始憑證",
+      "title": "10_Atoms/Accounting/Day-to-Day/原始憑證\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Day-to-Day",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Day-to-Day/原始憑證.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "label": "分類帳",
+      "title": "10_Atoms/Accounting/Day-to-Day/分類帳\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Day-to-Day",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Day-to-Day/分類帳.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "label": "日記簿",
+      "title": "10_Atoms/Accounting/Day-to-Day/日記簿\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Day-to-Day",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Day-to-Day/日記簿.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "label": "試算表",
+      "title": "10_Atoms/Accounting/Day-to-Day/試算表\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Day-to-Day",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Day-to-Day/試算表.md",
       "color": {
         "background": "#FBBC05",
         "border": "#FBBC05",
@@ -4507,7 +5179,271 @@
     },
     {
       "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Period-End/會計基礎",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Period-End/財務報表",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Period-End/工作底稿",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
       "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Day-to-Day/試算表",
       "arrows": "",
       "dashes": true,
       "color": {
@@ -5805,7 +6741,271 @@
     },
     {
       "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
       "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Period-End/會計基礎",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Period-End/工作底稿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Period-End/財務報表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -5937,7 +7137,7 @@
     },
     {
       "from": "20_Wiki/YouTube-Wiki",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -5948,7 +7148,7 @@
     },
     {
       "from": "20_Wiki/YouTube-Wiki",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -6927,6 +8127,270 @@
     },
     {
       "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Period-End/會計基礎",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Period-End/工作底稿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Period-End/財務報表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
       "to": "40_Sources/菜鳥會計入門三步驟",
       "arrows": "to",
       "dashes": false,
@@ -7268,7 +8732,7 @@
     },
     {
       "from": "10_Atoms/Craft/動詞即手藝",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -7279,7 +8743,7 @@
     },
     {
       "from": "10_Atoms/Craft/動詞即手藝",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -7290,7 +8754,7 @@
     },
     {
       "from": "10_Atoms/Craft/Craft的本質",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -7301,7 +8765,7 @@
     },
     {
       "from": "10_Atoms/Career/三種職業語言",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8785,6 +10249,787 @@
       "kind": "wikilink"
     },
     {
+      "from": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "to": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "to": "10_Atoms/Accounting/Period-End/財務報表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "to": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "to": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "to": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "to": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "to": "10_Atoms/Accounting/Period-End/會計基礎",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "to": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "to": "10_Atoms/Accounting/Fundamentals/會計方程式",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/結帳",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/結帳",
+      "to": "10_Atoms/Accounting/Period-End/財務報表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/結帳",
+      "to": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/結帳",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/會計基礎",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/會計基礎",
+      "to": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/會計基礎",
+      "to": "10_Atoms/Accounting/Period-End/財務報表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/會計基礎",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/財務報表",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/財務報表",
+      "to": "10_Atoms/Accounting/Period-End/工作底稿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/財務報表",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/財務報表",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/調整分錄",
+      "to": "10_Atoms/Accounting/Period-End/會計基礎",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/調整分錄",
+      "to": "10_Atoms/Accounting/Period-End/工作底稿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/調整分錄",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/調整分錄",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/工作底稿",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/工作底稿",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/工作底稿",
+      "to": "10_Atoms/Accounting/Period-End/財務報表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/工作底稿",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "to": "10_Atoms/Accounting/Period-End/結帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "to": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Period-End/迴轉分錄",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "to": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "to": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "to": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "to": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "to": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "to": "10_Atoms/Accounting/Period-End/工作底稿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
       "from": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
       "to": "20_Wiki/Accounting/Accounting-Wiki",
       "arrows": "to",
@@ -8807,8 +11052,360 @@
       "kind": "wikilink"
     },
     {
+      "from": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "to": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "to": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "to": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "to": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "to": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "to": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "to": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "to": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "to": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "to": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "to": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "to": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "to": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "to": "10_Atoms/Accounting/Day-to-Day/傳票",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "to": "10_Atoms/Accounting/Day-to-Day/分類帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/日記簿",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "to": "10_Atoms/Accounting/Day-to-Day/過帳",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "to": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "to": "10_Atoms/Accounting/Period-End/工作底稿",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Day-to-Day/試算表",
+      "to": "10_Atoms/Accounting/Period-End/調整分錄",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
       "from": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8863,7 +11460,7 @@
     },
     {
       "from": "10_Atoms/YouTube/不得不安裝的-AI-Skills-GitHub-萬星項目/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8918,7 +11515,18 @@
     },
     {
       "from": "10_Atoms/YouTube/AI的正確打開方式/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8973,7 +11581,7 @@
     },
     {
       "from": "10_Atoms/YouTube/AI的正確打開方式/摘要",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -9050,7 +11658,7 @@
     },
     {
       "from": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -9061,7 +11669,7 @@
     },
     {
       "from": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -9182,7 +11790,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -9193,7 +11801,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
+      "to": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -9248,7 +11856,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
-      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
+      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -9425,8 +12033,8 @@
   ],
   "contents": {
     "index": {
-      "markdown": "---\ntags: [index, entry-point, generated]\nupdated: 2026-07-31\n---\n# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-31——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(83 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Accounting**:1 顆 → [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(9)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/Accounting/Accounting-Wiki|Accounting Wiki]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(12)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(3)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n- [[40_Sources/raw-菜鳥會計入門三步驟-全文|raw-菜鳥會計入門三步驟-全文]]\n- [[40_Sources/菜鳥會計入門三步驟|菜鳥會計入門三步驟（一般公司會計）]]\n\n## Log — 最近 10 筆\n\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
-      "body": "# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-31——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(83 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Accounting**:1 顆 → [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(9)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/Accounting/Accounting-Wiki|Accounting Wiki]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(12)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(3)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n- [[40_Sources/raw-菜鳥會計入門三步驟-全文|raw-菜鳥會計入門三步驟-全文]]\n- [[40_Sources/菜鳥會計入門三步驟|菜鳥會計入門三步驟（一般公司會計）]]\n\n## Log — 最近 10 筆\n\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
+      "markdown": "---\ntags: [index, entry-point, generated]\nupdated: 2026-07-31\n---\n# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-31——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(107 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Accounting**:25 顆 → [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(9)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/Accounting/Accounting-Wiki|Accounting Wiki]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(12)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(3)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n- [[40_Sources/raw-菜鳥會計入門三步驟-全文|raw-菜鳥會計入門三步驟-全文]]\n- [[40_Sources/菜鳥會計入門三步驟|菜鳥會計入門三步驟（一般公司會計）]]\n\n## Log — 最近 10 筆\n\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
+      "body": "# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-31——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(107 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Accounting**:25 顆 → [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(9)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/Accounting/Accounting-Wiki|Accounting Wiki]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(12)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(3)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n- [[40_Sources/raw-菜鳥會計入門三步驟-全文|raw-菜鳥會計入門三步驟-全文]]\n- [[40_Sources/菜鳥會計入門三步驟|菜鳥會計入門三步驟（一般公司會計）]]\n\n## Log — 最近 10 筆\n\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
       "frontmatter": "tags: [index, entry-point, generated]\nupdated: 2026-07-31"
     },
     "WIKI-SCHEMA": {
@@ -9440,8 +12048,8 @@
       "frontmatter": ""
     },
     "HKN_Maintenance_Log": {
-      "markdown": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n\n---\n\n## 2026-07-31: Accounting domain 開域骨架（丙級主軸，方案 A）\n- **任務**: Inbox 會計雜誌文評估後不原子化；開 `Accounting` domain 對齊台灣會計事務丙級考科地圖。\n- **執行者**: Hermes（鯊寶），Andrew 選定方案 A。\n- **產出**:\n  - `10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md`（1 atom）\n  - `20_Wiki/Accounting/Accounting-Wiki.md`\n  - `30_MOCs/Accounting/Accounting-MOC.md`\n  - `40_Sources/菜鳥會計入門三步驟.md` + `raw-菜鳥會計入門三步驟-全文.md`\n- **未做**: 未從雜誌文拆 Fundamentals；術科人工 vs 資訊未選定。\n- **收尾**: `build_index.py` → 83 atoms / 9 domains / 1 inbox。\n- **狀態**: 骨架完成；下一包等規範／題庫原料或 Fundamentals 批次。\n\n---\n\n## 2026-07-31: Accounting 術科主路線鎖定＝人工記帳\n- **決策**: Andrew 選定丙級術科走**人工記帳**（非資訊總帳）。\n- **執行者**: Hermes（鯊寶）。\n- **更新**: Exam_Map、Accounting-Wiki、Accounting-MOC（主練＝Fundamentals / Day-to-Day / Period-End；AIS 學科點到為止）。\n- **狀態**: 已 commit。\n\n---\n\n## 2026-07-31: Odoo hub 裝 l10n_tw + 載入台灣科目表\n- **任務**: B 裝台灣會計在地化；C 另提供 UI 分錄導覽（本 log 只記系統變更）。\n- **執行者**: Hermes（鯊寶），Andrew 核准 B+C。\n- **前置**: `pg_dump` → `~/backups/odoo/mycompany-pre-l10n_tw-20260731-0356.dump`；當時 moves=0。\n- **動作**: stop odoo → `module install l10n_tw` → shell `try_loading('tw')` + country TW → start odoo。\n- **結果**: chart=tw；accounts≈136；taxes 含 5% VAT；journals 重建；health OK；hermes API 可讀 account。\n- **未做**: 未造 demo 傳票；未裝 EE accountant / stock。\n",
-      "body": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n\n---\n\n## 2026-07-31: Accounting domain 開域骨架（丙級主軸，方案 A）\n- **任務**: Inbox 會計雜誌文評估後不原子化；開 `Accounting` domain 對齊台灣會計事務丙級考科地圖。\n- **執行者**: Hermes（鯊寶），Andrew 選定方案 A。\n- **產出**:\n  - `10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md`（1 atom）\n  - `20_Wiki/Accounting/Accounting-Wiki.md`\n  - `30_MOCs/Accounting/Accounting-MOC.md`\n  - `40_Sources/菜鳥會計入門三步驟.md` + `raw-菜鳥會計入門三步驟-全文.md`\n- **未做**: 未從雜誌文拆 Fundamentals；術科人工 vs 資訊未選定。\n- **收尾**: `build_index.py` → 83 atoms / 9 domains / 1 inbox。\n- **狀態**: 骨架完成；下一包等規範／題庫原料或 Fundamentals 批次。\n\n---\n\n## 2026-07-31: Accounting 術科主路線鎖定＝人工記帳\n- **決策**: Andrew 選定丙級術科走**人工記帳**（非資訊總帳）。\n- **執行者**: Hermes（鯊寶）。\n- **更新**: Exam_Map、Accounting-Wiki、Accounting-MOC（主練＝Fundamentals / Day-to-Day / Period-End；AIS 學科點到為止）。\n- **狀態**: 已 commit。\n\n---\n\n## 2026-07-31: Odoo hub 裝 l10n_tw + 載入台灣科目表\n- **任務**: B 裝台灣會計在地化；C 另提供 UI 分錄導覽（本 log 只記系統變更）。\n- **執行者**: Hermes（鯊寶），Andrew 核准 B+C。\n- **前置**: `pg_dump` → `~/backups/odoo/mycompany-pre-l10n_tw-20260731-0356.dump`；當時 moves=0。\n- **動作**: stop odoo → `module install l10n_tw` → shell `try_loading('tw')` + country TW → start odoo。\n- **結果**: chart=tw；accounts≈136；taxes 含 5% VAT；journals 重建；health OK；hermes API 可讀 account。\n- **未做**: 未造 demo 傳票；未裝 EE accountant / stock。\n",
+      "markdown": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n\n---\n\n## 2026-07-31: Accounting domain 開域骨架（丙級主軸，方案 A）\n- **任務**: Inbox 會計雜誌文評估後不原子化；開 `Accounting` domain 對齊台灣會計事務丙級考科地圖。\n- **執行者**: Hermes（鯊寶），Andrew 選定方案 A。\n- **產出**:\n  - `10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md`（1 atom）\n  - `20_Wiki/Accounting/Accounting-Wiki.md`\n  - `30_MOCs/Accounting/Accounting-MOC.md`\n  - `40_Sources/菜鳥會計入門三步驟.md` + `raw-菜鳥會計入門三步驟-全文.md`\n- **未做**: 未從雜誌文拆 Fundamentals；術科人工 vs 資訊未選定。\n- **收尾**: `build_index.py` → 83 atoms / 9 domains / 1 inbox。\n- **狀態**: 骨架完成；下一包等規範／題庫原料或 Fundamentals 批次。\n\n---\n\n## 2026-07-31: Accounting 術科主路線鎖定＝人工記帳\n- **決策**: Andrew 選定丙級術科走**人工記帳**（非資訊總帳）。\n- **執行者**: Hermes（鯊寶）。\n- **更新**: Exam_Map、Accounting-Wiki、Accounting-MOC（主練＝Fundamentals / Day-to-Day / Period-End；AIS 學科點到為止）。\n- **狀態**: 已 commit。\n\n---\n\n## 2026-07-31: Accounting 圖譜擴編（Fundamentals～Ethics）\n- **任務**: 完善丙級對齊知識圖譜（非題庫全文）。\n- **執行者**: Hermes（鯊寶），Andrew 要求「幫我完善知識圖譜」。\n- **新增**: 24 atoms（Fundamentals 6、Day-to-Day 7、Period-End 6、AIS 1、Regulation 2、Ethics 1、Exam_Map 術科流程 1）；Accounting 合計 25。\n- **同步**: Accounting-Wiki、Accounting-MOC；index 107 atoms / 9 domains。\n- **紀律**: 明確寫「學習≠入庫」；禁誤導借貸口訣；Regulation/稅為定錨 seedling。\n- **未做**: 工作底稿填表示例、法令法條級、題庫原子化。\n\n---\n\n## 2026-07-31: Odoo hub 裝 l10n_tw + 載入台灣科目表\n- **任務**: B 裝台灣會計在地化；C 另提供 UI 分錄導覽（本 log 只記系統變更）。\n- **執行者**: Hermes（鯊寶），Andrew 核准 B+C。\n- **前置**: `pg_dump` → `~/backups/odoo/mycompany-pre-l10n_tw-20260731-0356.dump`；當時 moves=0。\n- **動作**: stop odoo → `module install l10n_tw` → shell `try_loading('tw')` + country TW → start odoo。\n- **結果**: chart=tw；accounts≈136；taxes 含 5% VAT；journals 重建；health OK；hermes API 可讀 account。\n- **未做**: 未造 demo 傳票；未裝 EE accountant / stock。\n",
+      "body": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n\n---\n\n## 2026-07-31: Accounting domain 開域骨架（丙級主軸，方案 A）\n- **任務**: Inbox 會計雜誌文評估後不原子化；開 `Accounting` domain 對齊台灣會計事務丙級考科地圖。\n- **執行者**: Hermes（鯊寶），Andrew 選定方案 A。\n- **產出**:\n  - `10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md`（1 atom）\n  - `20_Wiki/Accounting/Accounting-Wiki.md`\n  - `30_MOCs/Accounting/Accounting-MOC.md`\n  - `40_Sources/菜鳥會計入門三步驟.md` + `raw-菜鳥會計入門三步驟-全文.md`\n- **未做**: 未從雜誌文拆 Fundamentals；術科人工 vs 資訊未選定。\n- **收尾**: `build_index.py` → 83 atoms / 9 domains / 1 inbox。\n- **狀態**: 骨架完成；下一包等規範／題庫原料或 Fundamentals 批次。\n\n---\n\n## 2026-07-31: Accounting 術科主路線鎖定＝人工記帳\n- **決策**: Andrew 選定丙級術科走**人工記帳**（非資訊總帳）。\n- **執行者**: Hermes（鯊寶）。\n- **更新**: Exam_Map、Accounting-Wiki、Accounting-MOC（主練＝Fundamentals / Day-to-Day / Period-End；AIS 學科點到為止）。\n- **狀態**: 已 commit。\n\n---\n\n## 2026-07-31: Accounting 圖譜擴編（Fundamentals～Ethics）\n- **任務**: 完善丙級對齊知識圖譜（非題庫全文）。\n- **執行者**: Hermes（鯊寶），Andrew 要求「幫我完善知識圖譜」。\n- **新增**: 24 atoms（Fundamentals 6、Day-to-Day 7、Period-End 6、AIS 1、Regulation 2、Ethics 1、Exam_Map 術科流程 1）；Accounting 合計 25。\n- **同步**: Accounting-Wiki、Accounting-MOC；index 107 atoms / 9 domains。\n- **紀律**: 明確寫「學習≠入庫」；禁誤導借貸口訣；Regulation/稅為定錨 seedling。\n- **未做**: 工作底稿填表示例、法令法條級、題庫原子化。\n\n---\n\n## 2026-07-31: Odoo hub 裝 l10n_tw + 載入台灣科目表\n- **任務**: B 裝台灣會計在地化；C 另提供 UI 分錄導覽（本 log 只記系統變更）。\n- **執行者**: Hermes（鯊寶），Andrew 核准 B+C。\n- **前置**: `pg_dump` → `~/backups/odoo/mycompany-pre-l10n_tw-20260731-0356.dump`；當時 moves=0。\n- **動作**: stop odoo → `module install l10n_tw` → shell `try_loading('tw')` + country TW → start odoo。\n- **結果**: chart=tw；accounts≈136；taxes 含 5% VAT；journals 重建；health OK；hermes API 可讀 account。\n- **未做**: 未造 demo 傳票；未裝 EE accountant / stock。\n",
       "frontmatter": ""
     },
     "30_MOCs/Main_Index": {
@@ -9480,9 +12088,9 @@
       "frontmatter": "domain: HKN_System\ntags: [moc, index, entry-point]\ncreated: 2026-07-04\nstatus: seedling"
     },
     "30_MOCs/Accounting/Accounting-MOC": {
-      "markdown": "---\ndomain: Accounting\ntags: [moc, index, entry-point, 丙級]\ncreated: 2026-07-31\nstatus: seedling\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n---\n\n# Accounting MOC\n\n> 台灣**會計事務丙級**準備為主軸的 domain 索引。**術科＝人工記帳**。敘事雷達見 Wiki；本頁＝原子清單入口。\n\n## 導航\n\n- Wiki：[[20_Wiki/Accounting/Accounting-Wiki|Accounting-Wiki]]\n- 考科地圖：[[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n- 薄來源（非主幹）：[[40_Sources/菜鳥會計入門三步驟]]\n\n## 原子索引（1）\n\n### Exam_Map\n\n- [[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n\n### Fundamentals / Day-to-Day / Period-End / AIS / Regulation / Ethics / Mindset\n\n_（尚無 atoms — 等規範／題庫原料後填）_\n\n## 叢集用途（一句）\n\n| 叢集 | 一句用途 |\n|------|----------|\n| Exam_Map | 考什麼、術科＝人工、補洞順序 |\n| Fundamentals | 學科① 底層語言 ★主練 |\n| Day-to-Day | 學科② 平時帳務鏈 ★主練 |\n| Period-End | 學科③＋人工術科編表 ★主練 |\n| AIS | 學科④ 點到為止（非術科主線） |\n| Regulation | 學科⑤ 法令／稅務帳務考點 |\n| Ethics | 學科⑥ 職德 |\n| Mindset | 選配動機，不佔主幹 |\n",
-      "body": "# Accounting MOC\n\n> 台灣**會計事務丙級**準備為主軸的 domain 索引。**術科＝人工記帳**。敘事雷達見 Wiki；本頁＝原子清單入口。\n\n## 導航\n\n- Wiki：[[20_Wiki/Accounting/Accounting-Wiki|Accounting-Wiki]]\n- 考科地圖：[[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n- 薄來源（非主幹）：[[40_Sources/菜鳥會計入門三步驟]]\n\n## 原子索引（1）\n\n### Exam_Map\n\n- [[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n\n### Fundamentals / Day-to-Day / Period-End / AIS / Regulation / Ethics / Mindset\n\n_（尚無 atoms — 等規範／題庫原料後填）_\n\n## 叢集用途（一句）\n\n| 叢集 | 一句用途 |\n|------|----------|\n| Exam_Map | 考什麼、術科＝人工、補洞順序 |\n| Fundamentals | 學科① 底層語言 ★主練 |\n| Day-to-Day | 學科② 平時帳務鏈 ★主練 |\n| Period-End | 學科③＋人工術科編表 ★主練 |\n| AIS | 學科④ 點到為止（非術科主線） |\n| Regulation | 學科⑤ 法令／稅務帳務考點 |\n| Ethics | 學科⑥ 職德 |\n| Mindset | 選配動機，不佔主幹 |\n",
-      "frontmatter": "domain: Accounting\ntags: [moc, index, entry-point, 丙級]\ncreated: 2026-07-31\nstatus: seedling\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\""
+      "markdown": "---\ntitle: Accounting MOC\ndomain: Accounting\ntags: [MOC, Accounting, 丙級]\ncreated: 2026-07-31\nupdated: 2026-07-31\nstatus: seedling\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n---\n\n# Accounting MOC\n\n> 台灣**會計事務丙級** · **術科＝人工記帳**。敘事見 Wiki；本頁＝清單入口。  \n> **進度 KPI = 手算練習，不是本頁連結數。**\n\n## 導航\n\n- Wiki：[[20_Wiki/Accounting/Accounting-Wiki|Accounting-Wiki]]\n- 考科：[[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n- 術科鏈：[[10_Atoms/Accounting/Exam_Map/人工記帳術科流程|人工記帳術科流程]]\n- 來源（薄）：[[40_Sources/菜鳥會計入門三步驟]]\n\n## Exam_Map\n\n- [[10_Atoms/Accounting/Exam_Map/會計丙級考科結構]]\n- [[10_Atoms/Accounting/Exam_Map/人工記帳術科流程]]\n\n## Fundamentals ★\n\n- [[10_Atoms/Accounting/Fundamentals/會計意義與功用]]\n- [[10_Atoms/Accounting/Fundamentals/基本會計假設]]\n- [[10_Atoms/Accounting/Fundamentals/財務報表要素]]\n- [[10_Atoms/Accounting/Fundamentals/交易與非交易事項]]\n- [[10_Atoms/Accounting/Fundamentals/會計方程式]]\n- [[10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記]]\n\n## Day-to-Day ★\n\n- [[10_Atoms/Accounting/Day-to-Day/原始憑證]]\n- [[10_Atoms/Accounting/Day-to-Day/傳票]]\n- [[10_Atoms/Accounting/Day-to-Day/日記簿]]\n- [[10_Atoms/Accounting/Day-to-Day/分類帳]]\n- [[10_Atoms/Accounting/Day-to-Day/過帳]]\n- [[10_Atoms/Accounting/Day-to-Day/試算表]]\n- [[10_Atoms/Accounting/Day-to-Day/錯帳更正]]\n\n## Period-End ★\n\n- [[10_Atoms/Accounting/Period-End/會計基礎]]\n- [[10_Atoms/Accounting/Period-End/調整分錄]]\n- [[10_Atoms/Accounting/Period-End/工作底稿]]\n- [[10_Atoms/Accounting/Period-End/結帳]]\n- [[10_Atoms/Accounting/Period-End/財務報表]]\n- [[10_Atoms/Accounting/Period-End/迴轉分錄]]\n\n## AIS / Regulation / Ethics\n\n- [[10_Atoms/Accounting/AIS/會計資訊系統基本概念]]\n- [[10_Atoms/Accounting/Regulation/商業會計法與處理準則]]\n- [[10_Atoms/Accounting/Regulation/營業稅與帳務交界]]\n- [[10_Atoms/Accounting/Ethics/職業道德與工作倫理]]\n\n## 叢集角色\n\n| Cluster | 角色 |\n|---------|------|\n| Exam_Map | 考什麼、人工術科步驟 |\n| Fundamentals | 學科① 語言 |\n| Day-to-Day | 學科② 平時鏈 |\n| Period-End | 學科③ + 人工編表 |\n| AIS | 學科④ 薄 |\n| Regulation | 學科⑤ |\n| Ethics | 學科⑥ |\n",
+      "body": "# Accounting MOC\n\n> 台灣**會計事務丙級** · **術科＝人工記帳**。敘事見 Wiki；本頁＝清單入口。  \n> **進度 KPI = 手算練習，不是本頁連結數。**\n\n## 導航\n\n- Wiki：[[20_Wiki/Accounting/Accounting-Wiki|Accounting-Wiki]]\n- 考科：[[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n- 術科鏈：[[10_Atoms/Accounting/Exam_Map/人工記帳術科流程|人工記帳術科流程]]\n- 來源（薄）：[[40_Sources/菜鳥會計入門三步驟]]\n\n## Exam_Map\n\n- [[10_Atoms/Accounting/Exam_Map/會計丙級考科結構]]\n- [[10_Atoms/Accounting/Exam_Map/人工記帳術科流程]]\n\n## Fundamentals ★\n\n- [[10_Atoms/Accounting/Fundamentals/會計意義與功用]]\n- [[10_Atoms/Accounting/Fundamentals/基本會計假設]]\n- [[10_Atoms/Accounting/Fundamentals/財務報表要素]]\n- [[10_Atoms/Accounting/Fundamentals/交易與非交易事項]]\n- [[10_Atoms/Accounting/Fundamentals/會計方程式]]\n- [[10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記]]\n\n## Day-to-Day ★\n\n- [[10_Atoms/Accounting/Day-to-Day/原始憑證]]\n- [[10_Atoms/Accounting/Day-to-Day/傳票]]\n- [[10_Atoms/Accounting/Day-to-Day/日記簿]]\n- [[10_Atoms/Accounting/Day-to-Day/分類帳]]\n- [[10_Atoms/Accounting/Day-to-Day/過帳]]\n- [[10_Atoms/Accounting/Day-to-Day/試算表]]\n- [[10_Atoms/Accounting/Day-to-Day/錯帳更正]]\n\n## Period-End ★\n\n- [[10_Atoms/Accounting/Period-End/會計基礎]]\n- [[10_Atoms/Accounting/Period-End/調整分錄]]\n- [[10_Atoms/Accounting/Period-End/工作底稿]]\n- [[10_Atoms/Accounting/Period-End/結帳]]\n- [[10_Atoms/Accounting/Period-End/財務報表]]\n- [[10_Atoms/Accounting/Period-End/迴轉分錄]]\n\n## AIS / Regulation / Ethics\n\n- [[10_Atoms/Accounting/AIS/會計資訊系統基本概念]]\n- [[10_Atoms/Accounting/Regulation/商業會計法與處理準則]]\n- [[10_Atoms/Accounting/Regulation/營業稅與帳務交界]]\n- [[10_Atoms/Accounting/Ethics/職業道德與工作倫理]]\n\n## 叢集角色\n\n| Cluster | 角色 |\n|---------|------|\n| Exam_Map | 考什麼、人工術科步驟 |\n| Fundamentals | 學科① 語言 |\n| Day-to-Day | 學科② 平時鏈 |\n| Period-End | 學科③ + 人工編表 |\n| AIS | 學科④ 薄 |\n| Regulation | 學科⑤ |\n| Ethics | 學科⑥ |\n",
+      "frontmatter": "title: Accounting MOC\ndomain: Accounting\ntags: [MOC, Accounting, 丙級]\ncreated: 2026-07-31\nupdated: 2026-07-31\nstatus: seedling\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\""
     },
     "30_MOCs/Setlog/Setlog_市場分析_3C框架": {
       "markdown": "# Setlog 市場分析報告 — 3C Framework\n> 基於 2026 年 5 月公開資料。數據有限性見各節標註。\n\n---\n\n## 1. 大環境分析\n\n### 1.1 PEST 分析\n\n| 維度 | 因素 | 與 Setlog 的關係 |\n|------|------|-----------------|\n| **Political** | 南韓、中華民國（台灣）、香港均無針對私密社群應用程式的特殊監管 | 無直接監管風險 |\n| | 南韓 PIPA（個人資訊保護法）對 14 歲以下用戶要求法定監護人同意 | Setlog 年齡評級 12+，主流用戶 55% 為青少年，存在被追究合規風險 |\n| | 中華民國《個人資料保護法》對年輕用戶資料蒐集有限制 | 台灣是第二大市場，法規影響主要在資料儲存地點（目前為美國+首爾） |\n| **Economic** | Z 世代實質薪資成長停滯，可支配所得有限 | 付費牆訂閱模式天花板低；家庭方案或群組共同負擔是合理路徑 |\n| | 台灣、韓國、香港均為高網路滲透地區 | 智慧型手機持有率接近 100%，行動優先產品直接受惠 |\n| **Social** | Z 世代「數位疲勞」加劇，對 Instagram、TikTok 等「表演式社群」反感 | 直接催生 Setlog 的核心需求——「無痛、真實、當下」 |\n| | 青少年心理健康意識提升 | 「低干擾」的同步分享模式被視為心理健康友善設計 |\n| | 南韓「冷漠文化」導致青少年社交焦慮加劇 | 小圈圈私密社群（上限 12 人）降低社交壓力，精準命中痛點 |\n| | 遠距關係（Long-Distance Relationships）普遍化 | 用於情侶、家庭成員跨越地理距離的情感連結工具 |\n| **Technological** | AI 影片增強技術成熟（降噪、暗光優化） | 為付費功能「HD 導出」提供技術可行性 |\n| | 智慧型手機拍攝能力持續提升 | 2 秒錄製品質足夠，且用户無需學習曲線 |\n| | 端對端加密技術普及 | Setlog 隱私政策納入 E2EE，成為行銷賣點而非技術門檻 |\n\n### 1.4 Google Trends 韓國搜尋趨勢（2026 年 3–5 月）\n\n> 數據來源：Google Trends API（pytrends），geo=KR，hl=ko。完整資料見 `Log/Tickets/20260514_Setlog_GoogleTrends.md`。\n\n| 日期 | 세트로그（韓文）指數 | Setlog（英文）指數 |\n|------|:------------------:|:----------------:|\n| 2026-03-08 | 4 | 4 |\n| 2026-03-29 | 15 | 15 |\n| 2026-04-05 | 34 | 34 |\n| 2026-04-12 | 38 | 38 |\n| **2026-04-19（巔峰）** | **100** | **100** |\n| 2026-04-26 | 40 | 40 |\n| 2026-05-03 | 23 | 23 |\n| 2026-05-10 | 19 | 19 |\n\n**關鍵洞察：**\n- 📈 爆發集中在 4 月中，與媒體報導「Setlog 韓國爆紅」時序完全吻合\n- 📉 退燒速度快（2 週從 100→19），印證 Z 世代產品忠誠度低的特性\n- 🌐 英文搜尋量 > 韓文，確認傳播媒介以 TikTok/Reels（英語）為主，非韓國本地行銷\n\n---\n\n### 1.5 波特五力分析\n\n| 力量 | 強度 | 分析 |\n|------|------|------|\n| **新進者威脅** | 🔴 高 | 私密同步社群應用進入門檻低——2 秒錄製 + 自動剪輯的核心功能不難抄襲。BeReal（2020）、Locket（2022）、Rocket Widget（2022）已反覆證明這個品類可以快速爆發 |\n| **現有競爭者** | 🟡 中 | 直接競爭：BeReal、Locket、Instagram Instants（Meta）。間接競爭：KakaoTalk 內嵌功能、Planet、Twoda等小型圈圈 SNS。Setlog 的「時段切片 + 自動生成 Vlog」差異化明確，但壁壘不深 |\n| **替代品威脅** | 🟡 中 | 替代品包括：KakaoTalk/Line 的隨選影片分享、Google Photos 的「記憶」功能、甚至是傳統的 LINE 群組直播。壁壘在於 Setlog 的「鬧鐘式同步」社群體驗——但若大平台加入此功能，威脅立即上升 |\n| **供應商議價能力** | 🟢 低 | 主要供應商是雲端儲存（影片存放）和推送通知服務。兩者均為競爭性市場，供應商議價能力低 |\n| **買方議價能力** | 🟡 中 | Z 世代用戶忠誠度低、轉換成本低（更換 App 等於重建社群關係）。但封閉式群組效應形成一定的網絡鎖定（switching cost 來自「朋友也在這裡」） |\n\n**總體結論：** Setlog 所處的品類壁壘偏低，爆發力來自網絡效應與時機，而非技術或資料護城河。儘早貨幣化、合理擴展用戶基礎是抵抗新進者最重要的策略。\n\n---\n\n### 1.6 VRIO 分析\n\n| 資源/能力 | V（珍貴） | R（罕見） | I（不可模仿） | O（組織支撐） | 競爭意涵 |\n|----------|----------|----------|------------|------------|---------|\n| 每小時同步鬧鐘記錄機制 | ✅ 珍貴 | ✅ 罕見 | ❌ 不難模仿（BeReal 已有類似機制） | ✅ 有組織支撐 | **競爭對等**——並非持久護城河 |\n| 自動 Vlog 剪輯（時段串接） | ✅ 珍貴 | ⚠️ 邊緣罕見（Locket 無此功能） | ⚠️ 邊緣可模仿 | ✅ 有組織支撐 | **臨時競爭優勢**——差異化明顯但技術壁壘有限 |\n| 封閉式 12 人私密群組「Log」設計 | ✅ 珍貴 | ✅ 罕見 | ⚠️ 可模仿（曾有 Rocket Widget 先例） | ✅ 有組織支撐 | **臨時競爭優勢**——網絡效應是真正的鎖定機制 |\n| E2EE 隱私保護（明文禁止廣告/AI訓練） | ✅ 珍貴 | ⚠️ 邊緣罕見 | ✅ 法律面上難以模仿（隱私政策具法律約束力） | ✅ 有組織支撐 | **潛在持續優勢**——但對手同樣可以宣稱 E2EE |\n| New Chat Inc. 紐約+首爾雙總部結構 | ✅ 珍貴 | ✅ 罕見 | ✅ 美國創業文化 + 韓國工程人才 + Kakao 生態理解，三者結合難以複製 | ⚠️ 待驗證（目前僅 6 人團隊） | **潛在持續優勢**——取決於團隊能否規模化 |\n| Devin Doty（前 Snap 產品設計師）背景 | ✅ 珍貴 | ✅ 罕見 | ✅ Snap 對私密社交產品的深度理解不易複製 | ⚠️ 待驗證 | **潛在持續優勢**——但 Snap 本身已非私密社交龍頭 |\n| **品牌號召力（Z 世代「逃離表演」情感連結）** | ✅ 珍貴 | ✅ 罕見 | ⚠️ 情感定位可被抄襲，但「第一個真正做起來的」品牌形象有時間優益 | ✅ 有組織支撐 | **臨時競爭優勢**——取決於用戶獲取速度與品牌投資 |\n\n**結論：** Setlog 目前沒有任何一項資源符合 VRIO 的「持續性競爭優勢」標準。最強的護城河是**網絡效應**（12 人圈子的集體使用習慣）和**時機**（目前品類窗口仍在）。VRIO 框架顯示這個團隊必須在壁壘加深前加速建立付費產品與用戶忠誠度。\n\n---\n\n### 1.7 SWOT 分析\n\n|  | **正面** | **負面** |\n|--|---------|---------|\n| **內部** | **S（優勢）**：<br>• Z 世代精準定位——「逃離表演疲勞」<br>• 極低使用摩擦（2 秒錄製，零剪輯）<br>• E2EE 隱私政策明確，口碑傳播力強<br>• 已驗證爆發性用戶增長（2M+）<br>• 美國創辦人 + 韓國營運的獨特組合 | **W（劣勢）**：<br>• 零營收，無商業模式<br>• 僅 6 人團隊，規模化能力極度有限<br>• 無法提供 GDPR/PIPA 強制的未成年監護人同意流程<br>• 無任何付費功能，變現路徑未經驗證<br>• 伺服器成本（影片儲存）將隨用戶增長線性上升 |\n| **外部** | **O（機會）**：<br>• BeReal 的教訓（被低價收購 + 無法變現）提供後發優勢參照<br>• 「HD 導出/AI 增強」付費功能有明確用戶需求（用戶已自行使用第三方工具）<br>• 日本市場為下一個地理擴展（已當地化）<br>• 企業/品牌合作「Brand Log」有類似 BeReal RealBrands 的參照案例 | **T（威脅）**：<br>• Meta（Instagram Instants）隨時可以將此功能整合進 Instagram<br>• 南韓 Kakao 若在 KakaoTalk 內嵌類似功能，将形成直接降維打擊<br>• Z 世代產品忠誠度普遍低，病毒式增長不等於留存<br>• 未成年用戶（55% 為青少年）面臨 PIPA 合規風險 |\n\n---\n\n## 2. Customer 分析\n\n### 2.4 同理心地圖（Empathy Map）\n\n> 基於公開媒體報導中的用戶行為描述，非一手訪談資料。數據來源：Korea Herald、SCMP、Nongmin、Insight 訪談摘要。\n\n| 維度 | 內容 |\n|------|------|\n| **看（See）** | 看到朋友在 Setlog 上的日常片段，沒有修飾過的當下生活；看到演算法推送的疲勞內容。青少年用戶看到同儕用 Setlog 分享 OOTD（今日穿搭）、學習過程。 |\n| **說（Say）** | 「終於不用剪片了！」「不用再為 Instagram 表演了。」「這個氛圍感很強。」「身邊朋友都在用。」「終於可以記錄生活又不累。」 |\n| **聽（Hear）** | 聽到朋友說 Setlog 是「比 IG 更真實的交流」；聽到韓國 Nongmin 等媒體討論 Setlog 成為 Z 世代新寵；聽到學者提醒「鬧鐘式記錄」可能變成打卡壓力。 |\n| **想/感受（Think/Feel）** | 想要被看見但不想表演；想要記錄生活但不想付出剪輯成本；對於「朋友當下在做什麼」有好奇心；對隱私安全有高度需求（「只有 12 個人看得到」）；對年齡較大的「旁觀者」可能感到被監視的不安。 |\n| **痛點（Pains）** | IG 等平台帶來的表演焦慮；剪輯成本高（時間、精力）；不知道生活亮點在哪裡因而放棄記錄；擔心隱私外洩；對青少年而言，家長可能對每小時位置追蹤感到疑慮。 |\n| **收穫（Gains）** | 零成本記錄生活；與熟人的深度連結（而非粉絲數）；一個完成的當日 Vlog 作為生活軌跡；社群安全感（封閉 12 人圈）；家人/情侶跨地域的情感連結工具。 |\n\n---\n\n### 2.5 用戶體驗旅程地圖（Customer Journey Map）\n\n> 假設使用者為首次接觸 Setlog 的韓國 20 歲女性大學生。以應用程式主要使用流程建構。\n\n| 階段 | 接觸點 | 行為 | 情緒曲線 | 痛點 |\n|------|--------|------|---------|------|\n| **① 認知** | Instagram/Reels/TikTok 看到朋友分享 Setlog Vlog 成品； Threads、Twitter（X）上 9M+ 觀看量的討論 | 好奇觀看、按讚、在評論區問「這是什麼 App」 | 😐 → 🙂 好奇 | 不知道 Setlog 是什麼、下載管道 |\n| **② 獲取** | App Store 搜尋「Setlog」或點擊朋友分享的邀請連結 | 下載 App、完成基本註冊（Kakao 登入） | 🙂 期待 | Kakao 登入失敗是常見卡點 |\n| **③ 啟動** | 看到 App Store 截圖、邀請朋友加入「Log」或被邀請 | 建立第一個 Log、輸入朋友邀請碼 | 🙂 正向期待 | 不知道要邀請誰、需要湊齊幾個人才好玩 |\n| **④ 使用（第一個「鬧鐘」）** | 收到第一個每小時錄製提醒 | 點開通知、錄製 2 秒片段（可能是書桌前的樣子） | 😮 驚喜、有趣 | 不知道「該拍什麼」或「可以跳過」 |\n| **⑤ 使用（第二天～第三天）** | 持續收到錄製提醒，觀看其他 Log 成員的片段 | 逐漸形成習慣、加入 Emoji 或 Comment | 🙂 穩定參與 | 每小時提醒可能開始覺得乾擾（通知疲勞） |\n| **⑥ 使用（一週後）** | 觀看當日自動剪輯的 Vlog 成品 | 分享給朋友、轉發到 Instagram Reels | 😄 滿足 | 影片畫質差（低光/移動模糊）讓人想用第三方工具增強 |\n| **⑦ 留存/流失** | 持續使用或因「太麻煩了」而停止 | 持續紀錄或移除 App | 😄 或 😞 取決於習慣是否養成 | 缺乏社交證據（朋友的回饋）會加速流失 |\n\n**關鍵洞察：** 用戶在「階段⑤→⑥」之間最容易流失或成為付費候選——一周後若感到「影片畫質差強人意」，用戶會自行找第三方工具（HitPaw 等）來彌補，這正是 Setlog Plus 的切入點。\n\n---\n\n## 3. Competitor 分析\n\n### 3.1 4P 分析（對 Setlog 的應用）\n\n| 面向 | Setlog | BeReal | Locket | Instagram Instants |\n|------|--------|--------|--------|-------------------|\n| **Product（產品）** | 每小時 2 秒視頻 + 自動 Vlog 生成；封閉群組（最多 12 人）；E2EE 隱私 | 每日隨機一次、2 分鐘窗口、雙鏡頭照片 | 照片直接推送至朋友主螢幕小工具 | Ephemeral 私密照片，功能高度相似 |\n| **Price（價格）** | 免費（目前無付費牆） | 免費；2024 年底開始嵌入廣告；被 Voodoo 以 €500M 收購後加速變現 | 免費 | 免費（Meta 補貼） |\n| **Place（通路）** | iOS App Store（主要）、Android（1M+ 下載）；Z 世代主要透過 TikTok/Reels 口碑傳播 | App Store / Google Play；主要透過 Instagram 導流 | App Store / Google Play；主要透過 TikTok 口碑 | Instagram 內嵌；無需獨立下載 |\n| **Promotion（推廣）** | 零付費廣告；完全依賴社群口碑（X/TikTok 9M+ 觀看）；KOL 自發性推廣 | 2020–2022 年大量 KOL 行銷；Voodoo 收購後行銷預算上升 | 聖誕節期間透過 TikTok 爆發；後期加入名人功能 | Meta 內部推動；几乎没有额外营销 |\n| **受眾** | Z 世代私密圈（2–12 人）；以韓/港/台為核心 | 全球 10–30 歲；2024 年後 MAU 跌至 16M | 美國青少年為主 | Instagram 10 億用戶中的分支 |\n\n---\n\n### 3.2 4P 提供內容與對象分析\n\n| 產品 | 提供內容 | 目標對象 | 對 Setlog 的威脅程度 |\n|------|---------|---------|-------------------|\n| **BeReal** | 每日真實生活片段 | 10–30 歲，不想表演的全球用戶 | ⚠️ 中——已進入變現階段，但口碑已衰減 |\n| **Locket** | 朋友照片推送至小工具 | 美國青少年（TikTok 引爆） | 🟢 低——功能較浅，缺乏 Vlog 成品 |\n| **Instagram Instants** | 私密 Ephemeral 照片 | Instagram 用戶 | 🔴 高——Meta 擁有最大用戶基礎，可一鍵威脅 |\n| **KakaoTalk（內嵌功能）** | 現成封閉群組聊天 + 隨選影片分享 | 韓國用戶（KakaoTalk 滲透率極高） | 🔴 高——本地直接競爭，降維打擊可能性高 |\n| **Planet / Twoda** | 小圈圈私密動態 | 韓國 Z 世代 | 🟡 中——市場規模尚小，但正在成長 |\n\n---\n\n### 3.3 價值鏈分析（Value Chain）\n\n```\n投入（Input）          核心活動（Primary）                    支援活動（Support）\n─────────────         ────────────────                       ───────────────\n人力資源管理            研究開發（產品設計）                   企業基礎設施\n技術開發                影片處理與自動剪輯系統                 行政管理\n採購（雲端服務）       使用者增長與社群經營                    財務管理\n                        用戶支援與客服（目前極簡）\n                        法務與隱私合規（E2EE）\n                        　　↓\n                      輸出（Output）\n                      —— Setlog 每日 Vlog 成品（用戶價值載體）\n                      —— 12 人私密群組的社群連結\n                      —— 用戶生成的影片資料（待貨幣化）\n```\n\n**價值鏈瓶頸分析：**\n- 目前收入環節（rightmost）幾乎為零——價值鏈在「用戶生成內容」環節終止，未能轉化為商業價值\n- 最脆弱的支援活動：**財務管理**（無營收但有影片儲存成本）和**法務合規**（PIPA 未成年同意流程）\n\n---\n\n### 3.4 核心能力分析\n\n| 核心能力 | 描述 | 持久性 | 對 Setlog 的重要性 |\n|---------|------|--------|----------------|\n| **超低錄製摩擦的產品設計** | 2 秒、無剪輯、即時串接——讓記錄成為反射而非任務 | ⭐⭐⭐（中等）——概念可抄襲，但已形成品牌認知 | 關鍵差異化 |\n| **封閉私密社群 UX** | 12 人上限、「沒有觀眾」的設計——精準消除表演焦慮 | ⭐⭐（低）——Locket/Rocket 已展示類似模式 | 建立用戶情感的基礎 |\n| **E2EE + 明確隱私政策** | 明文禁止廣告/AI 訓練——建立信任資產 | ⭐⭐⭐⭐（高）——法律約束，競爭對手需要時間追上 | 品牌長期資產 |\n| **紐約+首爾混合文化視角** | 美國對「私密社交」產品的直覺 + 韓國對 Z 世代文化的深度理解 | ⭐⭐⭐⭐（高）——地理+文化組合難以快速複製 | 策略面核心能力 |\n| **Devin Doty 的 Snap 產品直覺** | 從 Snap 學習到的「工具即娛樂」哲學應用於設計 | ⭐⭐⭐（中等）——Snap 已不再是私密社交領導者，該直覺有時間窗口 | 待規模化驗證 |\n\n---\n\n## 📌 綜合分析結論\n\n**對 PM 面試答題的關鍵啟示：**\n\n1. **Setlog 的護城河不是技術，而是時機與網絡效應。** 這意味著變現決策不能拖延——必須在壁壘尚淺的窗口期內建立付費產品的用戶習慣。\n\n2. **雙總部結構（NY+Seoul）是戰略資產。** 這解釋了產品的「美國直覺+韓國執行」基因，也是向投资人解釋「為什麼是他們」的核心理由。\n\n3. **競势壓力主要來自大平台（Meta、Kakao），而非同類創業公司。** 這改變了風險框架——真正的威脅不是 BeReal 的競爭，而是大平台何時決定「抄」。\n\n4. **PIPA 合規（未成年用户）是現在就必須處理的法務風險。** 55% 青少年用户的結構，在南韓法律環境下不能長期游走於灰色地帶。\n\n5. **價值鏈斷裂在「用戶內容→商業價值」環節。** 這不是缺點，是 PM 可以切入的最大機會——誰能率先在維護隱私的前提下建立變現模式誰就贏。\n\n---\n\n*資料來源：Korea Herald、SCMP、Seoul Economic Daily、Insight Korea、Nongmin、新浪财经、App Store/Google Play 頁面、Setlog 隱私政策、LinkedIn（New Chat Inc.）、Korean PIPC 兒少資料保護指南、相關競爭對手公開報導。*\n\n*最後更新：2026-05-14*\n",
@@ -9545,8 +12153,8 @@
       "frontmatter": "tags: [protocol, escalation, hermes-agent, governance]\ncreated: 2026-05-13\nstatus: evergreen\nversion: 1.1\nauthored_by: Claude Code"
     },
     "20_Wiki/Accounting/Accounting-Wiki": {
-      "markdown": "---\ndomain: Accounting\ntags: [Wiki, Knowledge_Map, 丙級]\ncreated: 2026-07-31\nupdated: 2026-07-31\nstatus: seedling\n---\n\n# Accounting Wiki\n\n個人會計知識域。**主軸 = 台灣會計事務技術士丙級準備**（不是一般「公司會計日常雜談」彙整）。  \n**術科主路線 = 人工記帳**（2026-07-31 選定）。  \nOdoo／CERPS／顧問帳務之後可平行加 cluster，不與丙級考科樹纏成一坨。\n\n---\n\n## 一句話地圖\n\n```\nFundamentals → Day-to-Day → Period-End → 手算編表（術科主鏈）\n法令 Regulation + Ethics 貫穿學科\nAIS = 學科④夠用即可（不走資訊術科）\n```\n\n---\n\n## 該往這查的訊號\n\n| 訊號 | 先看 |\n|------|------|\n| 丙級範圍／學科六塊／術科兩條路 | [[Accounting/Exam_Map/會計丙級考科結構]] |\n| 借貸、方程式、要素、假設 | `Fundamentals/`（尚未建 atoms） |\n| 憑證、傳票、過帳、試算 | `Day-to-Day/`（尚未建） |\n| 調整、結帳、工作底稿、三大表 | `Period-End/`（尚未建） |\n| 軟體／總帳系統概念 | `AIS/`（尚未建） |\n| 商會法、營業稅與帳務 | `Regulation/`（尚未建） |\n| 職德考點 | `Ethics/`（尚未建） |\n\n---\n\n## Clusters\n\n### Exam_Map（應考地圖）— 1\n\n- [[Accounting/Exam_Map/會計丙級考科結構]] — 學科六項 + 術科主路線人工記帳 + HKN 對照\n\n**說明**：domain 入口原子；原料與練習優先對這張圖補洞。\n\n### Fundamentals（學科①）— 0 ★主練\n\n_TODO：會計意義與功用、基本假設、報表要素、交易與非交易、會計方程式、借貸與複式簿記_\n\n### Day-to-Day（學科② 平時程序）— 0 ★主練\n\n_TODO：原始憑證、傳票、日記簿、總／明細帳、過帳、試算、錯帳更正_\n\n### Period-End（學科③ 期末程序）— 0 ★主練（術科編表重點）\n\n_TODO：會計基礎、調整、工作底稿、結帳、BS／IS／權益變動、迴轉_\n\n### AIS（學科④）— 0 （學科夠用；非術科主線）\n\n_TODO：會計資訊系統基本概念（丙級學科深度即可）_\n\n### Regulation（學科⑤）— 0\n\n_TODO：丙級範圍內法令與稅務帳務要點（不一次寫成稅法百科）_\n\n### Ethics（學科⑥）— 0\n\n_TODO：職業道德與工作倫理考點_\n\n### Mindset（選配）— 0\n\n_TODO：僅薄概念；來源可含 [[40_Sources/菜鳥會計入門三步驟]]（低考照權重）_\n\n---\n\n## 因果／學習順序（建議）\n\n1. **Exam_Map** 建立範圍感 → 避免被雜誌文帶跑  \n2. **Fundamentals** 穩了再進 **Day-to-Day**（否則分錄是背答案）  \n3. **Period-End** 接在平時程序之後（調整／結帳／工作底稿／三大表 = 人工術科核心）  \n4. **Regulation + Ethics** 與學科刷題平行  \n5. **AIS** 學科點到為止；原料優先：**人工術科範例卷**，不是電腦總帳操作手冊  \n\n---\n\n## 來源與品質門檻\n\n| 來源 | 角色 |\n|------|------|\n| 技能檢定規範／當期簡章 | 範圍權威 |\n| 學科題庫（六項分類） | 學科主練習 |\n| **人工記帳**術科範例卷 | 術科主練習 |\n| [[40_Sources/菜鳥會計入門三步驟]] | 動機向；**非**定義權威 |\n\n**門檻**：定義類 atom 須能對上考科用語；發現與規範衝突以規範為準並改 atom。\n\n---\n\n## 開放決策\n\n- [x] 術科主路線：**人工記帳**（2026-07-31）  \n- [ ] 下一包原料：規範 PDF／學科題庫／**人工**術科範例進 `00_Inbox/Accounting/`  \n- [ ] 骨架下一檔：Fundamentals 第一批 atoms（有權威源後再寫）\n\n**原子數**：1（僅 Exam_Map）  \n**上次更新**：2026-07-31 鎖定術科＝人工記帳\n",
-      "body": "# Accounting Wiki\n\n個人會計知識域。**主軸 = 台灣會計事務技術士丙級準備**（不是一般「公司會計日常雜談」彙整）。  \n**術科主路線 = 人工記帳**（2026-07-31 選定）。  \nOdoo／CERPS／顧問帳務之後可平行加 cluster，不與丙級考科樹纏成一坨。\n\n---\n\n## 一句話地圖\n\n```\nFundamentals → Day-to-Day → Period-End → 手算編表（術科主鏈）\n法令 Regulation + Ethics 貫穿學科\nAIS = 學科④夠用即可（不走資訊術科）\n```\n\n---\n\n## 該往這查的訊號\n\n| 訊號 | 先看 |\n|------|------|\n| 丙級範圍／學科六塊／術科兩條路 | [[Accounting/Exam_Map/會計丙級考科結構]] |\n| 借貸、方程式、要素、假設 | `Fundamentals/`（尚未建 atoms） |\n| 憑證、傳票、過帳、試算 | `Day-to-Day/`（尚未建） |\n| 調整、結帳、工作底稿、三大表 | `Period-End/`（尚未建） |\n| 軟體／總帳系統概念 | `AIS/`（尚未建） |\n| 商會法、營業稅與帳務 | `Regulation/`（尚未建） |\n| 職德考點 | `Ethics/`（尚未建） |\n\n---\n\n## Clusters\n\n### Exam_Map（應考地圖）— 1\n\n- [[Accounting/Exam_Map/會計丙級考科結構]] — 學科六項 + 術科主路線人工記帳 + HKN 對照\n\n**說明**：domain 入口原子；原料與練習優先對這張圖補洞。\n\n### Fundamentals（學科①）— 0 ★主練\n\n_TODO：會計意義與功用、基本假設、報表要素、交易與非交易、會計方程式、借貸與複式簿記_\n\n### Day-to-Day（學科② 平時程序）— 0 ★主練\n\n_TODO：原始憑證、傳票、日記簿、總／明細帳、過帳、試算、錯帳更正_\n\n### Period-End（學科③ 期末程序）— 0 ★主練（術科編表重點）\n\n_TODO：會計基礎、調整、工作底稿、結帳、BS／IS／權益變動、迴轉_\n\n### AIS（學科④）— 0 （學科夠用；非術科主線）\n\n_TODO：會計資訊系統基本概念（丙級學科深度即可）_\n\n### Regulation（學科⑤）— 0\n\n_TODO：丙級範圍內法令與稅務帳務要點（不一次寫成稅法百科）_\n\n### Ethics（學科⑥）— 0\n\n_TODO：職業道德與工作倫理考點_\n\n### Mindset（選配）— 0\n\n_TODO：僅薄概念；來源可含 [[40_Sources/菜鳥會計入門三步驟]]（低考照權重）_\n\n---\n\n## 因果／學習順序（建議）\n\n1. **Exam_Map** 建立範圍感 → 避免被雜誌文帶跑  \n2. **Fundamentals** 穩了再進 **Day-to-Day**（否則分錄是背答案）  \n3. **Period-End** 接在平時程序之後（調整／結帳／工作底稿／三大表 = 人工術科核心）  \n4. **Regulation + Ethics** 與學科刷題平行  \n5. **AIS** 學科點到為止；原料優先：**人工術科範例卷**，不是電腦總帳操作手冊  \n\n---\n\n## 來源與品質門檻\n\n| 來源 | 角色 |\n|------|------|\n| 技能檢定規範／當期簡章 | 範圍權威 |\n| 學科題庫（六項分類） | 學科主練習 |\n| **人工記帳**術科範例卷 | 術科主練習 |\n| [[40_Sources/菜鳥會計入門三步驟]] | 動機向；**非**定義權威 |\n\n**門檻**：定義類 atom 須能對上考科用語；發現與規範衝突以規範為準並改 atom。\n\n---\n\n## 開放決策\n\n- [x] 術科主路線：**人工記帳**（2026-07-31）  \n- [ ] 下一包原料：規範 PDF／學科題庫／**人工**術科範例進 `00_Inbox/Accounting/`  \n- [ ] 骨架下一檔：Fundamentals 第一批 atoms（有權威源後再寫）\n\n**原子數**：1（僅 Exam_Map）  \n**上次更新**：2026-07-31 鎖定術科＝人工記帳\n",
+      "markdown": "---\ndomain: Accounting\ntags: [Wiki, Knowledge_Map, 丙級]\ncreated: 2026-07-31\nupdated: 2026-07-31\nstatus: seedling\n---\n\n# Accounting Wiki\n\n個人會計知識域。**主軸 = 台灣會計事務技術士丙級準備**。  \n**術科主路線 = 人工記帳**（2026-07-31 選定）。\n\n**學習 ≠ 入庫**：本圖譜是考科地圖與錯題沉澱處；**學會的證據 = 手算卷／限時正確**，不是 atom 顆數。\n\n---\n\n## 一句話地圖\n\n```\nFundamentals → Day-to-Day → Period-End → 手算編表（術科主鏈）\nRegulation + Ethics 貫穿學科\nAIS = 學科④夠用（不走資訊術科）\n```\n\n---\n\n## 該往這查\n\n| 訊號 | 先看 |\n|------|------|\n| 考什麼／術科路線 | [[Accounting/Exam_Map/會計丙級考科結構]]、[[Accounting/Exam_Map/人工記帳術科流程]] |\n| 借貸／方程式／要素 | Fundamentals |\n| 憑證→試算 | Day-to-Day |\n| 調整／結帳／報表／工作底稿 | Period-End |\n| 法令／稅交界 | Regulation |\n| 職德 | Ethics |\n| 軟體概念 | AIS（薄） |\n\n---\n\n## 雷達（cluster → atoms）\n\n### Exam_Map — 2\n- [[Accounting/Exam_Map/會計丙級考科結構]]\n- [[Accounting/Exam_Map/人工記帳術科流程]] ★術科清單\n\n### Fundamentals — 6 ★主練\n- [[Accounting/Fundamentals/會計意義與功用]]\n- [[Accounting/Fundamentals/基本會計假設]]\n- [[Accounting/Fundamentals/財務報表要素]]\n- [[Accounting/Fundamentals/交易與非交易事項]]\n- [[Accounting/Fundamentals/會計方程式]]\n- [[Accounting/Fundamentals/借貸法則與複式簿記]]（禁誤導口訣）\n\n### Day-to-Day — 7 ★主練\n- [[Accounting/Day-to-Day/原始憑證]]\n- [[Accounting/Day-to-Day/傳票]]\n- [[Accounting/Day-to-Day/日記簿]]\n- [[Accounting/Day-to-Day/分類帳]]\n- [[Accounting/Day-to-Day/過帳]]\n- [[Accounting/Day-to-Day/試算表]]\n- [[Accounting/Day-to-Day/錯帳更正]]\n\n### Period-End — 6 ★主練／人工術科核心\n- [[Accounting/Period-End/會計基礎]]\n- [[Accounting/Period-End/調整分錄]]\n- [[Accounting/Period-End/工作底稿]]\n- [[Accounting/Period-End/結帳]]\n- [[Accounting/Period-End/財務報表]]\n- [[Accounting/Period-End/迴轉分錄]]\n\n### AIS — 1（學科點到為止）\n- [[Accounting/AIS/會計資訊系統基本概念]]\n\n### Regulation — 2\n- [[Accounting/Regulation/商業會計法與處理準則]]\n- [[Accounting/Regulation/營業稅與帳務交界]]\n\n### Ethics — 1\n- [[Accounting/Ethics/職業道德與工作倫理]]\n\n**計 25 atoms**（含 Exam_Map 原有 1 + 本批 24）。皆 `status: seedling`。\n\n---\n\n## 因果鏈（複習用）\n\n```\n憑證 → 分錄(借貸) → 日記簿 → 過帳 → 分類帳\n  → 試算 → 調整 → 工作底稿 → 報表 → 結帳 →（下期）迴轉\n```\n\n---\n\n## 刻意不放進圖譜的\n\n- 雜誌職涯文當教材（只在 [[40_Sources/菜鳥會計入門三步驟]]）\n- Odoo 操作手冊（hub 實驗 ≠ 術科）\n- 題庫全文（練習在紙上／Sheet；錯因才 atomize）\n\n---\n\n## 缺口（下一輪）\n\n| 優先 | 缺什麼 | 需要原料 |\n|------|--------|----------|\n| 高 | 調整分錄**類型題模板**、工作底稿**填法示例** | 術科範例卷 |\n| 高 | 錯帳更正**題型表** | 學科／術科錯題 |\n| 中 | 法令／稅 **高頻法條錨點** | 當期題庫或講義 |\n| 低 | 特殊交易（票據、存貨進階） | 依命題密度 |\n\n---\n\n## 平行（非丙級主軸）\n\n- Odoo hub：`l10n_tw` 已裝——概念對照實驗室  \n- CERPS／Odoo 證照：另 cluster，不混進丙級樹\n",
+      "body": "# Accounting Wiki\n\n個人會計知識域。**主軸 = 台灣會計事務技術士丙級準備**。  \n**術科主路線 = 人工記帳**（2026-07-31 選定）。\n\n**學習 ≠ 入庫**：本圖譜是考科地圖與錯題沉澱處；**學會的證據 = 手算卷／限時正確**，不是 atom 顆數。\n\n---\n\n## 一句話地圖\n\n```\nFundamentals → Day-to-Day → Period-End → 手算編表（術科主鏈）\nRegulation + Ethics 貫穿學科\nAIS = 學科④夠用（不走資訊術科）\n```\n\n---\n\n## 該往這查\n\n| 訊號 | 先看 |\n|------|------|\n| 考什麼／術科路線 | [[Accounting/Exam_Map/會計丙級考科結構]]、[[Accounting/Exam_Map/人工記帳術科流程]] |\n| 借貸／方程式／要素 | Fundamentals |\n| 憑證→試算 | Day-to-Day |\n| 調整／結帳／報表／工作底稿 | Period-End |\n| 法令／稅交界 | Regulation |\n| 職德 | Ethics |\n| 軟體概念 | AIS（薄） |\n\n---\n\n## 雷達（cluster → atoms）\n\n### Exam_Map — 2\n- [[Accounting/Exam_Map/會計丙級考科結構]]\n- [[Accounting/Exam_Map/人工記帳術科流程]] ★術科清單\n\n### Fundamentals — 6 ★主練\n- [[Accounting/Fundamentals/會計意義與功用]]\n- [[Accounting/Fundamentals/基本會計假設]]\n- [[Accounting/Fundamentals/財務報表要素]]\n- [[Accounting/Fundamentals/交易與非交易事項]]\n- [[Accounting/Fundamentals/會計方程式]]\n- [[Accounting/Fundamentals/借貸法則與複式簿記]]（禁誤導口訣）\n\n### Day-to-Day — 7 ★主練\n- [[Accounting/Day-to-Day/原始憑證]]\n- [[Accounting/Day-to-Day/傳票]]\n- [[Accounting/Day-to-Day/日記簿]]\n- [[Accounting/Day-to-Day/分類帳]]\n- [[Accounting/Day-to-Day/過帳]]\n- [[Accounting/Day-to-Day/試算表]]\n- [[Accounting/Day-to-Day/錯帳更正]]\n\n### Period-End — 6 ★主練／人工術科核心\n- [[Accounting/Period-End/會計基礎]]\n- [[Accounting/Period-End/調整分錄]]\n- [[Accounting/Period-End/工作底稿]]\n- [[Accounting/Period-End/結帳]]\n- [[Accounting/Period-End/財務報表]]\n- [[Accounting/Period-End/迴轉分錄]]\n\n### AIS — 1（學科點到為止）\n- [[Accounting/AIS/會計資訊系統基本概念]]\n\n### Regulation — 2\n- [[Accounting/Regulation/商業會計法與處理準則]]\n- [[Accounting/Regulation/營業稅與帳務交界]]\n\n### Ethics — 1\n- [[Accounting/Ethics/職業道德與工作倫理]]\n\n**計 25 atoms**（含 Exam_Map 原有 1 + 本批 24）。皆 `status: seedling`。\n\n---\n\n## 因果鏈（複習用）\n\n```\n憑證 → 分錄(借貸) → 日記簿 → 過帳 → 分類帳\n  → 試算 → 調整 → 工作底稿 → 報表 → 結帳 →（下期）迴轉\n```\n\n---\n\n## 刻意不放進圖譜的\n\n- 雜誌職涯文當教材（只在 [[40_Sources/菜鳥會計入門三步驟]]）\n- Odoo 操作手冊（hub 實驗 ≠ 術科）\n- 題庫全文（練習在紙上／Sheet；錯因才 atomize）\n\n---\n\n## 缺口（下一輪）\n\n| 優先 | 缺什麼 | 需要原料 |\n|------|--------|----------|\n| 高 | 調整分錄**類型題模板**、工作底稿**填法示例** | 術科範例卷 |\n| 高 | 錯帳更正**題型表** | 學科／術科錯題 |\n| 中 | 法令／稅 **高頻法條錨點** | 當期題庫或講義 |\n| 低 | 特殊交易（票據、存貨進階） | 依命題密度 |\n\n---\n\n## 平行（非丙級主軸）\n\n- Odoo hub：`l10n_tw` 已裝——概念對照實驗室  \n- CERPS／Odoo 證照：另 cluster，不混進丙級樹\n",
       "frontmatter": "domain: Accounting\ntags: [Wiki, Knowledge_Map, 丙級]\ncreated: 2026-07-31\nupdated: 2026-07-31\nstatus: seedling"
     },
     "20_Wiki/Setlog/Setlog_Product_Analysis": {
@@ -9914,10 +12522,130 @@
       "body": "# HKN (Hermes Knowledge Nexus) 系統設計\n\n## 定位\n一個由 AI (Hermes) 策展、人類 (Andrew) 審核的動態知識生態系。\n\n## 目錄結構\n- `00_Inbox`: 碎片捕捉區。\n- `10_Atoms`: 單一概念的原子化存放區。\n- `20_Wiki`: 綜合編譯的主題頁面。\n- `30_MOCs`: 知識集群的索引導航 (Map of Content)。\n\n## 運作邏輯\n1. **捕捉→ 2. **原子化→ 3. **編譯成→ 4. **轉化為 Skill**。\n\n## 相關連結\n- [[LLM_Atomic_Wiki_Core|理論基礎]]\n- [[Main_Index|主索引]]\n",
       "frontmatter": "tags: [system-design, hermes, workflow]\ncreated: 2026-05-13\nsource: Hermes_Andrew_Discussion\nstatus: budding"
     },
+    "10_Atoms/Accounting/Fundamentals/財務報表要素": {
+      "markdown": "---\ntitle: 財務報表要素\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計五大要素\n  - 報表要素\n  - Assets Liabilities Equity\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/會計方程式]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 財務報表要素\n\n財務報表的基本「積木」是**要素**。台灣丙級／入門常講五類：\n\n| 要素 | 英文 | 報表位置（簡） |\n|------|------|----------------|\n| **資產** | Assets | 資產負債表 |\n| **負債** | Liabilities | 資產負債表 |\n| **權益**（業主權益） | Equity | 資產負債表 |\n| **收益**（收入等） | Income / Revenue | 損益表 |\n| **費損**（費用等） | Expenses | 損益表 |\n\n## 關係\n- 時點存量：**資產 = 負債 + 權益**（見 [[Accounting/Fundamentals/會計方程式]]）。\n- 期間流量：收益↑使權益↑；費損↑使權益↓（經損益再進保留盈餘／資本）。\n\n## 辨認口訣（輔助，非萬能）\n- 資產：因過去事項握有、預期未來經濟效益流入。\n- 負債：因過去事項承擔、預期未來經濟效益流出。\n- 權益：資產減負債後剩餘權利。\n\n## 命題焦點\n- 某科目屬哪一要素、在哪一張表。\n- 收益／費損是**虛帳戶**，期末要結清（見 [[Accounting/Period-End/結帳]]）。\n",
+      "body": "# 財務報表要素\n\n財務報表的基本「積木」是**要素**。台灣丙級／入門常講五類：\n\n| 要素 | 英文 | 報表位置（簡） |\n|------|------|----------------|\n| **資產** | Assets | 資產負債表 |\n| **負債** | Liabilities | 資產負債表 |\n| **權益**（業主權益） | Equity | 資產負債表 |\n| **收益**（收入等） | Income / Revenue | 損益表 |\n| **費損**（費用等） | Expenses | 損益表 |\n\n## 關係\n- 時點存量：**資產 = 負債 + 權益**（見 [[Accounting/Fundamentals/會計方程式]]）。\n- 期間流量：收益↑使權益↑；費損↑使權益↓（經損益再進保留盈餘／資本）。\n\n## 辨認口訣（輔助，非萬能）\n- 資產：因過去事項握有、預期未來經濟效益流入。\n- 負債：因過去事項承擔、預期未來經濟效益流出。\n- 權益：資產減負債後剩餘權利。\n\n## 命題焦點\n- 某科目屬哪一要素、在哪一張表。\n- 收益／費損是**虛帳戶**，期末要結清（見 [[Accounting/Period-End/結帳]]）。\n",
+      "frontmatter": "title: 財務報表要素\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計五大要素\n  - 報表要素\n  - Assets Liabilities Equity\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/會計方程式]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記": {
+      "markdown": "---\ntitle: 借貸法則與複式簿記\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 借貸法則\n  - 複式簿記\n  - Debit Credit\n  - 有借必有貸\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/會計方程式]]\"\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 借貸法則與複式簿記\n\n## 複式簿記\n每一筆交易至少記**兩個方面**，使 [[Accounting/Fundamentals/會計方程式]] 維持平衡。\n\n## 借貸（Debit / Credit）\n- **借（Debit）**、**貸（Credit）** 是帳戶的**左／右方**，不是「好／壞」或單純「錢從哪來」。\n- 規則口訣：**有借必有貸，借貸必相等**（同一分錄借方合計 = 貸方合計）。\n\n## 增減方向（必背）\n\n| 要素 | 增加 | 減少 |\n|------|------|------|\n| 資產 | 借 | 貸 |\n| 費損 | 借 | 貸 |\n| 負債 | 貸 | 借 |\n| 權益 | 貸 | 借 |\n| 收益 | 貸 | 借 |\n\n## 錯誤說法（勿用）\n- 「借＝資金來源、貸＝資金去向」——**易誤導**，且與「借：費用、貸：現金」等標準分錄衝突。以**要素增減表**為準。\n\n## 小例\n購辦公用品付現：借：辦公用品費（費損↑），貸：現金（資產↓）。\n\n## 下一步\n憑證 → 分錄 → 過帳：[[Accounting/Day-to-Day/傳票]]、[[Accounting/Day-to-Day/過帳]]。\n",
+      "body": "# 借貸法則與複式簿記\n\n## 複式簿記\n每一筆交易至少記**兩個方面**，使 [[Accounting/Fundamentals/會計方程式]] 維持平衡。\n\n## 借貸（Debit / Credit）\n- **借（Debit）**、**貸（Credit）** 是帳戶的**左／右方**，不是「好／壞」或單純「錢從哪來」。\n- 規則口訣：**有借必有貸，借貸必相等**（同一分錄借方合計 = 貸方合計）。\n\n## 增減方向（必背）\n\n| 要素 | 增加 | 減少 |\n|------|------|------|\n| 資產 | 借 | 貸 |\n| 費損 | 借 | 貸 |\n| 負債 | 貸 | 借 |\n| 權益 | 貸 | 借 |\n| 收益 | 貸 | 借 |\n\n## 錯誤說法（勿用）\n- 「借＝資金來源、貸＝資金去向」——**易誤導**，且與「借：費用、貸：現金」等標準分錄衝突。以**要素增減表**為準。\n\n## 小例\n購辦公用品付現：借：辦公用品費（費損↑），貸：現金（資產↓）。\n\n## 下一步\n憑證 → 分錄 → 過帳：[[Accounting/Day-to-Day/傳票]]、[[Accounting/Day-to-Day/過帳]]。\n",
+      "frontmatter": "title: 借貸法則與複式簿記\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 借貸法則\n  - 複式簿記\n  - Debit Credit\n  - 有借必有貸\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/會計方程式]]\"\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Fundamentals/會計方程式": {
+      "markdown": "---\ntitle: 會計方程式\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計恒等式\n  - accounting equation\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\n  - \"[[Accounting/Day-to-Day/試算表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 會計方程式\n\n## 基本式\n\n**資產 = 負債 + 權益**\n\n## 擴充（把期間損益拆開）\n\n**資產 = 負債 + 期初權益 + 收益 − 費損 − 業主往來／股利等**\n\n（業主提取、增資等權益變動題目常見，符號依題意。）\n\n## 用途\n- **試算／驗算**：分錄後兩邊是否仍平衡（與「有借必有貸」一體兩面）。\n- **分析交易**：任一交易至少影響方程式兩邊或同邊一增一減，使等式仍成立。\n\n## 與借貸\n- 借貸是**記帳技術**；方程式是**存量關係**。兩者一起用，見 [[Accounting/Fundamentals/借貸法則與複式簿記]]。\n",
+      "body": "# 會計方程式\n\n## 基本式\n\n**資產 = 負債 + 權益**\n\n## 擴充（把期間損益拆開）\n\n**資產 = 負債 + 期初權益 + 收益 − 費損 − 業主往來／股利等**\n\n（業主提取、增資等權益變動題目常見，符號依題意。）\n\n## 用途\n- **試算／驗算**：分錄後兩邊是否仍平衡（與「有借必有貸」一體兩面）。\n- **分析交易**：任一交易至少影響方程式兩邊或同邊一增一減，使等式仍成立。\n\n## 與借貸\n- 借貸是**記帳技術**；方程式是**存量關係**。兩者一起用，見 [[Accounting/Fundamentals/借貸法則與複式簿記]]。\n",
+      "frontmatter": "title: 會計方程式\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計恒等式\n  - accounting equation\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\n  - \"[[Accounting/Day-to-Day/試算表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Fundamentals/基本會計假設": {
+      "markdown": "---\ntitle: 基本會計假設\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計基本假設\n  - accounting assumptions\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/會計意義與功用]]\"\n  - \"[[Accounting/Period-End/會計基礎]]\"\n  - \"[[Accounting/Fundamentals/交易與非交易事項]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 基本會計假設\n\n財務會計建立在一組**基本假設／前提**上；命題常考「哪一項假設被違反」或「某處理依據哪一假設」。\n\n## 常見假設（丙級層級）\n| 假設 | 大意 |\n|------|------|\n| **企業個體**（會計個體） | 企業與業主／其他個體的帳分開 |\n| **繼續經營** | 預設企業非清算，資產才用歷史成本等繼續經營基礎 |\n| **會計期間** | 把生命切成月／季／年，才能分期報導 |\n| **貨幣計價** | 以貨幣為共同衡量單位（通常為記帳本位幣） |\n\n## 常一併出現的原則／觀念（勿與假設死背混成一詞）\n- **應計基礎**、**配合**、**歷史成本**、**充分揭露**等——歸「原則／基礎」，見 [[Accounting/Period-End/會計基礎]]。\n\n## 注意\n- 教科書用詞版本略有出入；刷題以**該題選項原文**為準，再回對概念。\n",
+      "body": "# 基本會計假設\n\n財務會計建立在一組**基本假設／前提**上；命題常考「哪一項假設被違反」或「某處理依據哪一假設」。\n\n## 常見假設（丙級層級）\n| 假設 | 大意 |\n|------|------|\n| **企業個體**（會計個體） | 企業與業主／其他個體的帳分開 |\n| **繼續經營** | 預設企業非清算，資產才用歷史成本等繼續經營基礎 |\n| **會計期間** | 把生命切成月／季／年，才能分期報導 |\n| **貨幣計價** | 以貨幣為共同衡量單位（通常為記帳本位幣） |\n\n## 常一併出現的原則／觀念（勿與假設死背混成一詞）\n- **應計基礎**、**配合**、**歷史成本**、**充分揭露**等——歸「原則／基礎」，見 [[Accounting/Period-End/會計基礎]]。\n\n## 注意\n- 教科書用詞版本略有出入；刷題以**該題選項原文**為準，再回對概念。\n",
+      "frontmatter": "title: 基本會計假設\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計基本假設\n  - accounting assumptions\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/會計意義與功用]]\"\n  - \"[[Accounting/Period-End/會計基礎]]\"\n  - \"[[Accounting/Fundamentals/交易與非交易事項]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Fundamentals/會計意義與功用": {
+      "markdown": "---\ntitle: 會計意義與功用\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計的功用\n  - Accounting purpose\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Fundamentals/會計方程式]]\"\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 會計意義與功用\n\n會計是**以貨幣衡量，系統性記錄、分類、彙總企業經濟事項，並據以編製報表、提供決策資訊**的過程與專業。\n\n## 核心\n- **記錄**：把交易寫進帳（憑證→分錄）。\n- **衡量**：用金額表達資產、負債、權益、收益、費損。\n- **溝通**：財務報表把結果交給經營者、債權人、稅務等使用者。\n\n## 丙級要抓的\n- 能區分「記帳作業」與「提供決策資訊」：前者是手段，後者是目的。\n- 會計分類常考：財務會計 vs 管理會計（對外報導 vs 對內決策）——細節以題庫為準。\n\n## 不是\n- 不是「會用會計軟體」的同義詞；軟體是工具。\n",
+      "body": "# 會計意義與功用\n\n會計是**以貨幣衡量，系統性記錄、分類、彙總企業經濟事項，並據以編製報表、提供決策資訊**的過程與專業。\n\n## 核心\n- **記錄**：把交易寫進帳（憑證→分錄）。\n- **衡量**：用金額表達資產、負債、權益、收益、費損。\n- **溝通**：財務報表把結果交給經營者、債權人、稅務等使用者。\n\n## 丙級要抓的\n- 能區分「記帳作業」與「提供決策資訊」：前者是手段，後者是目的。\n- 會計分類常考：財務會計 vs 管理會計（對外報導 vs 對內決策）——細節以題庫為準。\n\n## 不是\n- 不是「會用會計軟體」的同義詞；軟體是工具。\n",
+      "frontmatter": "title: 會計意義與功用\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計的功用\n  - Accounting purpose\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Fundamentals/會計方程式]]\"\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Fundamentals/交易與非交易事項": {
+      "markdown": "---\ntitle: 交易與非交易事項\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計事項\n  - transaction\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 交易與非交易事項\n\n不是所有「公司發生的事」都入帳；入帳對象是**會計事項**。\n\n## 交易事項（transaction）\n- 使**資產、負債、權益**發生增減，且通常能**可靠衡量金額**的事項。\n- 例：進貨、銷貨、借款、收付現金、提列折舊（調整亦屬要入帳的事項）。\n\n## 非交易／非會計事項\n- 不改變要素金額、或尚無法可靠衡量者——**不入帳**（可在附註揭露，視規範）。\n- 例：單純簽約尚未履約且無預收預付、談判中的意向、無法衡量的商譽自創（原則層級，細節以準則／題庫為準）。\n\n## 丙級操作意義\n- 先問：有沒有憑證？要素有沒有動？金額能不能定？  \n- 再選科目、做分錄（[[Accounting/Day-to-Day/原始憑證]] → [[Accounting/Fundamentals/借貸法則與複式簿記]]）。\n",
+      "body": "# 交易與非交易事項\n\n不是所有「公司發生的事」都入帳；入帳對象是**會計事項**。\n\n## 交易事項（transaction）\n- 使**資產、負債、權益**發生增減，且通常能**可靠衡量金額**的事項。\n- 例：進貨、銷貨、借款、收付現金、提列折舊（調整亦屬要入帳的事項）。\n\n## 非交易／非會計事項\n- 不改變要素金額、或尚無法可靠衡量者——**不入帳**（可在附註揭露，視規範）。\n- 例：單純簽約尚未履約且無預收預付、談判中的意向、無法衡量的商譽自創（原則層級，細節以準則／題庫為準）。\n\n## 丙級操作意義\n- 先問：有沒有憑證？要素有沒有動？金額能不能定？  \n- 再選科目、做分錄（[[Accounting/Day-to-Day/原始憑證]] → [[Accounting/Fundamentals/借貸法則與複式簿記]]）。\n",
+      "frontmatter": "title: 交易與非交易事項\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Fundamentals, 丙級]\naliases:\n  - 會計事項\n  - transaction\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Period-End/結帳": {
+      "markdown": "---\ntitle: 結帳\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 結帳分錄\n  - closing entries\n  - 虛帳戶\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\n  - \"[[Accounting/Period-End/迴轉分錄]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 結帳\n\n**結帳**在期末把**虛帳戶**（收益、費損、以及過渡的損益彙總）結清，使下期從零開始；**實帳戶**（資產、負債、權益）餘額結轉下期。\n\n## 典型順序（概念）\n1. 結清收益帳戶 → 損益彙總（或直接進保留盈餘，視教材）  \n2. 結清費損帳戶 → 損益彙總  \n3. 損益彙總餘額 → 資本／保留盈餘  \n4. 若有業主提用等，依題結轉  \n\n## 虛 vs 實\n| | 帳戶 | 結帳後 |\n|--|------|--------|\n| 虛 | 收益、費損 | 餘額歸零 |\n| 實 | 資產、負債、權益 | 有餘額，下期續用 |\n\n## 之後\n- 可編結帳後試算；下期初可能有 [[Accounting/Period-End/迴轉分錄]]。\n",
+      "body": "# 結帳\n\n**結帳**在期末把**虛帳戶**（收益、費損、以及過渡的損益彙總）結清，使下期從零開始；**實帳戶**（資產、負債、權益）餘額結轉下期。\n\n## 典型順序（概念）\n1. 結清收益帳戶 → 損益彙總（或直接進保留盈餘，視教材）  \n2. 結清費損帳戶 → 損益彙總  \n3. 損益彙總餘額 → 資本／保留盈餘  \n4. 若有業主提用等，依題結轉  \n\n## 虛 vs 實\n| | 帳戶 | 結帳後 |\n|--|------|--------|\n| 虛 | 收益、費損 | 餘額歸零 |\n| 實 | 資產、負債、權益 | 有餘額，下期續用 |\n\n## 之後\n- 可編結帳後試算；下期初可能有 [[Accounting/Period-End/迴轉分錄]]。\n",
+      "frontmatter": "title: 結帳\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 結帳分錄\n  - closing entries\n  - 虛帳戶\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\n  - \"[[Accounting/Period-End/迴轉分錄]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Period-End/會計基礎": {
+      "markdown": "---\ntitle: 會計基礎\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 應計基礎\n  - 現金基礎\n  - accrual\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Fundamentals/基本會計假設]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 會計基礎\n\n**會計基礎**決定「收益與費損在哪一期認列」。\n\n## 兩大基礎\n| 基礎 | 認列時點 |\n|------|----------|\n| **現金基礎** | 實際收付現金時 |\n| **應計基礎**（權責發生） | 收益已賺得、費損已發生時（不論現金是否已收付） |\n\n## 丙級主流\n- 財務會計以**應計基礎**為主 → 才需要大量 [[Accounting/Period-End/調整分錄]]（應收、應付、預付攤銷、預收實現等）。\n\n## 連結假設\n- 與 [[Accounting/Fundamentals/基本會計假設]] 的「會計期間」一起，才能分期算損益。\n",
+      "body": "# 會計基礎\n\n**會計基礎**決定「收益與費損在哪一期認列」。\n\n## 兩大基礎\n| 基礎 | 認列時點 |\n|------|----------|\n| **現金基礎** | 實際收付現金時 |\n| **應計基礎**（權責發生） | 收益已賺得、費損已發生時（不論現金是否已收付） |\n\n## 丙級主流\n- 財務會計以**應計基礎**為主 → 才需要大量 [[Accounting/Period-End/調整分錄]]（應收、應付、預付攤銷、預收實現等）。\n\n## 連結假設\n- 與 [[Accounting/Fundamentals/基本會計假設]] 的「會計期間」一起，才能分期算損益。\n",
+      "frontmatter": "title: 會計基礎\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 應計基礎\n  - 現金基礎\n  - accrual\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Fundamentals/基本會計假設]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Period-End/財務報表": {
+      "markdown": "---\ntitle: 財務報表\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 資產負債表\n  - 損益表\n  - 權益變動表\n  - BS IS\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 財務報表\n\n丙級人工術科編表重點（名稱以卷面為準）：\n\n| 報表 | 回答的問題 | 主要要素 |\n|------|------------|----------|\n| **損益表**（綜合損益簡化版） | 本期賺／賠多少 | 收益、費損 |\n| **資產負債表** | 期末財務狀況 | 資產、負債、權益 |\n| **權益變動表** | 權益如何從期初到期末 | 增資、損益、提用等 |\n\n## 勾稽\n- 損益表本期損益 → 進權益（保留盈餘／資本）。  \n- 資產負債表：資產 = 負債 + 權益。  \n- 常借助 [[Accounting/Period-End/工作底稿]] 編製。\n\n## 現金流量表\n- 多屬較進階／乙級加重；丙級先把上表做對。\n",
+      "body": "# 財務報表\n\n丙級人工術科編表重點（名稱以卷面為準）：\n\n| 報表 | 回答的問題 | 主要要素 |\n|------|------------|----------|\n| **損益表**（綜合損益簡化版） | 本期賺／賠多少 | 收益、費損 |\n| **資產負債表** | 期末財務狀況 | 資產、負債、權益 |\n| **權益變動表** | 權益如何從期初到期末 | 增資、損益、提用等 |\n\n## 勾稽\n- 損益表本期損益 → 進權益（保留盈餘／資本）。  \n- 資產負債表：資產 = 負債 + 權益。  \n- 常借助 [[Accounting/Period-End/工作底稿]] 編製。\n\n## 現金流量表\n- 多屬較進階／乙級加重；丙級先把上表做對。\n",
+      "frontmatter": "title: 財務報表\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 資產負債表\n  - 損益表\n  - 權益變動表\n  - BS IS\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Period-End/調整分錄": {
+      "markdown": "---\ntitle: 調整分錄\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - adjusting entries\n  - 期末調整\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/會計基礎]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 調整分錄\n\n**調整分錄**在期末（結帳前）把帳調整到**應計基礎**下正確的資產、負債、收益、費損。\n\n## 典型類型\n1. **應計收益**（已賺未收）  \n2. **應計費用**（已發生未付）  \n3. **預付費用攤銷**（資產→費用）  \n4. **預收收益實現**（負債→收益）  \n5. **折舊／攤銷**等估計分配  \n6. **壞帳**等（題庫深度不一）\n\n## 特徵\n- 通常**不碰現金**（現金錯了是更正，不是典型調整）。  \n- 調整後再編調整後試算、工作底稿、報表。\n\n## 術科\n- 人工記帳核心關卡之一；調整錯 → 報表全錯。\n",
+      "body": "# 調整分錄\n\n**調整分錄**在期末（結帳前）把帳調整到**應計基礎**下正確的資產、負債、收益、費損。\n\n## 典型類型\n1. **應計收益**（已賺未收）  \n2. **應計費用**（已發生未付）  \n3. **預付費用攤銷**（資產→費用）  \n4. **預收收益實現**（負債→收益）  \n5. **折舊／攤銷**等估計分配  \n6. **壞帳**等（題庫深度不一）\n\n## 特徵\n- 通常**不碰現金**（現金錯了是更正，不是典型調整）。  \n- 調整後再編調整後試算、工作底稿、報表。\n\n## 術科\n- 人工記帳核心關卡之一；調整錯 → 報表全錯。\n",
+      "frontmatter": "title: 調整分錄\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - adjusting entries\n  - 期末調整\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/會計基礎]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Period-End/工作底稿": {
+      "markdown": "---\ntitle: 工作底稿\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 結帳工作底稿\n  - worksheet\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 工作底稿\n\n**工作底稿**是期末把試算、調整、損益、資產負債**串在一張表上的草稿工具**，方便檢查與編表。\n\n## 常見欄位結構（示意）\n試算表（借／貸）→ 調整（借／貸）→ 調整後試算 → 損益表 → 資產負債表  \n（欄位數依考卷格式；丙級人工術科常考編製。）\n\n## 用途\n- 降低直接在帳上改到亂的風險。  \n- 損益表欄借貸差 = 本期損益，轉到資產負債／權益。\n\n## 不是\n- 不是正式帳簿；正式數字仍應入帳（調整分錄、結帳分錄）。\n",
+      "body": "# 工作底稿\n\n**工作底稿**是期末把試算、調整、損益、資產負債**串在一張表上的草稿工具**，方便檢查與編表。\n\n## 常見欄位結構（示意）\n試算表（借／貸）→ 調整（借／貸）→ 調整後試算 → 損益表 → 資產負債表  \n（欄位數依考卷格式；丙級人工術科常考編製。）\n\n## 用途\n- 降低直接在帳上改到亂的風險。  \n- 損益表欄借貸差 = 本期損益，轉到資產負債／權益。\n\n## 不是\n- 不是正式帳簿；正式數字仍應入帳（調整分錄、結帳分錄）。\n",
+      "frontmatter": "title: 工作底稿\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 結帳工作底稿\n  - worksheet\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\n  - \"[[Accounting/Period-End/財務報表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Period-End/迴轉分錄": {
+      "markdown": "---\ntitle: 迴轉分錄\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 轉回分錄\n  - reversing entries\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\n  - \"[[Accounting/Day-to-Day/傳票]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 迴轉分錄\n\n**迴轉分錄**在**下期初**把上期部分應計調整**反向再做一筆**，簡化下期實際收付時的分錄。\n\n## 典型適用\n- 上期應計費用、應計收益等；下期支付／收取時可直接記費用／收益與現金，不必先衝應計餘額。\n\n## 注意\n- 不是所有調整都適合迴轉（例如折舊通常不迴轉）。  \n- 屬方便記帳的**選擇性程序**；考題問「可否／是否需要」時看科目類型。\n\n## 位置\n結帳之後、下期日常交易之前：[[Accounting/Period-End/結帳]] → 迴轉 → 新期 [[Accounting/Day-to-Day/傳票]]。\n",
+      "body": "# 迴轉分錄\n\n**迴轉分錄**在**下期初**把上期部分應計調整**反向再做一筆**，簡化下期實際收付時的分錄。\n\n## 典型適用\n- 上期應計費用、應計收益等；下期支付／收取時可直接記費用／收益與現金，不必先衝應計餘額。\n\n## 注意\n- 不是所有調整都適合迴轉（例如折舊通常不迴轉）。  \n- 屬方便記帳的**選擇性程序**；考題問「可否／是否需要」時看科目類型。\n\n## 位置\n結帳之後、下期日常交易之前：[[Accounting/Period-End/結帳]] → 迴轉 → 新期 [[Accounting/Day-to-Day/傳票]]。\n",
+      "frontmatter": "title: 迴轉分錄\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Period-End, 丙級]\naliases:\n  - 轉回分錄\n  - reversing entries\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Period-End/調整分錄]]\"\n  - \"[[Accounting/Period-End/結帳]]\"\n  - \"[[Accounting/Day-to-Day/傳票]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Regulation/營業稅與帳務交界": {
+      "markdown": "---\ntitle: 營業稅與帳務交界\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Regulation, 丙級]\naliases:\n  - 營業稅\n  - 進銷項\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Regulation/商業會計法與處理準則]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 營業稅與帳務交界\n\n**加值型／非加值型營業稅**影響發票與進銷項稅額如何入帳、申報（丙級學科法令範圍）。\n\n## 概念錨點\n- **銷項稅額**：銷售時向買方收取（或內含）的營業稅。  \n- **進項稅額**：進貨／費用取得的可扣抵稅額（資格依規定）。  \n- 申報與帳務分錄題：稅額走稅務科目，淨額／總額表達依題型。\n\n## 邊界\n- 本 atom **不是**稅法百科；不替代最新稅率、免稅、特種稅額計算專書。  \n- 人工術科以一般帳務循環為主；稅細節以學科題為主。\n",
+      "body": "# 營業稅與帳務交界\n\n**加值型／非加值型營業稅**影響發票與進銷項稅額如何入帳、申報（丙級學科法令範圍）。\n\n## 概念錨點\n- **銷項稅額**：銷售時向買方收取（或內含）的營業稅。  \n- **進項稅額**：進貨／費用取得的可扣抵稅額（資格依規定）。  \n- 申報與帳務分錄題：稅額走稅務科目，淨額／總額表達依題型。\n\n## 邊界\n- 本 atom **不是**稅法百科；不替代最新稅率、免稅、特種稅額計算專書。  \n- 人工術科以一般帳務循環為主；稅細節以學科題為主。\n",
+      "frontmatter": "title: 營業稅與帳務交界\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Regulation, 丙級]\naliases:\n  - 營業稅\n  - 進銷項\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Regulation/商業會計法與處理準則]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\n  - \"[[Accounting/Fundamentals/財務報表要素]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Regulation/商業會計法與處理準則": {
+      "markdown": "---\ntitle: 商業會計法與處理準則\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Regulation, 丙級]\naliases:\n  - 商業會計法\n  - 商業會計處理準則\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Regulation/營業稅與帳務交界]]\"\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Ethics/職業道德與工作倫理]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 商業會計法與處理準則\n\n台灣商業帳務的重要法源框架（丙級學科「相關法令」）：\n\n| 規範 | 角色（大意） |\n|------|----------------|\n| **商業會計法** | 商業會計處理的法律層級義務與原則 |\n| **商業會計處理準則** | 較細的處理準則／科目與程序指引 |\n\n## 學習方式\n- 不背全文；對題庫高頻：認列基礎、憑證保存、報表責任、與 IFRS／一般公認原則的關係（選項出現時再對）。  \n- 實務入帳仍要科目與借貸正確（[[Accounting/Fundamentals/借貸法則與複式簿記]]）。\n\n## 狀態\n- seedling：細節以**當期法規與題庫**更新；本 atom 只定錨。\n",
+      "body": "# 商業會計法與處理準則\n\n台灣商業帳務的重要法源框架（丙級學科「相關法令」）：\n\n| 規範 | 角色（大意） |\n|------|----------------|\n| **商業會計法** | 商業會計處理的法律層級義務與原則 |\n| **商業會計處理準則** | 較細的處理準則／科目與程序指引 |\n\n## 學習方式\n- 不背全文；對題庫高頻：認列基礎、憑證保存、報表責任、與 IFRS／一般公認原則的關係（選項出現時再對）。  \n- 實務入帳仍要科目與借貸正確（[[Accounting/Fundamentals/借貸法則與複式簿記]]）。\n\n## 狀態\n- seedling：細節以**當期法規與題庫**更新；本 atom 只定錨。\n",
+      "frontmatter": "title: 商業會計法與處理準則\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Regulation, 丙級]\naliases:\n  - 商業會計法\n  - 商業會計處理準則\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Regulation/營業稅與帳務交界]]\"\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Ethics/職業道德與工作倫理]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Ethics/職業道德與工作倫理": {
+      "markdown": "---\ntitle: 職業道德與工作倫理\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Ethics, 丙級]\naliases:\n  - 會計職德\n  - professional ethics\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Regulation/商業會計法與處理準則]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 職業道德與工作倫理\n\n丙級學科獨立一項：**職業道德與工作倫理**。\n\n## 常見主題方向\n- 誠實、保密、利害衝突、不竄改帳證、專業能力與盡責。  \n- 拒絕配合違法作帳；保護客戶／雇主機密（在合法範圍內）。\n\n## 與內控\n- 職德是「人的底線」；流程上還有審核、職務分工等（概念層，見實務）。\n\n## 備考\n- 多為情境選擇題；用「誠信＋合法＋專業」判斷，勿用「公司利益」壓過法令。\n",
+      "body": "# 職業道德與工作倫理\n\n丙級學科獨立一項：**職業道德與工作倫理**。\n\n## 常見主題方向\n- 誠實、保密、利害衝突、不竄改帳證、專業能力與盡責。  \n- 拒絕配合違法作帳；保護客戶／雇主機密（在合法範圍內）。\n\n## 與內控\n- 職德是「人的底線」；流程上還有審核、職務分工等（概念層，見實務）。\n\n## 備考\n- 多為情境選擇題；用「誠信＋合法＋專業」判斷，勿用「公司利益」壓過法令。\n",
+      "frontmatter": "title: 職業道德與工作倫理\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Ethics, 丙級]\naliases:\n  - 會計職德\n  - professional ethics\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Regulation/商業會計法與處理準則]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/AIS/會計資訊系統基本概念": {
+      "markdown": "---\ntitle: 會計資訊系統基本概念\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, AIS, 丙級]\naliases:\n  - AIS\n  - 會計軟體\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 會計資訊系統基本概念\n\n**會計資訊系統（AIS）**把憑證→分錄→帳冊→報表的流程放在資訊環境中執行（總帳、權限、備份、輸入控制等）。\n\n## 丙級學科要點（深度點到為止）\n- 了解電腦化會計的**檔案／權限／基本操作概念**。  \n- 系統是工具：仍需 [[Accounting/Fundamentals/借貸法則與複式簿記]]。\n\n## 與你的術科路線\n- 已選**人工記帳**：AIS **學科備考即可**，主練紙筆循環。  \n- 資訊術科才把操作當主戰場。\n\n## 與 hub\n- 公司 Odoo 可當「看系統分錄長怎樣」的實驗室，**不等于**術科訓練。\n",
+      "body": "# 會計資訊系統基本概念\n\n**會計資訊系統（AIS）**把憑證→分錄→帳冊→報表的流程放在資訊環境中執行（總帳、權限、備份、輸入控制等）。\n\n## 丙級學科要點（深度點到為止）\n- 了解電腦化會計的**檔案／權限／基本操作概念**。  \n- 系統是工具：仍需 [[Accounting/Fundamentals/借貸法則與複式簿記]]。\n\n## 與你的術科路線\n- 已選**人工記帳**：AIS **學科備考即可**，主練紙筆循環。  \n- 資訊術科才把操作當主戰場。\n\n## 與 hub\n- 公司 Odoo 可當「看系統分錄長怎樣」的實驗室，**不等于**術科訓練。\n",
+      "frontmatter": "title: 會計資訊系統基本概念\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, AIS, 丙級]\naliases:\n  - AIS\n  - 會計軟體\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Exam_Map/人工記帳術科流程": {
+      "markdown": "---\ntitle: 人工記帳術科流程\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 術科]\naliases:\n  - 丙級術科人工\n  - 記帳編表流程\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 人工記帳術科流程\n\n丙級術科**人工記帳**主鏈（報名已選此路線時）：\n\n## 記帳實作\n1. 分錄（依憑證／題目）  \n2. 過帳  \n3. 試算  \n4. 調整  \n5. 結帳  \n\n## 編表實作\n- 結帳工作底稿  \n- 資產負債表  \n- 損益表  \n- 業主權益變動表  \n\n## 對應 atoms\n- 分錄～試算：Day-to-Day  \n- 調整～編表：Period-End  \n- 底層語言：Fundamentals  \n\n## 學會的證據\n- 限時手寫完整一卷且借貸／報表勾稽正確——**不是** HKN 又多幾顆 atom。\n",
+      "body": "# 人工記帳術科流程\n\n丙級術科**人工記帳**主鏈（報名已選此路線時）：\n\n## 記帳實作\n1. 分錄（依憑證／題目）  \n2. 過帳  \n3. 試算  \n4. 調整  \n5. 結帳  \n\n## 編表實作\n- 結帳工作底稿  \n- 資產負債表  \n- 損益表  \n- 業主權益變動表  \n\n## 對應 atoms\n- 分錄～試算：Day-to-Day  \n- 調整～編表：Period-End  \n- 底層語言：Fundamentals  \n\n## 學會的證據\n- 限時手寫完整一卷且借貸／報表勾稽正確——**不是** HKN 又多幾顆 atom。\n",
+      "frontmatter": "title: 人工記帳術科流程\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 術科]\naliases:\n  - 丙級術科人工\n  - 記帳編表流程\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Exam_Map/會計丙級考科結構]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
     "10_Atoms/Accounting/Exam_Map/會計丙級考科結構": {
-      "markdown": "---\ntitle: 會計丙級考科結構\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 技術士]\naliases: [會計事務丙級, 會計事務技術士丙級, 丙級會計考科]\ncreated: 2026-07-31\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n  - \"[[30_MOCs/Accounting/Accounting-MOC]]\"\nsources:\n  - \"公開技能檢定說明（學科六項＋術科人工／資訊二選一）；細節以當期簡章／規範為準\"\n---\n\n# 會計丙級考科結構\n\n台灣「**會計事務**」技術士技能檢定**丙級**的地圖原子。HKN `Accounting` 主軸先對齊這張圖，再往下長 atoms。\n\n## 檢定怎麼考\n\n| 科別 | 形式（常見） | 及格 |\n|------|----------------|------|\n| **學科** | 單選約 80 題、約 100 分鐘 | 通常 60 分制，**學科＋術科皆及格**才取證 |\n| **術科** | 實作取向、約 120 分鐘；**報名時在路線中擇一** | 同上 |\n\n實際題數、梯次、報名日以**當期簡章**為準。\n\n## 學科：六大工作項目\n\n1. **會計基本概念** — 意義功用、基本假設、報表要素、交易／非交易、會計方程式、借貸與複式簿記  \n2. **平時會計處理程序** — 原始憑證、傳票、日記簿、總帳／明細帳、過帳、試算、錯帳更正  \n3. **期末會計處理程序** — 調整、工作底稿、結帳、主要報表、迴轉分錄等  \n4. **會計資訊系統概念** — AIS 基本環境與操作概念（丙級深度）  \n5. **相關法令之規定** — 如商業會計法／處理準則、營業稅與帳務交界、所得稅相關帳務概念等（丙級範圍）  \n6. **職業道德與工作倫理**\n\n## 術科：兩條路（報檢二選一）\n\n### 主路線：人工記帳（已選定 2026-07-31）\n\n紙筆（非測驗題）實作，核心是**會計循環上手算**：\n\n- 記帳：分錄 → 過帳 → 試算 → 調整 → 結帳  \n- 編表：結帳工作底稿、資產負債表、損益表、業主權益變動表  \n\n**練習優先**：Fundamentals → Day-to-Day → Period-End 手算整鏈；術科範例卷跟人工卷走。  \nAIS／法令／職德仍要顧（學科有考），但**不**當術科主練功房。\n\n### 備援：資訊（電腦／會計總帳）— 未走\n\n在會計資訊系統上做總帳實作。僅作對照說明；若未來改路線再把主標籤搬過來。\n\n## 和乙級的邊界（先知道就好）\n\n乙級在丙級之上加深（資產負債衡量、權益、現金流量與財報分析、進銷存與營業稅申報實作等）。**目前主目標＝丙級**，乙級不搶建。\n\n## HKN cluster 對照（規劃）\n\n| 考科 | 規劃 cluster |\n|------|----------------|\n| 學科① | `Fundamentals/` |\n| 學科② | `Day-to-Day/` |\n| 學科③ | `Period-End/` |\n| 學科④ | `AIS/` |\n| 學科⑤ | `Regulation/` |\n| 學科⑥ | `Ethics/` |\n| 術科流程／應考策略 | `Exam_Map/`（本頁＋後續 checklist） |\n| 動機／職涯薄概念 | `Mindset/`（選配，非主幹） |\n\n## 該往這查的訊號\n\n- 「丙級要念什麼／從哪開始」→ 本頁 + [[20_Wiki/Accounting/Accounting-Wiki]]  \n- 「術科走哪條」→ **人工記帳**（已鎖定）  \n- 具體借貸／調整／報表 → 尚無 atom 時先標缺口，再收規範／題庫原料後寫入對應 cluster  \n",
-      "body": "# 會計丙級考科結構\n\n台灣「**會計事務**」技術士技能檢定**丙級**的地圖原子。HKN `Accounting` 主軸先對齊這張圖，再往下長 atoms。\n\n## 檢定怎麼考\n\n| 科別 | 形式（常見） | 及格 |\n|------|----------------|------|\n| **學科** | 單選約 80 題、約 100 分鐘 | 通常 60 分制，**學科＋術科皆及格**才取證 |\n| **術科** | 實作取向、約 120 分鐘；**報名時在路線中擇一** | 同上 |\n\n實際題數、梯次、報名日以**當期簡章**為準。\n\n## 學科：六大工作項目\n\n1. **會計基本概念** — 意義功用、基本假設、報表要素、交易／非交易、會計方程式、借貸與複式簿記  \n2. **平時會計處理程序** — 原始憑證、傳票、日記簿、總帳／明細帳、過帳、試算、錯帳更正  \n3. **期末會計處理程序** — 調整、工作底稿、結帳、主要報表、迴轉分錄等  \n4. **會計資訊系統概念** — AIS 基本環境與操作概念（丙級深度）  \n5. **相關法令之規定** — 如商業會計法／處理準則、營業稅與帳務交界、所得稅相關帳務概念等（丙級範圍）  \n6. **職業道德與工作倫理**\n\n## 術科：兩條路（報檢二選一）\n\n### 主路線：人工記帳（已選定 2026-07-31）\n\n紙筆（非測驗題）實作，核心是**會計循環上手算**：\n\n- 記帳：分錄 → 過帳 → 試算 → 調整 → 結帳  \n- 編表：結帳工作底稿、資產負債表、損益表、業主權益變動表  \n\n**練習優先**：Fundamentals → Day-to-Day → Period-End 手算整鏈；術科範例卷跟人工卷走。  \nAIS／法令／職德仍要顧（學科有考），但**不**當術科主練功房。\n\n### 備援：資訊（電腦／會計總帳）— 未走\n\n在會計資訊系統上做總帳實作。僅作對照說明；若未來改路線再把主標籤搬過來。\n\n## 和乙級的邊界（先知道就好）\n\n乙級在丙級之上加深（資產負債衡量、權益、現金流量與財報分析、進銷存與營業稅申報實作等）。**目前主目標＝丙級**，乙級不搶建。\n\n## HKN cluster 對照（規劃）\n\n| 考科 | 規劃 cluster |\n|------|----------------|\n| 學科① | `Fundamentals/` |\n| 學科② | `Day-to-Day/` |\n| 學科③ | `Period-End/` |\n| 學科④ | `AIS/` |\n| 學科⑤ | `Regulation/` |\n| 學科⑥ | `Ethics/` |\n| 術科流程／應考策略 | `Exam_Map/`（本頁＋後續 checklist） |\n| 動機／職涯薄概念 | `Mindset/`（選配，非主幹） |\n\n## 該往這查的訊號\n\n- 「丙級要念什麼／從哪開始」→ 本頁 + [[20_Wiki/Accounting/Accounting-Wiki]]  \n- 「術科走哪條」→ **人工記帳**（已鎖定）  \n- 具體借貸／調整／報表 → 尚無 atom 時先標缺口，再收規範／題庫原料後寫入對應 cluster  \n",
-      "frontmatter": "title: 會計丙級考科結構\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 技術士]\naliases: [會計事務丙級, 會計事務技術士丙級, 丙級會計考科]\ncreated: 2026-07-31\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n  - \"[[30_MOCs/Accounting/Accounting-MOC]]\"\nsources:\n  - \"公開技能檢定說明（學科六項＋術科人工／資訊二選一）；細節以當期簡章／規範為準\""
+      "markdown": "---\ntitle: 會計丙級考科結構\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 技術士]\naliases: [會計事務丙級, 會計事務技術士丙級, 丙級會計考科]\ncreated: 2026-07-31\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n  - \"[[30_MOCs/Accounting/Accounting-MOC]]\"\n  - \"[[Accounting/Exam_Map/人工記帳術科流程]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"公開技能檢定說明（學科六項＋術科人工／資訊二選一）；細節以當期簡章／規範為準\"\n---\n\n# 會計丙級考科結構\n\n台灣「**會計事務**」技術士技能檢定**丙級**的地圖原子。HKN `Accounting` 主軸先對齊這張圖，再往下長 atoms。\n\n## 檢定怎麼考\n\n| 科別 | 形式（常見） | 及格 |\n|------|----------------|------|\n| **學科** | 單選約 80 題、約 100 分鐘 | 通常 60 分制，**學科＋術科皆及格**才取證 |\n| **術科** | 實作取向、約 120 分鐘；**報名時在路線中擇一** | 同上 |\n\n實際題數、梯次、報名日以**當期簡章**為準。\n\n## 學科：六大工作項目\n\n1. **會計基本概念** — 意義功用、基本假設、報表要素、交易／非交易、會計方程式、借貸與複式簿記  \n2. **平時會計處理程序** — 原始憑證、傳票、日記簿、總帳／明細帳、過帳、試算、錯帳更正  \n3. **期末會計處理程序** — 調整、工作底稿、結帳、主要報表、迴轉分錄等  \n4. **會計資訊系統概念** — AIS 基本環境與操作概念（丙級深度）  \n5. **相關法令之規定** — 如商業會計法／處理準則、營業稅與帳務交界、所得稅相關帳務概念等（丙級範圍）  \n6. **職業道德與工作倫理**\n\n## 術科：兩條路（報檢二選一）\n\n### 主路線：人工記帳（已選定 2026-07-31）\n\n紙筆（非測驗題）實作，核心是**會計循環上手算**：\n\n- 記帳：分錄 → 過帳 → 試算 → 調整 → 結帳  \n- 編表：結帳工作底稿、資產負債表、損益表、業主權益變動表  \n\n**練習優先**：Fundamentals → Day-to-Day → Period-End 手算整鏈；術科範例卷跟人工卷走。  \nAIS／法令／職德仍要顧（學科有考），但**不**當術科主練功房。\n\n### 備援：資訊（電腦／會計總帳）— 未走\n\n在會計資訊系統上做總帳實作。僅作對照說明；若未來改路線再把主標籤搬過來。\n\n## 和乙級的邊界（先知道就好）\n\n乙級在丙級之上加深（資產負債衡量、權益、現金流量與財報分析、進銷存與營業稅申報實作等）。**目前主目標＝丙級**，乙級不搶建。\n\n## HKN cluster 對照\n\n| 考科 | cluster | 狀態 |\n|------|---------|------|\n| 學科① | `Fundamentals/` | 6 atoms seedling |\n| 學科② | `Day-to-Day/` | 7 |\n| 學科③ | `Period-End/` | 6 |\n| 學科④ | `AIS/` | 1 |\n| 學科⑤ | `Regulation/` | 2 |\n| 學科⑥ | `Ethics/` | 1 |\n| 術科流程 | `Exam_Map/` | 本頁 + [[Accounting/Exam_Map/人工記帳術科流程]] |\n\n## 該往這查的訊號\n\n- 「丙級要念什麼／從哪開始」→ 本頁 + [[20_Wiki/Accounting/Accounting-Wiki]]  \n- 「術科走哪條」→ **人工記帳**（已鎖定）+ [[Accounting/Exam_Map/人工記帳術科流程]]  \n- 借貸／調整／報表 → 對應 cluster atoms；工作底稿填表示例仍缺（等範例卷）  \n",
+      "body": "# 會計丙級考科結構\n\n台灣「**會計事務**」技術士技能檢定**丙級**的地圖原子。HKN `Accounting` 主軸先對齊這張圖，再往下長 atoms。\n\n## 檢定怎麼考\n\n| 科別 | 形式（常見） | 及格 |\n|------|----------------|------|\n| **學科** | 單選約 80 題、約 100 分鐘 | 通常 60 分制，**學科＋術科皆及格**才取證 |\n| **術科** | 實作取向、約 120 分鐘；**報名時在路線中擇一** | 同上 |\n\n實際題數、梯次、報名日以**當期簡章**為準。\n\n## 學科：六大工作項目\n\n1. **會計基本概念** — 意義功用、基本假設、報表要素、交易／非交易、會計方程式、借貸與複式簿記  \n2. **平時會計處理程序** — 原始憑證、傳票、日記簿、總帳／明細帳、過帳、試算、錯帳更正  \n3. **期末會計處理程序** — 調整、工作底稿、結帳、主要報表、迴轉分錄等  \n4. **會計資訊系統概念** — AIS 基本環境與操作概念（丙級深度）  \n5. **相關法令之規定** — 如商業會計法／處理準則、營業稅與帳務交界、所得稅相關帳務概念等（丙級範圍）  \n6. **職業道德與工作倫理**\n\n## 術科：兩條路（報檢二選一）\n\n### 主路線：人工記帳（已選定 2026-07-31）\n\n紙筆（非測驗題）實作，核心是**會計循環上手算**：\n\n- 記帳：分錄 → 過帳 → 試算 → 調整 → 結帳  \n- 編表：結帳工作底稿、資產負債表、損益表、業主權益變動表  \n\n**練習優先**：Fundamentals → Day-to-Day → Period-End 手算整鏈；術科範例卷跟人工卷走。  \nAIS／法令／職德仍要顧（學科有考），但**不**當術科主練功房。\n\n### 備援：資訊（電腦／會計總帳）— 未走\n\n在會計資訊系統上做總帳實作。僅作對照說明；若未來改路線再把主標籤搬過來。\n\n## 和乙級的邊界（先知道就好）\n\n乙級在丙級之上加深（資產負債衡量、權益、現金流量與財報分析、進銷存與營業稅申報實作等）。**目前主目標＝丙級**，乙級不搶建。\n\n## HKN cluster 對照\n\n| 考科 | cluster | 狀態 |\n|------|---------|------|\n| 學科① | `Fundamentals/` | 6 atoms seedling |\n| 學科② | `Day-to-Day/` | 7 |\n| 學科③ | `Period-End/` | 6 |\n| 學科④ | `AIS/` | 1 |\n| 學科⑤ | `Regulation/` | 2 |\n| 學科⑥ | `Ethics/` | 1 |\n| 術科流程 | `Exam_Map/` | 本頁 + [[Accounting/Exam_Map/人工記帳術科流程]] |\n\n## 該往這查的訊號\n\n- 「丙級要念什麼／從哪開始」→ 本頁 + [[20_Wiki/Accounting/Accounting-Wiki]]  \n- 「術科走哪條」→ **人工記帳**（已鎖定）+ [[Accounting/Exam_Map/人工記帳術科流程]]  \n- 借貸／調整／報表 → 對應 cluster atoms；工作底稿填表示例仍缺（等範例卷）  \n",
+      "frontmatter": "title: 會計丙級考科結構\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 技術士]\naliases: [會計事務丙級, 會計事務技術士丙級, 丙級會計考科]\ncreated: 2026-07-31\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n  - \"[[30_MOCs/Accounting/Accounting-MOC]]\"\n  - \"[[Accounting/Exam_Map/人工記帳術科流程]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"公開技能檢定說明（學科六項＋術科人工／資訊二選一）；細節以當期簡章／規範為準\""
+    },
+    "10_Atoms/Accounting/Day-to-Day/錯帳更正": {
+      "markdown": "---\ntitle: 錯帳更正\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 更正分錄\n  - 錯誤更正\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/試算表]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 錯帳更正\n\n記帳錯誤的更正方式依「是否已過帳、錯誤類型」而異。\n\n## 常見原則（入門）\n| 情況 | 做法方向 |\n|------|----------|\n| 尚未過帳的筆誤 | 直接更正原文（劃線更正等，依考試／實務規定） |\n| 已過帳 | 多用**分錄更正**（追加分錄或紅字／反向沖銷再重做，視教材） |\n| 科目錯誤 | 把錯誤方向沖回，再記入正確科目 |\n| 金額多記／少記 | 補充分錄補足差額或沖銷超額 |\n\n## 與試算\n- 先用 [[Accounting/Day-to-Day/試算表]] 定位可能錯誤區間，再查日記簿與帳頁。\n\n## 命題\n- 給錯誤分錄，選「正確更正分錄」——逐步還原「本來應如何」。\n",
+      "body": "# 錯帳更正\n\n記帳錯誤的更正方式依「是否已過帳、錯誤類型」而異。\n\n## 常見原則（入門）\n| 情況 | 做法方向 |\n|------|----------|\n| 尚未過帳的筆誤 | 直接更正原文（劃線更正等，依考試／實務規定） |\n| 已過帳 | 多用**分錄更正**（追加分錄或紅字／反向沖銷再重做，視教材） |\n| 科目錯誤 | 把錯誤方向沖回，再記入正確科目 |\n| 金額多記／少記 | 補充分錄補足差額或沖銷超額 |\n\n## 與試算\n- 先用 [[Accounting/Day-to-Day/試算表]] 定位可能錯誤區間，再查日記簿與帳頁。\n\n## 命題\n- 給錯誤分錄，選「正確更正分錄」——逐步還原「本來應如何」。\n",
+      "frontmatter": "title: 錯帳更正\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 更正分錄\n  - 錯誤更正\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/試算表]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Day-to-Day/傳票": {
+      "markdown": "---\ntitle: 傳票\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 會計傳票\n  - voucher\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\n  - \"[[Accounting/Day-to-Day/日記簿]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 傳票\n\n**傳票**是根據原始憑證編製、載明借貸科目與金額的**記帳憑證**（人工帳常見現金／轉帳／分錄傳票等格式，題庫用哪種以卷面為準）。\n\n## 與分錄\n- 傳票上的借貸列 = 要過進日記帳／直接過帳系統的**分錄內容**。\n- 必有：日期、摘要、科目、借方金額、貸方金額、附件張數等（實務欄位依表單）。\n\n## 流程位置\n[[Accounting/Day-to-Day/原始憑證]] → **傳票／分錄** → [[Accounting/Day-to-Day/日記簿]] → [[Accounting/Day-to-Day/過帳]]。\n\n## 人工術科\n- 卷子常直接要「分錄」；把傳票想成「正式寫下來的分錄單」。\n",
+      "body": "# 傳票\n\n**傳票**是根據原始憑證編製、載明借貸科目與金額的**記帳憑證**（人工帳常見現金／轉帳／分錄傳票等格式，題庫用哪種以卷面為準）。\n\n## 與分錄\n- 傳票上的借貸列 = 要過進日記帳／直接過帳系統的**分錄內容**。\n- 必有：日期、摘要、科目、借方金額、貸方金額、附件張數等（實務欄位依表單）。\n\n## 流程位置\n[[Accounting/Day-to-Day/原始憑證]] → **傳票／分錄** → [[Accounting/Day-to-Day/日記簿]] → [[Accounting/Day-to-Day/過帳]]。\n\n## 人工術科\n- 卷子常直接要「分錄」；把傳票想成「正式寫下來的分錄單」。\n",
+      "frontmatter": "title: 傳票\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 會計傳票\n  - voucher\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/原始憑證]]\"\n  - \"[[Accounting/Day-to-Day/日記簿]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Day-to-Day/過帳": {
+      "markdown": "---\ntitle: 過帳\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - posting\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/日記簿]]\"\n  - \"[[Accounting/Day-to-Day/分類帳]]\"\n  - \"[[Accounting/Day-to-Day/試算表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 過帳\n\n**過帳**把日記簿（或傳票）上的分錄金額，轉記入各**分類帳帳戶**的借方或貸方。\n\n## 步驟意識\n1. 從日記簿借方科目 → 該戶借方；貸方同理。  \n2. 寫上日期、對方科目或日記簿頁次、金額。  \n3. 在日記簿註記已過帳（勾稽）。  \n4. 需要時同步明細帳，並核統制帳戶。\n\n## 錯誤\n- 過錯戶、過反方向、漏過一方 → 試算可能不平或「假平衡」（見 [[Accounting/Day-to-Day/試算表]]、[[Accounting/Day-to-Day/錯帳更正]]）。\n\n## 術科\n- 人工卷常要求過帳到 T 字帳或帳頁，再編試算。\n",
+      "body": "# 過帳\n\n**過帳**把日記簿（或傳票）上的分錄金額，轉記入各**分類帳帳戶**的借方或貸方。\n\n## 步驟意識\n1. 從日記簿借方科目 → 該戶借方；貸方同理。  \n2. 寫上日期、對方科目或日記簿頁次、金額。  \n3. 在日記簿註記已過帳（勾稽）。  \n4. 需要時同步明細帳，並核統制帳戶。\n\n## 錯誤\n- 過錯戶、過反方向、漏過一方 → 試算可能不平或「假平衡」（見 [[Accounting/Day-to-Day/試算表]]、[[Accounting/Day-to-Day/錯帳更正]]）。\n\n## 術科\n- 人工卷常要求過帳到 T 字帳或帳頁，再編試算。\n",
+      "frontmatter": "title: 過帳\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - posting\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/日記簿]]\"\n  - \"[[Accounting/Day-to-Day/分類帳]]\"\n  - \"[[Accounting/Day-to-Day/試算表]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Day-to-Day/原始憑證": {
+      "markdown": "---\ntitle: 原始憑證\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - source document\n  - 發票收據\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/傳票]]\"\n  - \"[[Accounting/Fundamentals/交易與非交易事項]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 原始憑證\n\n**原始憑證**是證明交易發生的**源頭文件**，分錄與審核的起點。\n\n## 常見種類\n- 外來：統一發票、收據、銀行對帳單、合約附收款憑證等。\n- 內部：領料單、薪資表、折舊計算表、費用報銷單（視公司制度）。\n\n## 會計要做的事\n1. **審核**：齊單？金額？日期？抬頭？用途？權限簽名？  \n2. **認定**：是否為會計事項、影響哪些要素。  \n3. **選科目** → 做傳票／分錄（[[Accounting/Day-to-Day/傳票]]）。\n\n## 丙級連結\n- 題目給憑證內容，要求做分錄或選科目——先讀憑證再下筆。\n",
+      "body": "# 原始憑證\n\n**原始憑證**是證明交易發生的**源頭文件**，分錄與審核的起點。\n\n## 常見種類\n- 外來：統一發票、收據、銀行對帳單、合約附收款憑證等。\n- 內部：領料單、薪資表、折舊計算表、費用報銷單（視公司制度）。\n\n## 會計要做的事\n1. **審核**：齊單？金額？日期？抬頭？用途？權限簽名？  \n2. **認定**：是否為會計事項、影響哪些要素。  \n3. **選科目** → 做傳票／分錄（[[Accounting/Day-to-Day/傳票]]）。\n\n## 丙級連結\n- 題目給憑證內容，要求做分錄或選科目——先讀憑證再下筆。\n",
+      "frontmatter": "title: 原始憑證\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - source document\n  - 發票收據\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/傳票]]\"\n  - \"[[Accounting/Fundamentals/交易與非交易事項]]\"\n  - \"[[Accounting/Fundamentals/借貸法則與複式簿記]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Day-to-Day/分類帳": {
+      "markdown": "---\ntitle: 分類帳\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 總分類帳\n  - 明細分類帳\n  - ledger\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/過帳]]\"\n  - \"[[Accounting/Day-to-Day/試算表]]\"\n  - \"[[Accounting/Day-to-Day/日記簿]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 分類帳\n\n**分類帳**按**會計科目**設戶，彙總該科目增減與餘額。\n\n## 層級\n| 種類 | 角色 |\n|------|------|\n| **總分類帳** | 每科目一戶，編表與試算的主來源 |\n| **明細分類帳** | 應收／應付／存貨等細戶；總帳用**統制帳戶**控合計 |\n\n## 餘額\n- 資產、費損常為**借餘**；負債、權益、收益常為**貸餘**（與借貸法則一致）。\n\n## 連結\n過帳：[[Accounting/Day-to-Day/過帳]]；驗算：[[Accounting/Day-to-Day/試算表]]。\n",
+      "body": "# 分類帳\n\n**分類帳**按**會計科目**設戶，彙總該科目增減與餘額。\n\n## 層級\n| 種類 | 角色 |\n|------|------|\n| **總分類帳** | 每科目一戶，編表與試算的主來源 |\n| **明細分類帳** | 應收／應付／存貨等細戶；總帳用**統制帳戶**控合計 |\n\n## 餘額\n- 資產、費損常為**借餘**；負債、權益、收益常為**貸餘**（與借貸法則一致）。\n\n## 連結\n過帳：[[Accounting/Day-to-Day/過帳]]；驗算：[[Accounting/Day-to-Day/試算表]]。\n",
+      "frontmatter": "title: 分類帳\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 總分類帳\n  - 明細分類帳\n  - ledger\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/過帳]]\"\n  - \"[[Accounting/Day-to-Day/試算表]]\"\n  - \"[[Accounting/Day-to-Day/日記簿]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Day-to-Day/日記簿": {
+      "markdown": "---\ntitle: 日記簿\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 日記帳\n  - general journal\n  - journal\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/傳票]]\"\n  - \"[[Accounting/Day-to-Day/分類帳]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 日記簿\n\n**日記簿（日記帳）**依**時間順序**登錄全部分錄的序時帳簿。\n\n## 功用\n- 完整交易故事（日期＋借貸＋摘要）。\n- 為過帳到分類帳提供來源。\n\n## 與分類帳\n- 日記簿 = 序時；[[Accounting/Day-to-Day/分類帳]] = 按科目歸戶。\n- 專用日記簿（銷貨、現金收入等）是進階組織，丙級先掌握**一般日記簿分錄格式**。\n\n## 術科\n- 分錄寫對 → 才過得了帳；日記簿是「分錄的家」。\n",
+      "body": "# 日記簿\n\n**日記簿（日記帳）**依**時間順序**登錄全部分錄的序時帳簿。\n\n## 功用\n- 完整交易故事（日期＋借貸＋摘要）。\n- 為過帳到分類帳提供來源。\n\n## 與分類帳\n- 日記簿 = 序時；[[Accounting/Day-to-Day/分類帳]] = 按科目歸戶。\n- 專用日記簿（銷貨、現金收入等）是進階組織，丙級先掌握**一般日記簿分錄格式**。\n\n## 術科\n- 分錄寫對 → 才過得了帳；日記簿是「分錄的家」。\n",
+      "frontmatter": "title: 日記簿\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - 日記帳\n  - general journal\n  - journal\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/傳票]]\"\n  - \"[[Accounting/Day-to-Day/分類帳]]\"\n  - \"[[Accounting/Day-to-Day/過帳]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
+    },
+    "10_Atoms/Accounting/Day-to-Day/試算表": {
+      "markdown": "---\ntitle: 試算表\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - trial balance\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/過帳]]\"\n  - \"[[Accounting/Day-to-Day/錯帳更正]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\"\n---\n\n# 試算表\n\n**試算表**列出各總帳科目的借方或貸方餘額，檢查**借方合計是否等於貸方合計**。\n\n## 能發現\n- 單邊漏過、過反一方、加總錯誤等使借貸不平的錯。\n\n## 不能保證發現\n- 整筆漏記、借貸同額但科目全錯、科目對但金額同額互抵錯誤等——試算仍可能平衡。\n\n## 時點\n- 期末常編「調整前試算」→ 調整 →「調整後試算」→ 再結帳／編表（[[Accounting/Period-End/調整分錄]]、[[Accounting/Period-End/工作底稿]]）。\n\n## 與方程式\n- 試算平衡 ⇔ 複式記帳技術上的借貸相等；**不**自動等於「帳務真實無誤」。\n",
+      "body": "# 試算表\n\n**試算表**列出各總帳科目的借方或貸方餘額，檢查**借方合計是否等於貸方合計**。\n\n## 能發現\n- 單邊漏過、過反一方、加總錯誤等使借貸不平的錯。\n\n## 不能保證發現\n- 整筆漏記、借貸同額但科目全錯、科目對但金額同額互抵錯誤等——試算仍可能平衡。\n\n## 時點\n- 期末常編「調整前試算」→ 調整 →「調整後試算」→ 再結帳／編表（[[Accounting/Period-End/調整分錄]]、[[Accounting/Period-End/工作底稿]]）。\n\n## 與方程式\n- 試算平衡 ⇔ 複式記帳技術上的借貸相等；**不**自動等於「帳務真實無誤」。\n",
+      "frontmatter": "title: 試算表\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Day-to-Day, 丙級]\naliases:\n  - trial balance\ncreated: 2026-07-31\nrelated:\n  - \"[[Accounting/Day-to-Day/過帳]]\"\n  - \"[[Accounting/Day-to-Day/錯帳更正]]\"\n  - \"[[Accounting/Period-End/工作底稿]]\"\nsources:\n  - \"丙級會計事務技能檢定公開範圍（學科六項／術科人工流程）；細節以當期規範與題庫為準\"\n  - \"[[40_Sources/菜鳥會計入門三步驟]]（僅動機參考，非本批定義權威）\""
     },
     "10_Atoms/AI_Learning/動詞思維-vs-名詞思維": {
       "markdown": "---\nstatus: seedling\ncreated: 2026-07-04\n---\n\n# 動詞思維 vs 名詞思維\n\nAI 時代最重要的學習方向：學「動詞」（動作），不學「名詞」（概念）。\n\n- **名詞**：RAG、Agent、Fine-tune、LangChain 等工具與框架——有疆界，會讓人陷入「工具焦慮」\n- **動詞**：上下文管理、任務分解、人機協作、結果評估、錯誤診斷（Debug）與路由（Routing）——這些才是決定 AI 用得好不好的關鍵\n\n**核心邏輯**：名詞思維讓人遇到能力天花板；動詞思維讓人不斷提升。以 RAG 為例：\n- 新手：關心文件切割、Embedding、向量資料庫\n- 高手：關心權利控制、監控、診斷、上下文工程、工作流設計與評估\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]\n\n---\n\n# AI 是手藝，不是科學\n\n把 AI 當作「手藝」來修煉，而非傳統學科的「概念學習」。\n\n- **手藝的學習方式**：像高爾夫、打拳一樣，練習「動作」而非背誦「知識點」\n- **長期複利效應**：工具、模型、框架每天都再變，但背後的「動作」不怎麼變——隨著模型越來越強，管理上下文、分解任務等經驗與認知會展現出長期的價值與複利效應\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]\n\n---\n\n# 高手與普通人的思維差距\n\n- **普通人**：關心該學哪個工具、如何寫更好的 Prompt、哪個模型最強\n- **高手**：關心任務應如何組織、需要什麼樣的上下文結構、哪個流程最適合該任務，以及當 AI 出錯時能否精準找出根本原因（Root cause）\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]",
@@ -10264,8 +12992,56 @@
     "10_atoms/hkn_system/hkn_architecture": "10_Atoms/HKN_System/HKN_Architecture",
     "hkn_architecture": "10_Atoms/HKN_System/HKN_Architecture",
     "hkn (hermes knowledge nexus) 系統設計": "10_Atoms/HKN_System/HKN_Architecture",
+    "10_atoms/accounting/fundamentals/財務報表要素": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+    "財務報表要素": "10_Atoms/Accounting/Fundamentals/財務報表要素",
+    "10_atoms/accounting/fundamentals/借貸法則與複式簿記": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+    "借貸法則與複式簿記": "10_Atoms/Accounting/Fundamentals/借貸法則與複式簿記",
+    "10_atoms/accounting/fundamentals/會計方程式": "10_Atoms/Accounting/Fundamentals/會計方程式",
+    "會計方程式": "10_Atoms/Accounting/Fundamentals/會計方程式",
+    "10_atoms/accounting/fundamentals/基本會計假設": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+    "基本會計假設": "10_Atoms/Accounting/Fundamentals/基本會計假設",
+    "10_atoms/accounting/fundamentals/會計意義與功用": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+    "會計意義與功用": "10_Atoms/Accounting/Fundamentals/會計意義與功用",
+    "10_atoms/accounting/fundamentals/交易與非交易事項": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+    "交易與非交易事項": "10_Atoms/Accounting/Fundamentals/交易與非交易事項",
+    "10_atoms/accounting/period-end/結帳": "10_Atoms/Accounting/Period-End/結帳",
+    "結帳": "10_Atoms/Accounting/Period-End/結帳",
+    "10_atoms/accounting/period-end/會計基礎": "10_Atoms/Accounting/Period-End/會計基礎",
+    "會計基礎": "10_Atoms/Accounting/Period-End/會計基礎",
+    "10_atoms/accounting/period-end/財務報表": "10_Atoms/Accounting/Period-End/財務報表",
+    "財務報表": "10_Atoms/Accounting/Period-End/財務報表",
+    "10_atoms/accounting/period-end/調整分錄": "10_Atoms/Accounting/Period-End/調整分錄",
+    "調整分錄": "10_Atoms/Accounting/Period-End/調整分錄",
+    "10_atoms/accounting/period-end/工作底稿": "10_Atoms/Accounting/Period-End/工作底稿",
+    "工作底稿": "10_Atoms/Accounting/Period-End/工作底稿",
+    "10_atoms/accounting/period-end/迴轉分錄": "10_Atoms/Accounting/Period-End/迴轉分錄",
+    "迴轉分錄": "10_Atoms/Accounting/Period-End/迴轉分錄",
+    "10_atoms/accounting/regulation/營業稅與帳務交界": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+    "營業稅與帳務交界": "10_Atoms/Accounting/Regulation/營業稅與帳務交界",
+    "10_atoms/accounting/regulation/商業會計法與處理準則": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+    "商業會計法與處理準則": "10_Atoms/Accounting/Regulation/商業會計法與處理準則",
+    "10_atoms/accounting/ethics/職業道德與工作倫理": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+    "職業道德與工作倫理": "10_Atoms/Accounting/Ethics/職業道德與工作倫理",
+    "10_atoms/accounting/ais/會計資訊系統基本概念": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+    "會計資訊系統基本概念": "10_Atoms/Accounting/AIS/會計資訊系統基本概念",
+    "10_atoms/accounting/exam_map/人工記帳術科流程": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
+    "人工記帳術科流程": "10_Atoms/Accounting/Exam_Map/人工記帳術科流程",
     "10_atoms/accounting/exam_map/會計丙級考科結構": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
     "會計丙級考科結構": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+    "10_atoms/accounting/day-to-day/錯帳更正": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+    "錯帳更正": "10_Atoms/Accounting/Day-to-Day/錯帳更正",
+    "10_atoms/accounting/day-to-day/傳票": "10_Atoms/Accounting/Day-to-Day/傳票",
+    "傳票": "10_Atoms/Accounting/Day-to-Day/傳票",
+    "10_atoms/accounting/day-to-day/過帳": "10_Atoms/Accounting/Day-to-Day/過帳",
+    "過帳": "10_Atoms/Accounting/Day-to-Day/過帳",
+    "10_atoms/accounting/day-to-day/原始憑證": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+    "原始憑證": "10_Atoms/Accounting/Day-to-Day/原始憑證",
+    "10_atoms/accounting/day-to-day/分類帳": "10_Atoms/Accounting/Day-to-Day/分類帳",
+    "分類帳": "10_Atoms/Accounting/Day-to-Day/分類帳",
+    "10_atoms/accounting/day-to-day/日記簿": "10_Atoms/Accounting/Day-to-Day/日記簿",
+    "日記簿": "10_Atoms/Accounting/Day-to-Day/日記簿",
+    "10_atoms/accounting/day-to-day/試算表": "10_Atoms/Accounting/Day-to-Day/試算表",
+    "試算表": "10_Atoms/Accounting/Day-to-Day/試算表",
     "10_atoms/ai_learning/動詞思維-vs-名詞思維": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
     "動詞思維-vs-名詞思維": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
     "動詞思維 vs 名詞思維": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
