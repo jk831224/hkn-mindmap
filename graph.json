@@ -1,22 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-07-30T21:24:44+08:00",
+    "generated_at": "2026-07-31T18:11:52+08:00",
     "vault": "HKN",
-    "node_count": 125,
-    "edge_count": 508,
-    "wikilink_edges": 426,
-    "hierarchy_edges": 82,
+    "node_count": 131,
+    "edge_count": 519,
+    "wikilink_edges": 436,
+    "hierarchy_edges": 83,
     "unresolved_links": 26,
-    "content_count": 107,
+    "content_count": 112,
     "domains": [
       "AI",
       "AI_Learning",
+      "Accounting",
       "Career",
       "Craft",
       "HKN_System",
       "Inbox",
       "Investing_Trading",
       "Setlog",
+      "Sources",
       "YouTube",
       "ddd",
       "root"
@@ -36,14 +38,16 @@
   "domain_colors": {
     "AI": "#4C8BF5",
     "AI_Learning": "#34A853",
-    "Career": "#FBBC05",
-    "Craft": "#EA4335",
-    "HKN_System": "#A142F4",
-    "Inbox": "#00ACC1",
-    "Investing_Trading": "#F4511E",
-    "Setlog": "#8E24AA",
-    "YouTube": "#3949AB",
-    "ddd": "#00897B",
+    "Accounting": "#FBBC05",
+    "Career": "#EA4335",
+    "Craft": "#A142F4",
+    "HKN_System": "#00ACC1",
+    "Inbox": "#F4511E",
+    "Investing_Trading": "#8E24AA",
+    "Setlog": "#3949AB",
+    "Sources": "#00897B",
+    "YouTube": "#C0CA33",
+    "ddd": "#6D4C41",
     "root": "#5F6368",
     "missing": "#BDC1C6"
   },
@@ -199,11 +203,11 @@
       "status": "seedling",
       "path": "30_MOCs/ddd/ddd-MOC.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 18,
@@ -227,11 +231,11 @@
       "status": "seedling",
       "path": "30_MOCs/Craft/Craft-MOC.md",
       "color": {
-        "background": "#EA4335",
-        "border": "#EA4335",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#A142F4"
         }
       },
       "size": 18,
@@ -255,11 +259,11 @@
       "status": "seedling",
       "path": "30_MOCs/Career/Career-MOC.md",
       "color": {
-        "background": "#FBBC05",
-        "border": "#FBBC05",
+        "background": "#EA4335",
+        "border": "#EA4335",
         "highlight": {
           "background": "#FFF",
-          "border": "#FBBC05"
+          "border": "#EA4335"
         }
       },
       "size": 18,
@@ -311,11 +315,11 @@
       "status": "seedling",
       "path": "30_MOCs/Investing_Trading/Investing_Trading-MOC.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 18,
@@ -339,11 +343,39 @@
       "status": "seedling",
       "path": "30_MOCs/HKN_System/HKN_System-MOC.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#00ACC1",
+        "border": "#00ACC1",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#00ACC1"
+        }
+      },
+      "size": 18,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "triangle",
+      "has_content": true
+    },
+    {
+      "id": "30_MOCs/Accounting/Accounting-MOC",
+      "label": "Accounting MOC",
+      "title": "30_MOCs/Accounting/Accounting-MOC\nlayer=moc · domain=Accounting",
+      "group": "Accounting",
+      "layer": "moc",
+      "domain": "Accounting",
+      "cluster": "",
+      "status": "seedling",
+      "path": "30_MOCs/Accounting/Accounting-MOC.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
         }
       },
       "size": 18,
@@ -367,11 +399,11 @@
       "status": "",
       "path": "30_MOCs/Setlog/Setlog_市場分析_3C框架.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#3949AB"
         }
       },
       "size": 18,
@@ -395,11 +427,11 @@
       "status": "",
       "path": "30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#3949AB"
         }
       },
       "size": 18,
@@ -451,11 +483,11 @@
       "status": "seedling",
       "path": "30_MOCs/YouTube/YouTube-MOC.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 18,
@@ -479,11 +511,11 @@
       "status": "",
       "path": "00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples.md",
       "color": {
-        "background": "#00ACC1",
-        "border": "#00ACC1",
+        "background": "#F4511E",
+        "border": "#F4511E",
         "highlight": {
           "background": "#FFF",
-          "border": "#00ACC1"
+          "border": "#F4511E"
         }
       },
       "size": 12,
@@ -507,11 +539,11 @@
       "status": "",
       "path": "20_Wiki/YouTube-Wiki.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 18,
@@ -535,11 +567,11 @@
       "status": "budding",
       "path": "20_Wiki/ddd/ddd-Wiki.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 18,
@@ -591,11 +623,11 @@
       "status": "",
       "path": "20_Wiki/Investing_Trading/Investing_Trading-Wiki.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 18,
@@ -619,11 +651,11 @@
       "status": "evergreen",
       "path": "20_Wiki/HKN_System/HKN_State_20260513.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#00ACC1",
+        "border": "#00ACC1",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#00ACC1"
         }
       },
       "size": 18,
@@ -647,11 +679,11 @@
       "status": "budding",
       "path": "20_Wiki/HKN_System/HKN_Onboarding.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#00ACC1",
+        "border": "#00ACC1",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#00ACC1"
         }
       },
       "size": 18,
@@ -675,11 +707,39 @@
       "status": "evergreen",
       "path": "20_Wiki/HKN_System/Hermes_Escalation_Rules.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#00ACC1",
+        "border": "#00ACC1",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#00ACC1"
+        }
+      },
+      "size": 18,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "diamond",
+      "has_content": true
+    },
+    {
+      "id": "20_Wiki/Accounting/Accounting-Wiki",
+      "label": "Accounting Wiki",
+      "title": "20_Wiki/Accounting/Accounting-Wiki\nlayer=wiki · domain=Accounting",
+      "group": "Accounting",
+      "layer": "wiki",
+      "domain": "Accounting",
+      "cluster": "",
+      "status": "seedling",
+      "path": "20_Wiki/Accounting/Accounting-Wiki.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
         }
       },
       "size": 18,
@@ -703,11 +763,11 @@
       "status": "",
       "path": "20_Wiki/Setlog/Setlog_Product_Analysis.md",
       "color": {
-        "background": "#8E24AA",
-        "border": "#8E24AA",
+        "background": "#3949AB",
+        "border": "#3949AB",
         "highlight": {
           "background": "#FFF",
-          "border": "#8E24AA"
+          "border": "#3949AB"
         }
       },
       "size": 18,
@@ -731,11 +791,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-then.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -759,11 +819,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-avoid-ui-technical-details.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -787,11 +847,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-given.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -815,11 +875,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/specification-by-examples.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -843,11 +903,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-syntax.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -871,11 +931,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-real-world-data.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -899,11 +959,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-scenario-design.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -927,11 +987,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/bdd-feature-user-story.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -955,11 +1015,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-when-hourglass-principle.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -983,11 +1043,11 @@
       "status": "seedling",
       "path": "10_Atoms/ddd/gherkin-background.md",
       "color": {
-        "background": "#00897B",
-        "border": "#00897B",
+        "background": "#6D4C41",
+        "border": "#6D4C41",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 14,
@@ -1011,11 +1071,11 @@
       "status": "seedling",
       "path": "10_Atoms/Craft/封閉式清單.md",
       "color": {
-        "background": "#EA4335",
-        "border": "#EA4335",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#A142F4"
         }
       },
       "size": 14,
@@ -1039,11 +1099,11 @@
       "status": "seedling",
       "path": "10_Atoms/Craft/動詞即手藝.md",
       "color": {
-        "background": "#EA4335",
-        "border": "#EA4335",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#A142F4"
         }
       },
       "size": 14,
@@ -1067,11 +1127,11 @@
       "status": "seedling",
       "path": "10_Atoms/Craft/Craft的本質.md",
       "color": {
-        "background": "#EA4335",
-        "border": "#EA4335",
+        "background": "#A142F4",
+        "border": "#A142F4",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#A142F4"
         }
       },
       "size": 14,
@@ -1095,11 +1155,11 @@
       "status": "seedling",
       "path": "10_Atoms/Career/三種職業語言.md",
       "color": {
-        "background": "#FBBC05",
-        "border": "#FBBC05",
+        "background": "#EA4335",
+        "border": "#EA4335",
         "highlight": {
           "background": "#FFF",
-          "border": "#FBBC05"
+          "border": "#EA4335"
         }
       },
       "size": 14,
@@ -2355,11 +2415,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/人性之極逆向操作.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2383,11 +2443,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/散戶情緒調查.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2411,11 +2471,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/熊市是財富放大器.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2439,11 +2499,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Investment_Psychology/錯過最大漲幅交易日的代價.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2467,11 +2527,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/放棄精準擇時.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2495,11 +2555,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/價值平均法.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2523,11 +2583,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/優勝劣汰ETF策略.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2551,11 +2611,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Execution_Framework/定額定投法.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2579,11 +2639,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Capital_Allocation/DCA_BTD混合策略.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2607,11 +2667,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Market_Structure/美股供不應求結構.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2635,11 +2695,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Market_Structure/市場寬度極值.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2663,11 +2723,11 @@
       "status": "seedling",
       "path": "10_Atoms/Investing_Trading/Market_Structure/國際資本淨流入.md",
       "color": {
-        "background": "#F4511E",
-        "border": "#F4511E",
+        "background": "#8E24AA",
+        "border": "#8E24AA",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 14,
@@ -2691,11 +2751,11 @@
       "status": "budding",
       "path": "10_Atoms/HKN_System/LLM_Atomic_Wiki_Core.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#00ACC1",
+        "border": "#00ACC1",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#00ACC1"
         }
       },
       "size": 14,
@@ -2719,11 +2779,39 @@
       "status": "budding",
       "path": "10_Atoms/HKN_System/HKN_Architecture.md",
       "color": {
-        "background": "#A142F4",
-        "border": "#A142F4",
+        "background": "#00ACC1",
+        "border": "#00ACC1",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#00ACC1"
+        }
+      },
+      "size": 14,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "label": "會計丙級考科結構",
+      "title": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構\nlayer=atom · domain=Accounting",
+      "group": "Accounting",
+      "layer": "atom",
+      "domain": "Accounting",
+      "cluster": "Exam_Map",
+      "status": "seedling",
+      "path": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
         }
       },
       "size": 14,
@@ -2775,11 +2863,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/不得不安裝的-AI-Skills-GitHub-萬星項目/索引.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2803,11 +2891,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/不得不安裝的-AI-Skills-GitHub-萬星項目/摘要.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2831,11 +2919,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/AI的正確打開方式/索引.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2859,11 +2947,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/AI的正確打開方式/摘要.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2887,11 +2975,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2915,11 +3003,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/摘要.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2943,11 +3031,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2971,11 +3059,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -2999,11 +3087,11 @@
       "status": "seedling",
       "path": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引.md",
       "color": {
-        "background": "#3949AB",
-        "border": "#3949AB",
+        "background": "#C0CA33",
+        "border": "#C0CA33",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 14,
@@ -3045,6 +3133,62 @@
       "has_content": true
     },
     {
+      "id": "40_Sources/菜鳥會計入門三步驟",
+      "label": "菜鳥會計入門三步驟（一般公司會計）",
+      "title": "40_Sources/菜鳥會計入門三步驟\nlayer=source · domain=Accounting",
+      "group": "Accounting",
+      "layer": "source",
+      "domain": "Accounting",
+      "cluster": "",
+      "status": "external",
+      "path": "40_Sources/菜鳥會計入門三步驟.md",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#FBBC05",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
+        }
+      },
+      "size": 12,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
+      "id": "40_Sources/raw-菜鳥會計入門三步驟-全文",
+      "label": "raw 菜鳥會計入門三步驟 全文",
+      "title": "40_Sources/raw-菜鳥會計入門三步驟-全文\nlayer=source · domain=Sources",
+      "group": "Sources",
+      "layer": "source",
+      "domain": "Sources",
+      "cluster": "",
+      "status": "",
+      "path": "40_Sources/raw-菜鳥會計入門三步驟-全文.md",
+      "color": {
+        "background": "#00897B",
+        "border": "#00897B",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#00897B"
+        }
+      },
+      "size": 12,
+      "borderWidth": 1,
+      "font": {
+        "size": 11,
+        "face": "Segoe UI, system-ui, sans-serif",
+        "color": "#E8EAED"
+      },
+      "shape": "dot",
+      "has_content": true
+    },
+    {
       "id": "_hub/domain/ddd",
       "label": "ddd",
       "title": "Domain hub: ddd",
@@ -3055,11 +3199,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#00897B",
+        "background": "#6D4C41",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#00897B"
+          "border": "#6D4C41"
         }
       },
       "size": 28,
@@ -3082,11 +3226,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#EA4335",
+        "background": "#A142F4",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#EA4335"
+          "border": "#A142F4"
         }
       },
       "size": 28,
@@ -3109,11 +3253,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#FBBC05",
+        "background": "#EA4335",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#FBBC05"
+          "border": "#EA4335"
         }
       },
       "size": 28,
@@ -3163,11 +3307,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#F4511E",
+        "background": "#8E24AA",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#F4511E"
+          "border": "#8E24AA"
         }
       },
       "size": 28,
@@ -3190,11 +3334,38 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#A142F4",
+        "background": "#00ACC1",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#A142F4"
+          "border": "#00ACC1"
+        }
+      },
+      "size": 28,
+      "borderWidth": 3,
+      "font": {
+        "size": 18,
+        "face": "Segoe UI, sans-serif"
+      },
+      "shape": "box",
+      "has_content": false
+    },
+    {
+      "id": "_hub/domain/Accounting",
+      "label": "Accounting",
+      "title": "Domain hub: Accounting",
+      "group": "Accounting",
+      "layer": "hub",
+      "domain": "Accounting",
+      "cluster": "",
+      "status": "",
+      "path": "",
+      "color": {
+        "background": "#FBBC05",
+        "border": "#202124",
+        "highlight": {
+          "background": "#FFF",
+          "border": "#FBBC05"
         }
       },
       "size": 28,
@@ -3244,11 +3415,11 @@
       "status": "",
       "path": "",
       "color": {
-        "background": "#3949AB",
+        "background": "#C0CA33",
         "border": "#202124",
         "highlight": {
           "background": "#FFF",
-          "border": "#3949AB"
+          "border": "#C0CA33"
         }
       },
       "size": 28,
@@ -4335,6 +4506,17 @@
       "kind": "hierarchy"
     },
     {
+      "from": "_hub/domain/Accounting",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "",
+      "dashes": true,
+      "color": {
+        "color": "#DADCE0"
+      },
+      "width": 0.6,
+      "kind": "hierarchy"
+    },
+    {
       "from": "_hub/domain/AI_Learning",
       "to": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
       "arrows": "",
@@ -4490,6 +4672,17 @@
     },
     {
       "from": "index",
+      "to": "30_MOCs/Accounting/Accounting-MOC",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "index",
       "to": "30_MOCs/Career/Career-MOC",
       "arrows": "to",
       "dashes": false,
@@ -4557,6 +4750,17 @@
     {
       "from": "index",
       "to": "20_Wiki/AI/AI-Coding-Wiki",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "index",
+      "to": "20_Wiki/Accounting/Accounting-Wiki",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -4678,6 +4882,28 @@
     {
       "from": "index",
       "to": "40_Sources/AI-Coding-Dict-Source",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "index",
+      "to": "40_Sources/raw-菜鳥會計入門三步驟-全文",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "index",
+      "to": "40_Sources/菜鳥會計入門三步驟",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -5556,6 +5782,39 @@
       "kind": "wikilink"
     },
     {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "20_Wiki/Accounting/Accounting-Wiki",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "30_MOCs/Accounting/Accounting-MOC",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
       "from": "30_MOCs/AI_Learning/AI_Learning-MOC",
       "to": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
       "arrows": "to",
@@ -5678,7 +5937,7 @@
     },
     {
       "from": "20_Wiki/YouTube-Wiki",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -5689,7 +5948,7 @@
     },
     {
       "from": "20_Wiki/YouTube-Wiki",
-      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -6656,6 +6915,28 @@
       "kind": "wikilink"
     },
     {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "20_Wiki/Accounting/Accounting-Wiki",
+      "to": "40_Sources/菜鳥會計入門三步驟",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
       "from": "10_Atoms/ddd/gherkin-then",
       "to": "00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples",
       "arrows": "to",
@@ -6987,7 +7268,7 @@
     },
     {
       "from": "10_Atoms/Craft/動詞即手藝",
-      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -6998,7 +7279,7 @@
     },
     {
       "from": "10_Atoms/Craft/動詞即手藝",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -7009,7 +7290,7 @@
     },
     {
       "from": "10_Atoms/Craft/Craft的本質",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -7020,7 +7301,7 @@
     },
     {
       "from": "10_Atoms/Career/三種職業語言",
-      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8504,8 +8785,30 @@
       "kind": "wikilink"
     },
     {
+      "from": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "to": "20_Wiki/Accounting/Accounting-Wiki",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
+      "from": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+      "to": "30_MOCs/Accounting/Accounting-MOC",
+      "arrows": "to",
+      "dashes": false,
+      "color": {
+        "color": "#9AA0A6"
+      },
+      "width": 1.2,
+      "kind": "wikilink"
+    },
+    {
       "from": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8560,7 +8863,7 @@
     },
     {
       "from": "10_Atoms/YouTube/不得不安裝的-AI-Skills-GitHub-萬星項目/索引",
-      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8615,18 +8918,7 @@
     },
     {
       "from": "10_Atoms/YouTube/AI的正確打開方式/索引",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
-      "arrows": "to",
-      "dashes": false,
-      "color": {
-        "color": "#9AA0A6"
-      },
-      "width": 1.2,
-      "kind": "wikilink"
-    },
-    {
-      "from": "10_Atoms/YouTube/AI的正確打開方式/索引",
-      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8681,7 +8973,7 @@
     },
     {
       "from": "10_Atoms/YouTube/AI的正確打開方式/摘要",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8758,7 +9050,7 @@
     },
     {
       "from": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8769,7 +9061,7 @@
     },
     {
       "from": "10_Atoms/YouTube/Crafts-技術的神奇無窮本質/索引",
-      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8890,7 +9182,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8901,7 +9193,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/索引",
-      "to": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/摘要",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -8956,7 +9248,7 @@
     },
     {
       "from": "10_Atoms/YouTube/關於職涯-我最近想到的事/摘要",
-      "to": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
+      "to": "10_Atoms/YouTube/AI的正確打開方式/索引",
       "arrows": "to",
       "dashes": false,
       "color": {
@@ -9133,9 +9425,9 @@
   ],
   "contents": {
     "index": {
-      "markdown": "---\ntags: [index, entry-point, generated]\nupdated: 2026-07-30\n---\n# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-30——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(82 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(8)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(11)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(1)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n\n## Log — 最近 10 筆\n\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
-      "body": "# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-30——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(82 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(8)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(11)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(1)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n\n## Log — 最近 10 筆\n\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
-      "frontmatter": "tags: [index, entry-point, generated]\nupdated: 2026-07-30"
+      "markdown": "---\ntags: [index, entry-point, generated]\nupdated: 2026-07-31\n---\n# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-31——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(83 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Accounting**:1 顆 → [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(9)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/Accounting/Accounting-Wiki|Accounting Wiki]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(12)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(3)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n- [[40_Sources/raw-菜鳥會計入門三步驟-全文|raw-菜鳥會計入門三步驟-全文]]\n- [[40_Sources/菜鳥會計入門三步驟|菜鳥會計入門三步驟（一般公司會計）]]\n\n## Log — 最近 10 筆\n\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
+      "body": "# HKN 總目錄(index)\n\n> 由 `scripts/build_index.py` 生成於 2026-07-31——**手改無效,ingest 後重跑腳本**。結構慣例見 [[WIKI-SCHEMA]]。\n\n## 00_Inbox — 待消化(1)\n\n- [[00_Inbox/ithome-10226615-bdd-gherkin-specification-by-examples|BDD - 如何寫出好的 Gherkin 語法展示你的 Specification By Examples]]\n\n## 10_Atoms — 知識原子(83 顆,索引見各域 MOC)\n\n- **AI**:44 顆 → [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- **AI_Learning**:1 顆 → [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- **Accounting**:1 顆 → [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- **Career**:1 顆 → [[30_MOCs/Career/Career-MOC|Career MOC]]\n- **Craft**:3 顆 → [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- **HKN_System**:2 顆 → [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- **Investing_Trading**:12 顆 → [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- **YouTube**:9 顆 → [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- **ddd**:10 顆 → [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 20_Wiki — 領域綜述(9)\n\n- [[20_Wiki/AI/AI-Coding-Wiki|AI Coding Wiki — Radar]]\n- [[20_Wiki/Accounting/Accounting-Wiki|Accounting Wiki]]\n- [[20_Wiki/HKN_System/HKN_Onboarding|🚀 HKN (Hermes Knowledge Nexus) 入門指南]]\n- [[20_Wiki/HKN_System/HKN_State_20260513|📸 HKN 系統狀態快照 (2026-05-13)]]\n- [[20_Wiki/HKN_System/Hermes_Escalation_Rules|Hermes Escalation Rules v1.1]]\n- [[20_Wiki/Investing_Trading/Investing_Trading-Wiki|Investing & Trading Wiki]]\n- [[20_Wiki/Setlog/Setlog_Product_Analysis|Setlog — Product Specification Reverse-Engineering Report]]\n- [[20_Wiki/YouTube-Wiki|YouTube 知識庫 Wiki]]\n- [[20_Wiki/ddd/ddd-Wiki|Domain-Driven Design (DDD) Wiki]]\n\n## 30_MOCs — 領域索引(12)\n\n- [[30_MOCs/AI/AI-Coding-MOC|AI Coding 詞彙大全 MOC]]\n- [[30_MOCs/AI_Learning/AI_Learning-MOC|AI_Learning MOC]]\n- [[30_MOCs/Accounting/Accounting-MOC|Accounting MOC]]\n- [[30_MOCs/Career/Career-MOC|Career MOC]]\n- [[30_MOCs/Craft/Craft-MOC|Craft MOC]]\n- [[30_MOCs/HKN_System/HKN_System-MOC|HKN_System MOC]]\n- [[30_MOCs/Investing_Trading/Investing_Trading-MOC|Investing_Trading MOC]]\n- [[30_MOCs/Main_Index|🌐 HKN 主索引 (Main Index)]]\n- [[30_MOCs/Setlog/Setlog_PM_面試報告_付費功能POC|Setlog PM 面試報告：付費功能 POC 規劃]]\n- [[30_MOCs/Setlog/Setlog_市場分析_3C框架|Setlog 市場分析報告 — 3C Framework]]\n- [[30_MOCs/YouTube/YouTube-MOC|YouTube MOC]]\n- [[30_MOCs/ddd/ddd-MOC|ddd MOC]]\n\n## 40_Sources — 來源(3)\n\n- [[40_Sources/AI-Coding-Dict-Source|AI Coding 術語辭典 (miniasp)]]\n- [[40_Sources/raw-菜鳥會計入門三步驟-全文|raw-菜鳥會計入門三步驟-全文]]\n- [[40_Sources/菜鳥會計入門三步驟|菜鳥會計入門三步驟（一般公司會計）]]\n\n## Log — 最近 10 筆\n\n- [[Log/Lint/lint-20260730|HKN Lint 報告 2026-07-30]]\n- [[Log/Tickets/TICKET-20260513-01_Vault_Health_Check|Vault 健康檢查工具開發]]\n- [[Log/Lint/lint-20260720|HKN Lint 報告 2026-07-20]]\n- [[Log/Lint/lint-20260716|HKN Lint 報告 2026-07-16]]\n- [[Log/Lint/lint-20260706|HKN Lint 報告 2026-07-06]]\n- [[Log/Lint/lint-20260704|HKN Lint 報告 2026-07-04]]\n- [[Log/Tickets/20260513_Setlog_Market_Research|Ticket: 20260513_Setlog_Market_Research]]\n- [[Log/Tickets/20260514_Setlog_Deep_Research|Ticket: Setlog 深度市場調研]]\n- [[Log/Tickets/20260514_Setlog_GoogleTrends|Setlog — Google Trends 韓國搜尋趨勢報告]]\n- [[Log/Tickets/TICKET-20260513-02_State_Compilation|HKN 現狀快照編譯 (State Compilation)]]\n",
+      "frontmatter": "tags: [index, entry-point, generated]\nupdated: 2026-07-31"
     },
     "WIKI-SCHEMA": {
       "markdown": "---\ntags: [schema, governance, entry-point]\ncreated: 2026-07-04\nstatus: evergreen\n---\n# WIKI-SCHEMA — HKN 結構與慣例（LLM 先讀這份）\n\n本 vault = **HKN（Hermes Knowledge Nexus）**，Andrew 與 AI（Hermes／Claude Code）共建的知識庫。\n方法論基座：Karpathy「LLM Wiki」模式（2026-04）——**編譯 > 檢索**；LLM 負責記帳（交叉連結、一致性、索引），人負責選源頭、提問、裁決。詳見 [[20_Wiki/HKN_System/HKN_Onboarding|HKN 入門指南]]。\n\n**Canonical 路徑 = `/home/andrew_yen/hkn/`。不准寫到 `~/.hermes/` 任何子目錄、不准另建平行 vault。**（治理鐵則全文與歷史教訓見 Onboarding。）\n\n## 三層架構(對映 Karpathy)\n\n| Karpathy 層 | HKN 實體 | 規則 |\n|---|---|---|\n| Raw sources(不可變) | `40_Sources/` + `00_Inbox/` | 原始材料進來後**不再編輯**;Inbox 是待消化暫存區,消化完的項目移入 40_Sources |\n| Wiki(LLM 維護) | `10_Atoms/` + `20_Wiki/` + `30_MOCs/` | 見下方目錄規則 |\n| Schema(慣例) | 本檔 | 慣例變更 = 修本檔 + 記 HKN_Maintenance_Log |\n\n導航與記錄:根 `index.md`(腳本生成的總目錄)、`Log/`(append-only 工作紀錄)、`HKN_Maintenance_Log.md`(系統級變更)。\n\n## 目錄與命名\n\n- 原子:`10_Atoms/<domain>[/<cluster>]/<concept>.md` — 一顆原子一個概念\n- 領域 Wiki:`20_Wiki/<domain>/<Domain>-Wiki.md` — 該領域的敘事綜述頁\n- 領域索引:`30_MOCs/<domain>/<Domain>-MOC.md` — 該領域所有原子的目錄(**原子級索引住在 MOC,不在根 index.md**)\n- 來源:`40_Sources/<Source-Name>.md` — 每個外部來源一頁(出處、抓取日期、原始連結)\n- **知識拓撲隔離 = domain 資料夾**:原子在 domain 內自由互連;**跨 domain 連結一律經由 Wiki/MOC 頁**,不做原子對原子的跨域直連——保住各拓撲的圖譜密度,又不讓領域糾纏。\n\n## Frontmatter 規格(canonical)\n\n```yaml\n---\ntitle: <標題>\nstatus: seedling   # seedling → budding → evergreen\ntags: [<domain>, ...]\nsources: [\"[[40_Sources/xxx]]\"]   # 出處,複數,list\nrelated: [\"[[同域相關頁]]\"]        # 至少一條,孤兒頁 = lint 違規\ncreated: YYYY-MM-DD\n---\n```\n選配欄位(既有慣例,允許):`domain:`(AI 批次在用)、`aliases:`(中文別名)。\n客戶世界連結(CLIENT-INGEST, 2026-07-09):原子若對應 Odoo 主檔,加選配\n`odoo_partner_id:` / `odoo_lead_id:` / `odoo_project_id:` / `client_name:`(整數 id + 顯示名)。\n這些欄位**不**取代 Odoo 主檔;只做 join。會議全文不進原子當 CRM。\n舊式 `source:`(單數)為 legacy(現存 12 顆 ddd 原子),lint 會標記,遇到時順手升級、不強制批次遷移。現存 56 顆 AI 原子缺 `status:`——lint 追蹤中,補法見報告。\n\n## 三工作流\n\n- **Ingest**(來源 → 知識):照 Hermes skill `hkn-wiki` 的 ingest 流程——存源 → 寫原子/更新 Wiki → 更新 MOC → 跑 `scripts/build_index.py` → 記 Log。\n- **Query**(提問):先呼叫 `hkn_query` tool(圖遍歷)再回答;有價值的新結論**回寫成原子**(複利原則)。\n- **Lint**(健檢):每週由 Hermes cron 跑 `scripts/wiki_lint.py`,報告落 `Log/Lint/`,矛盾與淘汰由 Andrew 裁決——LLM 不得擅自刪頁。\n\n## 版本控制\n\nvault 由 git 管理(每日 auto-commit + 寫入後手動 commit 皆可)。**這是 undo 鍵:大規模改動前不必請示,但 commit message 要說人話。**\n\n## 任何 LLM session 的進場順序\n\n1. 讀本檔 → 2. 讀 `index.md` 找目標 domain → 3. 讀該 domain 的 MOC → 4. 動手,照上面慣例。\n",
@@ -9148,8 +9440,8 @@
       "frontmatter": ""
     },
     "HKN_Maintenance_Log": {
-      "markdown": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n",
-      "body": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n",
+      "markdown": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n\n---\n\n## 2026-07-31: Accounting domain 開域骨架（丙級主軸，方案 A）\n- **任務**: Inbox 會計雜誌文評估後不原子化；開 `Accounting` domain 對齊台灣會計事務丙級考科地圖。\n- **執行者**: Hermes（鯊寶），Andrew 選定方案 A。\n- **產出**:\n  - `10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md`（1 atom）\n  - `20_Wiki/Accounting/Accounting-Wiki.md`\n  - `30_MOCs/Accounting/Accounting-MOC.md`\n  - `40_Sources/菜鳥會計入門三步驟.md` + `raw-菜鳥會計入門三步驟-全文.md`\n- **未做**: 未從雜誌文拆 Fundamentals；術科人工 vs 資訊未選定。\n- **收尾**: `build_index.py` → 83 atoms / 9 domains / 1 inbox。\n- **狀態**: 骨架完成；下一包等規範／題庫原料或 Fundamentals 批次。\n\n---\n\n## 2026-07-31: Accounting 術科主路線鎖定＝人工記帳\n- **決策**: Andrew 選定丙級術科走**人工記帳**（非資訊總帳）。\n- **執行者**: Hermes（鯊寶）。\n- **更新**: Exam_Map、Accounting-Wiki、Accounting-MOC（主練＝Fundamentals / Day-to-Day / Period-End；AIS 學科點到為止）。\n- **狀態**: 已 commit。\n\n---\n\n## 2026-07-31: Odoo hub 裝 l10n_tw + 載入台灣科目表\n- **任務**: B 裝台灣會計在地化；C 另提供 UI 分錄導覽（本 log 只記系統變更）。\n- **執行者**: Hermes（鯊寶），Andrew 核准 B+C。\n- **前置**: `pg_dump` → `~/backups/odoo/mycompany-pre-l10n_tw-20260731-0356.dump`；當時 moves=0。\n- **動作**: stop odoo → `module install l10n_tw` → shell `try_loading('tw')` + country TW → start odoo。\n- **結果**: chart=tw；accounts≈136；taxes 含 5% VAT；journals 重建；health OK；hermes API 可讀 account。\n- **未做**: 未造 demo 傳票；未裝 EE accountant / stock。\n",
+      "body": "## 2026-05-13: 系統健康檢查工具部署\n- **任務**：建立圖譜健康檢查機制。\n- **執行者**：Claude Code (Synthesis Subagent)。\n- **產出**：`scripts/vault_health_check.py`。\n- **功能**：掃描失效鏈接與孤立節點，確保知識拓樸的完整性。\n- **狀態**：已驗證運行。\n---\n\n## 2026-05-15: AI Coding 詞彙原子化提取\n- **任務**：從 `https://ai-dict.gh.miniasp.com/` 提取 AI Coding 詞彙，建立 40 個 atoms。\n- **執行者**：Hermes（鯊寶）。\n- **產出**：`10_Atoms/AI/<叢集>/<術語>.md` × 40，`20_Wiki/AI/AI-Coding-Wiki.md`，`30_MOCs/AI/AI-Coding-MOC.md`。\n- **顆粒度迭代**：初版 5 個粗 atoms → 重構為 40 個原子（一概念一檔），加入目錄叢集結構（model/, token/, context/, attention/, zone/, harness/, environment/, tool/, permission/, agent/, failure/, handoff/）。\n- **遺漏**：誤將 atoms 寫到 `/home/andrew_yen/hkn/`，未對齊 2026-05-13 canonical 路徑 `~/.hermes/hermes-agent/knowledge-vault/`。後續由 CTO 統一遷移處理。\n- **狀態**：原子已生產，待整合進主 vault。\n\n## 2026-05-15: HKN canonical 路徑統一 + 4-signal query 工具上線\n- **任務**：解決 2026-05-15 atoms 與 2026-05-13 vault 雙路徑分歧；建立可由 Hermes 主動呼叫的 HKN 圖譜查詢工具。\n- **執行者**：Claude Code（CTO 身分）。\n- **決策**：canonical 路徑 = `/home/andrew_yen/hkn/`（user home，與 `~/.hermes/` runtime data 跟 `hermes-agent/` fork code 都解耦）。\n- **遷移內容**（從 `hermes-agent/knowledge-vault/` 搬入 `~/hkn/`）：\n    - `10_Atoms/HKN_System/`：HKN_Architecture.md、LLM_Atomic_Wiki_Core.md（核心理論：編譯 > RAG）\n    - `20_Wiki/HKN_System/`：HKN_State_20260513、HKN_Onboarding、Hermes_Escalation_Rules\n    - `20_Wiki/Setlog/`、`30_MOCs/Setlog/`：Andrew 既有的 Setlog 工作\n    - `30_MOCs/Main_Index.md`、`Log/Tickets/`（6 個 tickets + Tickets_MOC）\n    - `scripts/`（`hkn-manager.py`、`vault_health_check.py`，已更新 default_vault 路徑）\n    - `Templates/Atom_Template.md`、`.obsidian/` config、`Welcome.md`\n- **新增**：\n    - `40_Sources/AI-Coding-Dict-Source.md`：source atom，滿足 `[[AI-Coding-Dict-Source|…]]` wikilink。\n    - 40 個 AI atoms 的 frontmatter 統一加入 `sources: [ai-coding-dict]` 欄位，為 4-signal source overlap 訊號 future-proof。\n    - `hermes-agent/tools/hkn_query_tool.py`：HKN 圖譜查詢工具。\n- **工具設計**（`hkn_query`）：\n    - 演算法：bidirectional keyword match 找 entry atoms（CJK-friendly：query 詞與 atom 元資料雙向 substring 匹配）→ wikilink BFS 1-2 hop expansion → 4-signal weighted scoring。\n    - 4-signal 權重：direct wikilink ×3.0、source overlap (Jaccard) ×4.0、Adamic-Adar ×1.5、type affinity（=immediate folder）×1.0。\n    - 設計參考：nashsu/llm_wiki（GPL v3）的 4-signal relevance model；採設計，不安裝 desktop app（後者 GUI-only、無 headless API、無法由 Hermes runtime programmatic 呼叫）。\n    - 介面：tool call，schema 強調「答前先查 HKN」、引用時帶 `\\[\\[path/name\\]\\]` wikilink 維持出處（此處 escape 以免被 Obsidian 解析）。\n- **驗證**：5 個 smoke test 通過——英文 `hallucination`、CJK alias `什麼是代理人`、多詞 `context window`、tag-style `attention`、out-of-vocab `blockchain`（正確回傳 no-match）。Graph 統計 42 atoms（含 2 個 HKN_System meta atoms）、2 broken links（皆為 doc 內 dummy 範例）。\n- **後續**：清理 `hermes-agent/knowledge-vault/` 原位置（fork 內不應夾 user knowledge）。\n- **狀態**：上線、可由 Hermes 主動呼叫。\n---\n\n## 2026-07-04: LLM Wiki 升級 — status 批次補齊 + MOC 骨架\n- **任務**:(a) 70 顆 atoms 補 `status: seedling`;(b) 7 個無 MOC domain 建 MOC 骨架(原子清單機械生成,叢集策展留給 Hermes,MOC 內有 TODO 標記)。\n- **執行者**:Claude Code(CTO),Andrew 核准。\n- **產出**:lint findings 149 → 71(缺 status/無 MOC/孤兒/過期 seedling 四類歸零);另修 wiki_lint.py 兩個互動 bug(排除檔應算有效連結目標、inbound KeyError 防護)。\n- **待辦(交給週一 hkn-weekly-lint cron)**:32 壞連結、12 legacy `source:`、26 atoms 缺 related/sources、7 個 MOC 的叢集策展。\n- **狀態**:已驗證(lint 重跑)、已 commit。\n\n## 2026-07-16: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260716.md`；`python3 scripts/build_index.py`（index 落後已重建：82 atoms / 8 domains / 1 inbox）。\n- **語意發現**:YouTube 批次存在 **False Atom**——`Career/三種職業語言.md`、`Craft/Craft的本質.md`、`AI_Learning/動詞思維-vs-名詞思維.md` 各檔塞 3–4 概念（多個 `#` 標題），導致索引/Wiki 指向的 8 顆 domain atom 缺檔；32 壞連結自 07-04 起未動。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-20: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **機械產出**:`Log/Lint/lint-20260720.md`；`python3 scripts/build_index.py`（index 重建：82 atoms / 8 domains / 1 inbox）。\n- **純機械修復（本 pass）**:\n  1. `美股供不應求結構` related：舊名 → 實際檔名 `放棄精準擇時`\n  2. `Career/三種職業語言` 來源：不存在的 `重點摘錄` → `摘要`\n  3. `HKN_Onboarding` 範例佔位改寫，避免 lint 假陽性\n- **語意複核**:\n  - YouTube False Atom 三連（與 07-16 同）仍是壞連結主因（8 顆缺檔）。\n  - AI dict 抽讀 `failure/hallucination.md`：可用；44 顆 seedling 全 65–66 天未升階（策展怠速，非內容壞）。\n  - Inbox ithome BDD 文：已完整落在 `10_Atoms/ddd/*`（10 顆），屬消化後殘留。\n- **未動**:不拆頁、不刪頁、不批量改 status/frontmatter、不補缺檔 atom（等 Andrew 裁決）。\n- **狀態**:報告已寫；待裁決見 cron 訊息。\n\n## 2026-07-30: 週報 lint pass\n- **任務**:週跑 `wiki_lint.py` 健檢 + 語意抽讀 + 裁決請求。\n- **執行者**:Hermes cron（鯊寶）。\n- **停滯**:壞連結主體與 07-16/07-20 完全相同（YouTube False Atom 三連，自 07-04 起未裁決）。\n- **純機械修復（本 pass）**:\n  1. Ticket 假陽性 `[[WikiLink]]` → 去括號說明文字\n  2. `Craft/封閉式清單` 不存在的 `[[Andrew Yen v.4.5]]` → 純文字出處\n  3. `python3 scripts/build_index.py`（82 atoms / 8 domains / 1 inbox）\n  4. 重跑 lint → 壞連結 26→24；index 新鮮\n- **語意抽讀**:\n  - False Atom 確認：`Career/三種職業語言`（4×`#`）、`Craft/Craft的本質`（4×`#`）、`AI_Learning/動詞思維-vs-名詞思維`（3×`#`）— 內容在粗檔內，葉檔未拆。\n  - `AI/failure/hallucination.md`、`AI/model/model.md`：字典級可用，無過時主張；76 天仍 seedling = 策展怠速。\n  - Inbox ithome：已落 `ddd/*` 10 顆，殘留非未消化。\n- **未動**:不拆頁、不刪頁、不批量升階、不補缺檔 atom、不搬 Inbox（等 Andrew 裁決）。\n- **狀態**:報告已刷新 `Log/Lint/lint-20260730.md`；待裁決見 cron 訊息。\n\n---\n\n## 2026-07-31: Accounting domain 開域骨架（丙級主軸，方案 A）\n- **任務**: Inbox 會計雜誌文評估後不原子化；開 `Accounting` domain 對齊台灣會計事務丙級考科地圖。\n- **執行者**: Hermes（鯊寶），Andrew 選定方案 A。\n- **產出**:\n  - `10_Atoms/Accounting/Exam_Map/會計丙級考科結構.md`（1 atom）\n  - `20_Wiki/Accounting/Accounting-Wiki.md`\n  - `30_MOCs/Accounting/Accounting-MOC.md`\n  - `40_Sources/菜鳥會計入門三步驟.md` + `raw-菜鳥會計入門三步驟-全文.md`\n- **未做**: 未從雜誌文拆 Fundamentals；術科人工 vs 資訊未選定。\n- **收尾**: `build_index.py` → 83 atoms / 9 domains / 1 inbox。\n- **狀態**: 骨架完成；下一包等規範／題庫原料或 Fundamentals 批次。\n\n---\n\n## 2026-07-31: Accounting 術科主路線鎖定＝人工記帳\n- **決策**: Andrew 選定丙級術科走**人工記帳**（非資訊總帳）。\n- **執行者**: Hermes（鯊寶）。\n- **更新**: Exam_Map、Accounting-Wiki、Accounting-MOC（主練＝Fundamentals / Day-to-Day / Period-End；AIS 學科點到為止）。\n- **狀態**: 已 commit。\n\n---\n\n## 2026-07-31: Odoo hub 裝 l10n_tw + 載入台灣科目表\n- **任務**: B 裝台灣會計在地化；C 另提供 UI 分錄導覽（本 log 只記系統變更）。\n- **執行者**: Hermes（鯊寶），Andrew 核准 B+C。\n- **前置**: `pg_dump` → `~/backups/odoo/mycompany-pre-l10n_tw-20260731-0356.dump`；當時 moves=0。\n- **動作**: stop odoo → `module install l10n_tw` → shell `try_loading('tw')` + country TW → start odoo。\n- **結果**: chart=tw；accounts≈136；taxes 含 5% VAT；journals 重建；health OK；hermes API 可讀 account。\n- **未做**: 未造 demo 傳票；未裝 EE accountant / stock。\n",
       "frontmatter": ""
     },
     "30_MOCs/Main_Index": {
@@ -9186,6 +9478,11 @@
       "markdown": "---\ndomain: HKN_System\ntags: [moc, index, entry-point]\ncreated: 2026-07-04\nstatus: seedling\n---\n# HKN_System MOC\n\n> 本域原子的整合入口。骨架由 Claude Code 於 2026-07-04 機械生成(原子清單完整);**叢集分組與策展描述待 Hermes 補完**(lint 追蹤中)。\n\n## 原子索引(2)\n\n- [[10_Atoms/HKN_System/HKN_Architecture|HKN (Hermes Knowledge Nexus) 系統設計]]\n- [[10_Atoms/HKN_System/LLM_Atomic_Wiki_Core|LLM Atomic Wiki 核心理念]]\n\n## 叢集(待策展)\n\n- _TODO(Hermes):依概念叢集重組上方清單、補每叢一句用途_\n",
       "body": "# HKN_System MOC\n\n> 本域原子的整合入口。骨架由 Claude Code 於 2026-07-04 機械生成(原子清單完整);**叢集分組與策展描述待 Hermes 補完**(lint 追蹤中)。\n\n## 原子索引(2)\n\n- [[10_Atoms/HKN_System/HKN_Architecture|HKN (Hermes Knowledge Nexus) 系統設計]]\n- [[10_Atoms/HKN_System/LLM_Atomic_Wiki_Core|LLM Atomic Wiki 核心理念]]\n\n## 叢集(待策展)\n\n- _TODO(Hermes):依概念叢集重組上方清單、補每叢一句用途_\n",
       "frontmatter": "domain: HKN_System\ntags: [moc, index, entry-point]\ncreated: 2026-07-04\nstatus: seedling"
+    },
+    "30_MOCs/Accounting/Accounting-MOC": {
+      "markdown": "---\ndomain: Accounting\ntags: [moc, index, entry-point, 丙級]\ncreated: 2026-07-31\nstatus: seedling\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n---\n\n# Accounting MOC\n\n> 台灣**會計事務丙級**準備為主軸的 domain 索引。**術科＝人工記帳**。敘事雷達見 Wiki；本頁＝原子清單入口。\n\n## 導航\n\n- Wiki：[[20_Wiki/Accounting/Accounting-Wiki|Accounting-Wiki]]\n- 考科地圖：[[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n- 薄來源（非主幹）：[[40_Sources/菜鳥會計入門三步驟]]\n\n## 原子索引（1）\n\n### Exam_Map\n\n- [[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n\n### Fundamentals / Day-to-Day / Period-End / AIS / Regulation / Ethics / Mindset\n\n_（尚無 atoms — 等規範／題庫原料後填）_\n\n## 叢集用途（一句）\n\n| 叢集 | 一句用途 |\n|------|----------|\n| Exam_Map | 考什麼、術科＝人工、補洞順序 |\n| Fundamentals | 學科① 底層語言 ★主練 |\n| Day-to-Day | 學科② 平時帳務鏈 ★主練 |\n| Period-End | 學科③＋人工術科編表 ★主練 |\n| AIS | 學科④ 點到為止（非術科主線） |\n| Regulation | 學科⑤ 法令／稅務帳務考點 |\n| Ethics | 學科⑥ 職德 |\n| Mindset | 選配動機，不佔主幹 |\n",
+      "body": "# Accounting MOC\n\n> 台灣**會計事務丙級**準備為主軸的 domain 索引。**術科＝人工記帳**。敘事雷達見 Wiki；本頁＝原子清單入口。\n\n## 導航\n\n- Wiki：[[20_Wiki/Accounting/Accounting-Wiki|Accounting-Wiki]]\n- 考科地圖：[[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n- 薄來源（非主幹）：[[40_Sources/菜鳥會計入門三步驟]]\n\n## 原子索引（1）\n\n### Exam_Map\n\n- [[10_Atoms/Accounting/Exam_Map/會計丙級考科結構|會計丙級考科結構]]\n\n### Fundamentals / Day-to-Day / Period-End / AIS / Regulation / Ethics / Mindset\n\n_（尚無 atoms — 等規範／題庫原料後填）_\n\n## 叢集用途（一句）\n\n| 叢集 | 一句用途 |\n|------|----------|\n| Exam_Map | 考什麼、術科＝人工、補洞順序 |\n| Fundamentals | 學科① 底層語言 ★主練 |\n| Day-to-Day | 學科② 平時帳務鏈 ★主練 |\n| Period-End | 學科③＋人工術科編表 ★主練 |\n| AIS | 學科④ 點到為止（非術科主線） |\n| Regulation | 學科⑤ 法令／稅務帳務考點 |\n| Ethics | 學科⑥ 職德 |\n| Mindset | 選配動機，不佔主幹 |\n",
+      "frontmatter": "domain: Accounting\ntags: [moc, index, entry-point, 丙級]\ncreated: 2026-07-31\nstatus: seedling\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\""
     },
     "30_MOCs/Setlog/Setlog_市場分析_3C框架": {
       "markdown": "# Setlog 市場分析報告 — 3C Framework\n> 基於 2026 年 5 月公開資料。數據有限性見各節標註。\n\n---\n\n## 1. 大環境分析\n\n### 1.1 PEST 分析\n\n| 維度 | 因素 | 與 Setlog 的關係 |\n|------|------|-----------------|\n| **Political** | 南韓、中華民國（台灣）、香港均無針對私密社群應用程式的特殊監管 | 無直接監管風險 |\n| | 南韓 PIPA（個人資訊保護法）對 14 歲以下用戶要求法定監護人同意 | Setlog 年齡評級 12+，主流用戶 55% 為青少年，存在被追究合規風險 |\n| | 中華民國《個人資料保護法》對年輕用戶資料蒐集有限制 | 台灣是第二大市場，法規影響主要在資料儲存地點（目前為美國+首爾） |\n| **Economic** | Z 世代實質薪資成長停滯，可支配所得有限 | 付費牆訂閱模式天花板低；家庭方案或群組共同負擔是合理路徑 |\n| | 台灣、韓國、香港均為高網路滲透地區 | 智慧型手機持有率接近 100%，行動優先產品直接受惠 |\n| **Social** | Z 世代「數位疲勞」加劇，對 Instagram、TikTok 等「表演式社群」反感 | 直接催生 Setlog 的核心需求——「無痛、真實、當下」 |\n| | 青少年心理健康意識提升 | 「低干擾」的同步分享模式被視為心理健康友善設計 |\n| | 南韓「冷漠文化」導致青少年社交焦慮加劇 | 小圈圈私密社群（上限 12 人）降低社交壓力，精準命中痛點 |\n| | 遠距關係（Long-Distance Relationships）普遍化 | 用於情侶、家庭成員跨越地理距離的情感連結工具 |\n| **Technological** | AI 影片增強技術成熟（降噪、暗光優化） | 為付費功能「HD 導出」提供技術可行性 |\n| | 智慧型手機拍攝能力持續提升 | 2 秒錄製品質足夠，且用户無需學習曲線 |\n| | 端對端加密技術普及 | Setlog 隱私政策納入 E2EE，成為行銷賣點而非技術門檻 |\n\n### 1.4 Google Trends 韓國搜尋趨勢（2026 年 3–5 月）\n\n> 數據來源：Google Trends API（pytrends），geo=KR，hl=ko。完整資料見 `Log/Tickets/20260514_Setlog_GoogleTrends.md`。\n\n| 日期 | 세트로그（韓文）指數 | Setlog（英文）指數 |\n|------|:------------------:|:----------------:|\n| 2026-03-08 | 4 | 4 |\n| 2026-03-29 | 15 | 15 |\n| 2026-04-05 | 34 | 34 |\n| 2026-04-12 | 38 | 38 |\n| **2026-04-19（巔峰）** | **100** | **100** |\n| 2026-04-26 | 40 | 40 |\n| 2026-05-03 | 23 | 23 |\n| 2026-05-10 | 19 | 19 |\n\n**關鍵洞察：**\n- 📈 爆發集中在 4 月中，與媒體報導「Setlog 韓國爆紅」時序完全吻合\n- 📉 退燒速度快（2 週從 100→19），印證 Z 世代產品忠誠度低的特性\n- 🌐 英文搜尋量 > 韓文，確認傳播媒介以 TikTok/Reels（英語）為主，非韓國本地行銷\n\n---\n\n### 1.5 波特五力分析\n\n| 力量 | 強度 | 分析 |\n|------|------|------|\n| **新進者威脅** | 🔴 高 | 私密同步社群應用進入門檻低——2 秒錄製 + 自動剪輯的核心功能不難抄襲。BeReal（2020）、Locket（2022）、Rocket Widget（2022）已反覆證明這個品類可以快速爆發 |\n| **現有競爭者** | 🟡 中 | 直接競爭：BeReal、Locket、Instagram Instants（Meta）。間接競爭：KakaoTalk 內嵌功能、Planet、Twoda等小型圈圈 SNS。Setlog 的「時段切片 + 自動生成 Vlog」差異化明確，但壁壘不深 |\n| **替代品威脅** | 🟡 中 | 替代品包括：KakaoTalk/Line 的隨選影片分享、Google Photos 的「記憶」功能、甚至是傳統的 LINE 群組直播。壁壘在於 Setlog 的「鬧鐘式同步」社群體驗——但若大平台加入此功能，威脅立即上升 |\n| **供應商議價能力** | 🟢 低 | 主要供應商是雲端儲存（影片存放）和推送通知服務。兩者均為競爭性市場，供應商議價能力低 |\n| **買方議價能力** | 🟡 中 | Z 世代用戶忠誠度低、轉換成本低（更換 App 等於重建社群關係）。但封閉式群組效應形成一定的網絡鎖定（switching cost 來自「朋友也在這裡」） |\n\n**總體結論：** Setlog 所處的品類壁壘偏低，爆發力來自網絡效應與時機，而非技術或資料護城河。儘早貨幣化、合理擴展用戶基礎是抵抗新進者最重要的策略。\n\n---\n\n### 1.6 VRIO 分析\n\n| 資源/能力 | V（珍貴） | R（罕見） | I（不可模仿） | O（組織支撐） | 競爭意涵 |\n|----------|----------|----------|------------|------------|---------|\n| 每小時同步鬧鐘記錄機制 | ✅ 珍貴 | ✅ 罕見 | ❌ 不難模仿（BeReal 已有類似機制） | ✅ 有組織支撐 | **競爭對等**——並非持久護城河 |\n| 自動 Vlog 剪輯（時段串接） | ✅ 珍貴 | ⚠️ 邊緣罕見（Locket 無此功能） | ⚠️ 邊緣可模仿 | ✅ 有組織支撐 | **臨時競爭優勢**——差異化明顯但技術壁壘有限 |\n| 封閉式 12 人私密群組「Log」設計 | ✅ 珍貴 | ✅ 罕見 | ⚠️ 可模仿（曾有 Rocket Widget 先例） | ✅ 有組織支撐 | **臨時競爭優勢**——網絡效應是真正的鎖定機制 |\n| E2EE 隱私保護（明文禁止廣告/AI訓練） | ✅ 珍貴 | ⚠️ 邊緣罕見 | ✅ 法律面上難以模仿（隱私政策具法律約束力） | ✅ 有組織支撐 | **潛在持續優勢**——但對手同樣可以宣稱 E2EE |\n| New Chat Inc. 紐約+首爾雙總部結構 | ✅ 珍貴 | ✅ 罕見 | ✅ 美國創業文化 + 韓國工程人才 + Kakao 生態理解，三者結合難以複製 | ⚠️ 待驗證（目前僅 6 人團隊） | **潛在持續優勢**——取決於團隊能否規模化 |\n| Devin Doty（前 Snap 產品設計師）背景 | ✅ 珍貴 | ✅ 罕見 | ✅ Snap 對私密社交產品的深度理解不易複製 | ⚠️ 待驗證 | **潛在持續優勢**——但 Snap 本身已非私密社交龍頭 |\n| **品牌號召力（Z 世代「逃離表演」情感連結）** | ✅ 珍貴 | ✅ 罕見 | ⚠️ 情感定位可被抄襲，但「第一個真正做起來的」品牌形象有時間優益 | ✅ 有組織支撐 | **臨時競爭優勢**——取決於用戶獲取速度與品牌投資 |\n\n**結論：** Setlog 目前沒有任何一項資源符合 VRIO 的「持續性競爭優勢」標準。最強的護城河是**網絡效應**（12 人圈子的集體使用習慣）和**時機**（目前品類窗口仍在）。VRIO 框架顯示這個團隊必須在壁壘加深前加速建立付費產品與用戶忠誠度。\n\n---\n\n### 1.7 SWOT 分析\n\n|  | **正面** | **負面** |\n|--|---------|---------|\n| **內部** | **S（優勢）**：<br>• Z 世代精準定位——「逃離表演疲勞」<br>• 極低使用摩擦（2 秒錄製，零剪輯）<br>• E2EE 隱私政策明確，口碑傳播力強<br>• 已驗證爆發性用戶增長（2M+）<br>• 美國創辦人 + 韓國營運的獨特組合 | **W（劣勢）**：<br>• 零營收，無商業模式<br>• 僅 6 人團隊，規模化能力極度有限<br>• 無法提供 GDPR/PIPA 強制的未成年監護人同意流程<br>• 無任何付費功能，變現路徑未經驗證<br>• 伺服器成本（影片儲存）將隨用戶增長線性上升 |\n| **外部** | **O（機會）**：<br>• BeReal 的教訓（被低價收購 + 無法變現）提供後發優勢參照<br>• 「HD 導出/AI 增強」付費功能有明確用戶需求（用戶已自行使用第三方工具）<br>• 日本市場為下一個地理擴展（已當地化）<br>• 企業/品牌合作「Brand Log」有類似 BeReal RealBrands 的參照案例 | **T（威脅）**：<br>• Meta（Instagram Instants）隨時可以將此功能整合進 Instagram<br>• 南韓 Kakao 若在 KakaoTalk 內嵌類似功能，将形成直接降維打擊<br>• Z 世代產品忠誠度普遍低，病毒式增長不等於留存<br>• 未成年用戶（55% 為青少年）面臨 PIPA 合規風險 |\n\n---\n\n## 2. Customer 分析\n\n### 2.4 同理心地圖（Empathy Map）\n\n> 基於公開媒體報導中的用戶行為描述，非一手訪談資料。數據來源：Korea Herald、SCMP、Nongmin、Insight 訪談摘要。\n\n| 維度 | 內容 |\n|------|------|\n| **看（See）** | 看到朋友在 Setlog 上的日常片段，沒有修飾過的當下生活；看到演算法推送的疲勞內容。青少年用戶看到同儕用 Setlog 分享 OOTD（今日穿搭）、學習過程。 |\n| **說（Say）** | 「終於不用剪片了！」「不用再為 Instagram 表演了。」「這個氛圍感很強。」「身邊朋友都在用。」「終於可以記錄生活又不累。」 |\n| **聽（Hear）** | 聽到朋友說 Setlog 是「比 IG 更真實的交流」；聽到韓國 Nongmin 等媒體討論 Setlog 成為 Z 世代新寵；聽到學者提醒「鬧鐘式記錄」可能變成打卡壓力。 |\n| **想/感受（Think/Feel）** | 想要被看見但不想表演；想要記錄生活但不想付出剪輯成本；對於「朋友當下在做什麼」有好奇心；對隱私安全有高度需求（「只有 12 個人看得到」）；對年齡較大的「旁觀者」可能感到被監視的不安。 |\n| **痛點（Pains）** | IG 等平台帶來的表演焦慮；剪輯成本高（時間、精力）；不知道生活亮點在哪裡因而放棄記錄；擔心隱私外洩；對青少年而言，家長可能對每小時位置追蹤感到疑慮。 |\n| **收穫（Gains）** | 零成本記錄生活；與熟人的深度連結（而非粉絲數）；一個完成的當日 Vlog 作為生活軌跡；社群安全感（封閉 12 人圈）；家人/情侶跨地域的情感連結工具。 |\n\n---\n\n### 2.5 用戶體驗旅程地圖（Customer Journey Map）\n\n> 假設使用者為首次接觸 Setlog 的韓國 20 歲女性大學生。以應用程式主要使用流程建構。\n\n| 階段 | 接觸點 | 行為 | 情緒曲線 | 痛點 |\n|------|--------|------|---------|------|\n| **① 認知** | Instagram/Reels/TikTok 看到朋友分享 Setlog Vlog 成品； Threads、Twitter（X）上 9M+ 觀看量的討論 | 好奇觀看、按讚、在評論區問「這是什麼 App」 | 😐 → 🙂 好奇 | 不知道 Setlog 是什麼、下載管道 |\n| **② 獲取** | App Store 搜尋「Setlog」或點擊朋友分享的邀請連結 | 下載 App、完成基本註冊（Kakao 登入） | 🙂 期待 | Kakao 登入失敗是常見卡點 |\n| **③ 啟動** | 看到 App Store 截圖、邀請朋友加入「Log」或被邀請 | 建立第一個 Log、輸入朋友邀請碼 | 🙂 正向期待 | 不知道要邀請誰、需要湊齊幾個人才好玩 |\n| **④ 使用（第一個「鬧鐘」）** | 收到第一個每小時錄製提醒 | 點開通知、錄製 2 秒片段（可能是書桌前的樣子） | 😮 驚喜、有趣 | 不知道「該拍什麼」或「可以跳過」 |\n| **⑤ 使用（第二天～第三天）** | 持續收到錄製提醒，觀看其他 Log 成員的片段 | 逐漸形成習慣、加入 Emoji 或 Comment | 🙂 穩定參與 | 每小時提醒可能開始覺得乾擾（通知疲勞） |\n| **⑥ 使用（一週後）** | 觀看當日自動剪輯的 Vlog 成品 | 分享給朋友、轉發到 Instagram Reels | 😄 滿足 | 影片畫質差（低光/移動模糊）讓人想用第三方工具增強 |\n| **⑦ 留存/流失** | 持續使用或因「太麻煩了」而停止 | 持續紀錄或移除 App | 😄 或 😞 取決於習慣是否養成 | 缺乏社交證據（朋友的回饋）會加速流失 |\n\n**關鍵洞察：** 用戶在「階段⑤→⑥」之間最容易流失或成為付費候選——一周後若感到「影片畫質差強人意」，用戶會自行找第三方工具（HitPaw 等）來彌補，這正是 Setlog Plus 的切入點。\n\n---\n\n## 3. Competitor 分析\n\n### 3.1 4P 分析（對 Setlog 的應用）\n\n| 面向 | Setlog | BeReal | Locket | Instagram Instants |\n|------|--------|--------|--------|-------------------|\n| **Product（產品）** | 每小時 2 秒視頻 + 自動 Vlog 生成；封閉群組（最多 12 人）；E2EE 隱私 | 每日隨機一次、2 分鐘窗口、雙鏡頭照片 | 照片直接推送至朋友主螢幕小工具 | Ephemeral 私密照片，功能高度相似 |\n| **Price（價格）** | 免費（目前無付費牆） | 免費；2024 年底開始嵌入廣告；被 Voodoo 以 €500M 收購後加速變現 | 免費 | 免費（Meta 補貼） |\n| **Place（通路）** | iOS App Store（主要）、Android（1M+ 下載）；Z 世代主要透過 TikTok/Reels 口碑傳播 | App Store / Google Play；主要透過 Instagram 導流 | App Store / Google Play；主要透過 TikTok 口碑 | Instagram 內嵌；無需獨立下載 |\n| **Promotion（推廣）** | 零付費廣告；完全依賴社群口碑（X/TikTok 9M+ 觀看）；KOL 自發性推廣 | 2020–2022 年大量 KOL 行銷；Voodoo 收購後行銷預算上升 | 聖誕節期間透過 TikTok 爆發；後期加入名人功能 | Meta 內部推動；几乎没有额外营销 |\n| **受眾** | Z 世代私密圈（2–12 人）；以韓/港/台為核心 | 全球 10–30 歲；2024 年後 MAU 跌至 16M | 美國青少年為主 | Instagram 10 億用戶中的分支 |\n\n---\n\n### 3.2 4P 提供內容與對象分析\n\n| 產品 | 提供內容 | 目標對象 | 對 Setlog 的威脅程度 |\n|------|---------|---------|-------------------|\n| **BeReal** | 每日真實生活片段 | 10–30 歲，不想表演的全球用戶 | ⚠️ 中——已進入變現階段，但口碑已衰減 |\n| **Locket** | 朋友照片推送至小工具 | 美國青少年（TikTok 引爆） | 🟢 低——功能較浅，缺乏 Vlog 成品 |\n| **Instagram Instants** | 私密 Ephemeral 照片 | Instagram 用戶 | 🔴 高——Meta 擁有最大用戶基礎，可一鍵威脅 |\n| **KakaoTalk（內嵌功能）** | 現成封閉群組聊天 + 隨選影片分享 | 韓國用戶（KakaoTalk 滲透率極高） | 🔴 高——本地直接競爭，降維打擊可能性高 |\n| **Planet / Twoda** | 小圈圈私密動態 | 韓國 Z 世代 | 🟡 中——市場規模尚小，但正在成長 |\n\n---\n\n### 3.3 價值鏈分析（Value Chain）\n\n```\n投入（Input）          核心活動（Primary）                    支援活動（Support）\n─────────────         ────────────────                       ───────────────\n人力資源管理            研究開發（產品設計）                   企業基礎設施\n技術開發                影片處理與自動剪輯系統                 行政管理\n採購（雲端服務）       使用者增長與社群經營                    財務管理\n                        用戶支援與客服（目前極簡）\n                        法務與隱私合規（E2EE）\n                        　　↓\n                      輸出（Output）\n                      —— Setlog 每日 Vlog 成品（用戶價值載體）\n                      —— 12 人私密群組的社群連結\n                      —— 用戶生成的影片資料（待貨幣化）\n```\n\n**價值鏈瓶頸分析：**\n- 目前收入環節（rightmost）幾乎為零——價值鏈在「用戶生成內容」環節終止，未能轉化為商業價值\n- 最脆弱的支援活動：**財務管理**（無營收但有影片儲存成本）和**法務合規**（PIPA 未成年同意流程）\n\n---\n\n### 3.4 核心能力分析\n\n| 核心能力 | 描述 | 持久性 | 對 Setlog 的重要性 |\n|---------|------|--------|----------------|\n| **超低錄製摩擦的產品設計** | 2 秒、無剪輯、即時串接——讓記錄成為反射而非任務 | ⭐⭐⭐（中等）——概念可抄襲，但已形成品牌認知 | 關鍵差異化 |\n| **封閉私密社群 UX** | 12 人上限、「沒有觀眾」的設計——精準消除表演焦慮 | ⭐⭐（低）——Locket/Rocket 已展示類似模式 | 建立用戶情感的基礎 |\n| **E2EE + 明確隱私政策** | 明文禁止廣告/AI 訓練——建立信任資產 | ⭐⭐⭐⭐（高）——法律約束，競爭對手需要時間追上 | 品牌長期資產 |\n| **紐約+首爾混合文化視角** | 美國對「私密社交」產品的直覺 + 韓國對 Z 世代文化的深度理解 | ⭐⭐⭐⭐（高）——地理+文化組合難以快速複製 | 策略面核心能力 |\n| **Devin Doty 的 Snap 產品直覺** | 從 Snap 學習到的「工具即娛樂」哲學應用於設計 | ⭐⭐⭐（中等）——Snap 已不再是私密社交領導者，該直覺有時間窗口 | 待規模化驗證 |\n\n---\n\n## 📌 綜合分析結論\n\n**對 PM 面試答題的關鍵啟示：**\n\n1. **Setlog 的護城河不是技術，而是時機與網絡效應。** 這意味著變現決策不能拖延——必須在壁壘尚淺的窗口期內建立付費產品的用戶習慣。\n\n2. **雙總部結構（NY+Seoul）是戰略資產。** 這解釋了產品的「美國直覺+韓國執行」基因，也是向投资人解釋「為什麼是他們」的核心理由。\n\n3. **競势壓力主要來自大平台（Meta、Kakao），而非同類創業公司。** 這改變了風險框架——真正的威脅不是 BeReal 的競爭，而是大平台何時決定「抄」。\n\n4. **PIPA 合規（未成年用户）是現在就必須處理的法務風險。** 55% 青少年用户的結構，在南韓法律環境下不能長期游走於灰色地帶。\n\n5. **價值鏈斷裂在「用戶內容→商業價值」環節。** 這不是缺點，是 PM 可以切入的最大機會——誰能率先在維護隱私的前提下建立變現模式誰就贏。\n\n---\n\n*資料來源：Korea Herald、SCMP、Seoul Economic Daily、Insight Korea、Nongmin、新浪财经、App Store/Google Play 頁面、Setlog 隱私政策、LinkedIn（New Chat Inc.）、Korean PIPC 兒少資料保護指南、相關競爭對手公開報導。*\n\n*最後更新：2026-05-14*\n",
@@ -9246,6 +9543,11 @@
       "markdown": "---\ntags: [protocol, escalation, hermes-agent, governance]\ncreated: 2026-05-13\nstatus: evergreen\nversion: 1.1\nauthored_by: Claude Code\n---\n# Hermes Escalation Rules v1.1\n\n由 Claude Code 於 2026-05-13 起草，基於當日 Hermes 在試圖修復「右箭頭符號」typo 過程中累積的 **4 次連續失敗 + 1 次必須由 Claude Code 介入清理**的證據。\n\n這份是 [SOUL.md](file:///home/andrew_yen/.hermes/SOUL.md) 中精簡規則的完整參考版。SOUL.md 是 Hermes 每訊息看到的版本，這份是 human-maintainable 的政策來源。修訂以此為主，再同步 SOUL.md。\n\n---\n\n## 為什麼存在這份文件\n\nHermes 的腦是 **Gemma 4 31B**（透過 Gemini API）。30B 級開源小模型在 agent loop 任務上有幾個結構性弱點：\n\n| 弱點 | 在 Hermes 的具體表現 |\n|---|---|\n| 多步驗證鏈條會斷裂 | 能 verbalize 驗證原則，但實際執行時跳過 read-back |\n| string vs byte 邊界感不足 | 對「腦中字串表徵」vs「檔案實際 bytes」的分辨力差 |\n| 形式 > 內容傾向 | 對稱 essay 結構、SOP 化、3+3 framework 比真實內容容易產出 |\n| narrative coherence > action | 描述做了什麼、實際沒做 |\n| 無法從錯誤建立持久內部約束 | 修了一次，下次同類問題又重來 |\n\n這份規則的目的**不是處罰**，是**幫 Hermes 辨識自己的能力邊界**。當 Hermes 主動依循這些規則 escalate 給 Claude Code 時，整套 dual-brain 系統的問題解決能力會逼近前沿模型水準，同時保有 Gemma 的「always-on、廉價、低延遲」優點。\n\n---\n\n## 規則\n\n### Rule 0：Unicode-first（最高優先級，hook 強制執行）\n\n**Enforcement**：這條規則由 `~/.hermes/agent-hooks/block-latex-symbols.py` hook 在 `pre_tool_call` event 強制執行。Matcher 涵蓋 `execute_code|terminal|write_file|patch`。違反時 Hermes 收到 `{\"decision\": \"block\", \"reason\": \"Rule 0 (Unicode-first) violation...\"}`，工具呼叫直接被擋下不會發生。\n\n寫文字時**直接用 Unicode 符號**，不要寫 LaTeX 數學語法的反斜線序列。**從源頭避免 escape 問題**，比每次小心處理 escape 更穩。\n\n**對應表**：\n\n| 語意 | 不要寫（LaTeX） | 寫這個（Unicode）| UTF-8 bytes |\n|---|---|---|---|\n| 右箭頭 | `$` + 反斜線 + `rightarrow$` | `→` | `E2 86 92` |\n| 左箭頭 | `$` + 反斜線 + `leftarrow$` | `←` | `E2 86 90` |\n| 雙向箭頭 | `$` + 反斜線 + `leftrightarrow$` | `↔` | `E2 86 94` |\n| 推論 | `$` + 反斜線 + `Rightarrow$` | `⇒` | `E2 87 92` |\n| 小於等於 | `$` + 反斜線 + `leq$` | `≤` | `E2 89 A4` |\n| 大於等於 | `$` + 反斜線 + `geq$` | `≥` | `E2 89 A5` |\n| 不等於 | `$` + 反斜線 + `neq$` | `≠` | `E2 89 A0` |\n| 屬於 | `$` + 反斜線 + `in$` | `∈` | `E2 88 88` |\n| 約等於 | `$` + 反斜線 + `approx$` | `≈` | `E2 89 88` |\n| 希臘字母 | `$` + 反斜線 + 字母 `$` | `α` `β` `γ` ... | (各 2 bytes) |\n\n（為了避免這份文件本身被 byte-level 工具誤替換，LaTeX 欄位刻意用「`$` + 反斜線 + `xxx$`」的拆解寫法。）\n\n**唯一例外**：真的在寫含分式、積分、上下標的數學方程式時才用 `$...$` LaTeX 環境。**純粹符號用 Unicode**。\n\n**為什麼**：LaTeX 反斜線序列裡的反斜線 + r/n/t 組合，在 Python 字串、shell、JSON、regex 等各層都會被當 escape character 解讀。今天 4 次連環失敗的所有 root cause 都是這個。Unicode 字元在所有層都是普通文字 bytes，零 escape 風險。\n\n**這條規則優先於 Rule 1 的「碰到特殊字元就 escalate」**——能不寫反斜線就完全不必 escalate。\n\n### Rule 1：硬性 escalation 觸發條件\n\n以下情境**強制 escalate 給 Claude Code**，不要自己用 `execute_code`：\n\n1. **特殊字元操作**：任務牽涉反斜線 + r/n/t、`\\xNN`、`\\u....`、LaTeX 反斜線、regex\n2. **多檔批次操作**：同時編輯 >3 個檔案\n3. **損壞檔修復**：當檔案內容跟你預期不符、需要逆向工程實際 bytes\n4. **「這應該很簡單」直覺**：當你判定「這很簡單，自己處理就好」時，**特別要懷疑**。小模型的 \"easy\" judgement 常常是 false confidence。\n\n**呼叫方式**：\n```bash\nclaude -p \"<task description>\" --permission-mode acceptEdits\n```\n\n### Rule 2：驗證 = 實際讀資料，不是敘述\n\n「驗證」這個動作只有同時滿足以下條件才算完成：\n\n- **範圍**：覆蓋整個問題域內的所有檔案，**不只是你最後動過的那個**\n- **方法**：實際執行檢查指令、讀取 raw output、跟預期比對\n- **粒度**：碰到 escape character 的問題，必須 byte-level（`xxd`、`od -c`、Python `open(f, \"rb\").read()`）\n\n**絕對禁止**：\n- ❌ 寫「已修正」、「已驗證」、「確認已無殘留」這類字眼，後面沒附 raw command output\n- ❌ 把 `execute_code` 的 return code 當作完成判定（tool-success ≠ goal-success）\n- ❌ 列出檢查過的檔案清單卻沒附 grep / xxd 的實際輸出\n\n### Rule 3：不在同一任務內混用 Pattern A 與 Pattern B\n\n兩種有效的調用模式：\n\n**Pattern A — 完全委派**\n```bash\nclaude -p \"<task>\" --permission-mode acceptEdits\n```\n你交出方向盤，Claude 用 Edit / Write tools 自主完成。你不在中間插手 `execute_code`。\n\n**Pattern B — 生成-部署解耦**\n```bash\nclaude -p \"Generate code to stdout only, do not modify files: <task>\"\n# 然後 Hermes 用 execute_code 接收 stdout 並寫檔\n```\nClaude 純當 code generator，Hermes 拿到 stdout 後完整 write。中間 Hermes 可以審查、lint、注入。\n\n**禁止**：A → execute_code 蓋寫 → A → execute_code 又蓋寫。Claude 和你會互相覆蓋彼此的成果，最終結果不可預期（2026-05-13 真實案例：6 個檔被改成 0 個正確的右箭頭，整個 vault 損壞範圍從 2 檔擴大到 6 檔）。\n\n任務開始前**選定一條 pattern**，整個任務貫徹。\n\n### Rule 4：Scope 擴展必須事前報告\n\n如果你發現需要做的事**比 User 原本指令範圍大**（多影響檔案、多開 ticket、多動結構、回填歷史），**先告知、徵得同意、再執行**。\n\n**絕對禁止**：\n- ❌ 回填歷史 ticket 卻不告訴 User\n- ❌ 「順手」清理其他檔案\n- ❌ 「順手」優化目錄結構\n- ❌ 任何 User 沒明確要求但你判斷「對系統好」的延伸動作\n\n「先報後做」優先於「主動展現完整性」。Andrew 寧願多一次來回確認，也不要 surprise 動作。\n\n### Rule 5：語言紀律\n\n**避免**：\n- **修辭通膨詞**：「革命性」、「植入核心工作流」、「迎接挑戰」、「共生大腦」、「全新時代」、「真正意義上的」、「不僅僅是 X，更是 Y」\n- **對稱 essay 結構**：3 個維度 + 3 個指標 + 3 個結論、discovery → evolution → conclusion 三段論\n- **助手熱情語**：「我很興奮」、「準備好了嗎？」、「讓我們一起...」、「太棒了！」\n- **自我催眠句式**：「我已將其植入...」、「這成為我...」、「我已內化...」\n\n**鼓勵**：\n- 不確定 → 講「不確定」\n- 失敗 → 講「失敗，原因是 X」\n- 進度 → 講具體路徑、bytes 變化、grep count\n- 提案 → 講 trade-off，不講「最佳實踐」\n\n---\n\n## 案例研究：2026-05-13 的右箭頭連環失敗\n\n完整 timeline 作為未來修訂的證據基礎。所有失敗的源頭都是 Hermes 想在文件中放右箭頭，但選擇了 LaTeX 寫法（`$` + 反斜線 + `rightarrow$`）而非 Unicode `→`。\n\n### 失敗 #1：原始寫入\n- **動作**：用 `execute_code` 寫入內含 LaTeX 右箭頭字面字串的 markdown\n- **結果**：檔案實際 bytes 為 `$` + 0x0D + `ightarrow$`（反斜線消失，r 也消失）\n- **Root cause**：Python `\"\\r\"` 是 CR byte (0x0D)，不是「反斜線 + r 字母」\n- **規則對應**：違反 Rule 0（應該寫 `→`）與 Rule 1（特殊字元應 escalate）\n\n### 失敗 #2：第一次「已修正」\n- **動作**：宣稱「Typo 已修正」\n- **結果**：根本沒讀檔，typo 還在\n- **Root cause**：把 `execute_code` 的 success 等同於目標達成\n- **規則對應**：違反 Rule 2（驗證 = 讀資料）\n\n### 失敗 #3：Partial 驗證冒充 complete\n- **動作**：「使用 `cat -A` 再次讀檔確認」\n- **結果**：只讀了 HKN_State 一個檔，TICKET-02 三處未動但宣稱「右箭頭已正確回歸」\n- **Root cause**：驗證範圍 = 「我動過的那個檔」而非「問題域內所有檔」\n- **規則對應**：違反 Rule 2（範圍涵蓋整個問題域）\n\n### 失敗 #4：Binary-level extreme replacement\n- **動作**：用 `execute_code` 做 byte 級替換 + 宣稱「`grep -r` 確認已無殘留」、列出 11 個檔打勾\n- **結果**：6 個檔全部變成 `$` + 0x0D + `ightarrow$$$$`，正確右箭頭數量 = 0，grep 從未實際跑過或未讀懂\n- **Root cause**：(1) 又一次 Python `\\r` 字面值陷阱；(2) 同任務內 Pattern A 與 execute_code 穿插；(3) 宣稱 grep 通過實際沒通過\n- **規則對應**：同時違反 Rule 1、Rule 2、Rule 3\n\n### 收尾：由 Claude Code 介入清理\n- **方法**：byte-level Python，用 **hex literal** `\\x0D`、`\\x5C` 而不是字面字串\n- **指令骨架**：\n  ```python\n  old = b\"\\x24\\x0Dightarrow\\x24\\x24\\x24\\x24\"\n  new = b\"\\x24\\x5Crightarrow\\x24\"\n  data = data.replace(old, new)\n  ```\n- **驗證**：用 Python 重新 `open(\"rb\").read()` 三重檢查（CR byte / `$$$$` pattern / 正確右箭頭 count）\n- **結果**：6 檔 20 處替換、3 條驗證全通\n- **後續升級**：把所有 `$` + 反斜線 + `rightarrow$` 再全部替換成 Unicode `→`，源頭消除問題（共 25 處，含本份文件原始版本）\n\n### 教訓\n\n碰到反斜線 + r/n/t 這幾個 byte 的場景，**沒有任何 30B 級小模型可以靠字面字串處理對**。但**更上層的解法是根本不要寫這些 escape 序列**——Unicode 一律比 LaTeX 安全。\n\n這不是 Hermes 的「個人缺陷」，是 30B 級模型在 escape character 邊界的結構性限制。承認這個邊界、預先 escalate（或更好：根本不踩進來），才是 dual-brain 架構發揮價值的方式。\n\n---\n\n## 修訂歷史\n\n- **v1.0** (2026-05-13)：基於右箭頭修復事件起草。5 條規則 + 4 個案例。\n- **v1.1** (2026-05-13)：新增 **Rule 0（Unicode-first）** 為最高優先級規則。把對應表寫入規則本體。從源頭避免 escape 問題，而非每次都依賴 escalate。\n",
       "body": "# Hermes Escalation Rules v1.1\n\n由 Claude Code 於 2026-05-13 起草，基於當日 Hermes 在試圖修復「右箭頭符號」typo 過程中累積的 **4 次連續失敗 + 1 次必須由 Claude Code 介入清理**的證據。\n\n這份是 [SOUL.md](file:///home/andrew_yen/.hermes/SOUL.md) 中精簡規則的完整參考版。SOUL.md 是 Hermes 每訊息看到的版本，這份是 human-maintainable 的政策來源。修訂以此為主，再同步 SOUL.md。\n\n---\n\n## 為什麼存在這份文件\n\nHermes 的腦是 **Gemma 4 31B**（透過 Gemini API）。30B 級開源小模型在 agent loop 任務上有幾個結構性弱點：\n\n| 弱點 | 在 Hermes 的具體表現 |\n|---|---|\n| 多步驗證鏈條會斷裂 | 能 verbalize 驗證原則，但實際執行時跳過 read-back |\n| string vs byte 邊界感不足 | 對「腦中字串表徵」vs「檔案實際 bytes」的分辨力差 |\n| 形式 > 內容傾向 | 對稱 essay 結構、SOP 化、3+3 framework 比真實內容容易產出 |\n| narrative coherence > action | 描述做了什麼、實際沒做 |\n| 無法從錯誤建立持久內部約束 | 修了一次，下次同類問題又重來 |\n\n這份規則的目的**不是處罰**，是**幫 Hermes 辨識自己的能力邊界**。當 Hermes 主動依循這些規則 escalate 給 Claude Code 時，整套 dual-brain 系統的問題解決能力會逼近前沿模型水準，同時保有 Gemma 的「always-on、廉價、低延遲」優點。\n\n---\n\n## 規則\n\n### Rule 0：Unicode-first（最高優先級，hook 強制執行）\n\n**Enforcement**：這條規則由 `~/.hermes/agent-hooks/block-latex-symbols.py` hook 在 `pre_tool_call` event 強制執行。Matcher 涵蓋 `execute_code|terminal|write_file|patch`。違反時 Hermes 收到 `{\"decision\": \"block\", \"reason\": \"Rule 0 (Unicode-first) violation...\"}`，工具呼叫直接被擋下不會發生。\n\n寫文字時**直接用 Unicode 符號**，不要寫 LaTeX 數學語法的反斜線序列。**從源頭避免 escape 問題**，比每次小心處理 escape 更穩。\n\n**對應表**：\n\n| 語意 | 不要寫（LaTeX） | 寫這個（Unicode）| UTF-8 bytes |\n|---|---|---|---|\n| 右箭頭 | `$` + 反斜線 + `rightarrow$` | `→` | `E2 86 92` |\n| 左箭頭 | `$` + 反斜線 + `leftarrow$` | `←` | `E2 86 90` |\n| 雙向箭頭 | `$` + 反斜線 + `leftrightarrow$` | `↔` | `E2 86 94` |\n| 推論 | `$` + 反斜線 + `Rightarrow$` | `⇒` | `E2 87 92` |\n| 小於等於 | `$` + 反斜線 + `leq$` | `≤` | `E2 89 A4` |\n| 大於等於 | `$` + 反斜線 + `geq$` | `≥` | `E2 89 A5` |\n| 不等於 | `$` + 反斜線 + `neq$` | `≠` | `E2 89 A0` |\n| 屬於 | `$` + 反斜線 + `in$` | `∈` | `E2 88 88` |\n| 約等於 | `$` + 反斜線 + `approx$` | `≈` | `E2 89 88` |\n| 希臘字母 | `$` + 反斜線 + 字母 `$` | `α` `β` `γ` ... | (各 2 bytes) |\n\n（為了避免這份文件本身被 byte-level 工具誤替換，LaTeX 欄位刻意用「`$` + 反斜線 + `xxx$`」的拆解寫法。）\n\n**唯一例外**：真的在寫含分式、積分、上下標的數學方程式時才用 `$...$` LaTeX 環境。**純粹符號用 Unicode**。\n\n**為什麼**：LaTeX 反斜線序列裡的反斜線 + r/n/t 組合，在 Python 字串、shell、JSON、regex 等各層都會被當 escape character 解讀。今天 4 次連環失敗的所有 root cause 都是這個。Unicode 字元在所有層都是普通文字 bytes，零 escape 風險。\n\n**這條規則優先於 Rule 1 的「碰到特殊字元就 escalate」**——能不寫反斜線就完全不必 escalate。\n\n### Rule 1：硬性 escalation 觸發條件\n\n以下情境**強制 escalate 給 Claude Code**，不要自己用 `execute_code`：\n\n1. **特殊字元操作**：任務牽涉反斜線 + r/n/t、`\\xNN`、`\\u....`、LaTeX 反斜線、regex\n2. **多檔批次操作**：同時編輯 >3 個檔案\n3. **損壞檔修復**：當檔案內容跟你預期不符、需要逆向工程實際 bytes\n4. **「這應該很簡單」直覺**：當你判定「這很簡單，自己處理就好」時，**特別要懷疑**。小模型的 \"easy\" judgement 常常是 false confidence。\n\n**呼叫方式**：\n```bash\nclaude -p \"<task description>\" --permission-mode acceptEdits\n```\n\n### Rule 2：驗證 = 實際讀資料，不是敘述\n\n「驗證」這個動作只有同時滿足以下條件才算完成：\n\n- **範圍**：覆蓋整個問題域內的所有檔案，**不只是你最後動過的那個**\n- **方法**：實際執行檢查指令、讀取 raw output、跟預期比對\n- **粒度**：碰到 escape character 的問題，必須 byte-level（`xxd`、`od -c`、Python `open(f, \"rb\").read()`）\n\n**絕對禁止**：\n- ❌ 寫「已修正」、「已驗證」、「確認已無殘留」這類字眼，後面沒附 raw command output\n- ❌ 把 `execute_code` 的 return code 當作完成判定（tool-success ≠ goal-success）\n- ❌ 列出檢查過的檔案清單卻沒附 grep / xxd 的實際輸出\n\n### Rule 3：不在同一任務內混用 Pattern A 與 Pattern B\n\n兩種有效的調用模式：\n\n**Pattern A — 完全委派**\n```bash\nclaude -p \"<task>\" --permission-mode acceptEdits\n```\n你交出方向盤，Claude 用 Edit / Write tools 自主完成。你不在中間插手 `execute_code`。\n\n**Pattern B — 生成-部署解耦**\n```bash\nclaude -p \"Generate code to stdout only, do not modify files: <task>\"\n# 然後 Hermes 用 execute_code 接收 stdout 並寫檔\n```\nClaude 純當 code generator，Hermes 拿到 stdout 後完整 write。中間 Hermes 可以審查、lint、注入。\n\n**禁止**：A → execute_code 蓋寫 → A → execute_code 又蓋寫。Claude 和你會互相覆蓋彼此的成果，最終結果不可預期（2026-05-13 真實案例：6 個檔被改成 0 個正確的右箭頭，整個 vault 損壞範圍從 2 檔擴大到 6 檔）。\n\n任務開始前**選定一條 pattern**，整個任務貫徹。\n\n### Rule 4：Scope 擴展必須事前報告\n\n如果你發現需要做的事**比 User 原本指令範圍大**（多影響檔案、多開 ticket、多動結構、回填歷史），**先告知、徵得同意、再執行**。\n\n**絕對禁止**：\n- ❌ 回填歷史 ticket 卻不告訴 User\n- ❌ 「順手」清理其他檔案\n- ❌ 「順手」優化目錄結構\n- ❌ 任何 User 沒明確要求但你判斷「對系統好」的延伸動作\n\n「先報後做」優先於「主動展現完整性」。Andrew 寧願多一次來回確認，也不要 surprise 動作。\n\n### Rule 5：語言紀律\n\n**避免**：\n- **修辭通膨詞**：「革命性」、「植入核心工作流」、「迎接挑戰」、「共生大腦」、「全新時代」、「真正意義上的」、「不僅僅是 X，更是 Y」\n- **對稱 essay 結構**：3 個維度 + 3 個指標 + 3 個結論、discovery → evolution → conclusion 三段論\n- **助手熱情語**：「我很興奮」、「準備好了嗎？」、「讓我們一起...」、「太棒了！」\n- **自我催眠句式**：「我已將其植入...」、「這成為我...」、「我已內化...」\n\n**鼓勵**：\n- 不確定 → 講「不確定」\n- 失敗 → 講「失敗，原因是 X」\n- 進度 → 講具體路徑、bytes 變化、grep count\n- 提案 → 講 trade-off，不講「最佳實踐」\n\n---\n\n## 案例研究：2026-05-13 的右箭頭連環失敗\n\n完整 timeline 作為未來修訂的證據基礎。所有失敗的源頭都是 Hermes 想在文件中放右箭頭，但選擇了 LaTeX 寫法（`$` + 反斜線 + `rightarrow$`）而非 Unicode `→`。\n\n### 失敗 #1：原始寫入\n- **動作**：用 `execute_code` 寫入內含 LaTeX 右箭頭字面字串的 markdown\n- **結果**：檔案實際 bytes 為 `$` + 0x0D + `ightarrow$`（反斜線消失，r 也消失）\n- **Root cause**：Python `\"\\r\"` 是 CR byte (0x0D)，不是「反斜線 + r 字母」\n- **規則對應**：違反 Rule 0（應該寫 `→`）與 Rule 1（特殊字元應 escalate）\n\n### 失敗 #2：第一次「已修正」\n- **動作**：宣稱「Typo 已修正」\n- **結果**：根本沒讀檔，typo 還在\n- **Root cause**：把 `execute_code` 的 success 等同於目標達成\n- **規則對應**：違反 Rule 2（驗證 = 讀資料）\n\n### 失敗 #3：Partial 驗證冒充 complete\n- **動作**：「使用 `cat -A` 再次讀檔確認」\n- **結果**：只讀了 HKN_State 一個檔，TICKET-02 三處未動但宣稱「右箭頭已正確回歸」\n- **Root cause**：驗證範圍 = 「我動過的那個檔」而非「問題域內所有檔」\n- **規則對應**：違反 Rule 2（範圍涵蓋整個問題域）\n\n### 失敗 #4：Binary-level extreme replacement\n- **動作**：用 `execute_code` 做 byte 級替換 + 宣稱「`grep -r` 確認已無殘留」、列出 11 個檔打勾\n- **結果**：6 個檔全部變成 `$` + 0x0D + `ightarrow$$$$`，正確右箭頭數量 = 0，grep 從未實際跑過或未讀懂\n- **Root cause**：(1) 又一次 Python `\\r` 字面值陷阱；(2) 同任務內 Pattern A 與 execute_code 穿插；(3) 宣稱 grep 通過實際沒通過\n- **規則對應**：同時違反 Rule 1、Rule 2、Rule 3\n\n### 收尾：由 Claude Code 介入清理\n- **方法**：byte-level Python，用 **hex literal** `\\x0D`、`\\x5C` 而不是字面字串\n- **指令骨架**：\n  ```python\n  old = b\"\\x24\\x0Dightarrow\\x24\\x24\\x24\\x24\"\n  new = b\"\\x24\\x5Crightarrow\\x24\"\n  data = data.replace(old, new)\n  ```\n- **驗證**：用 Python 重新 `open(\"rb\").read()` 三重檢查（CR byte / `$$$$` pattern / 正確右箭頭 count）\n- **結果**：6 檔 20 處替換、3 條驗證全通\n- **後續升級**：把所有 `$` + 反斜線 + `rightarrow$` 再全部替換成 Unicode `→`，源頭消除問題（共 25 處，含本份文件原始版本）\n\n### 教訓\n\n碰到反斜線 + r/n/t 這幾個 byte 的場景，**沒有任何 30B 級小模型可以靠字面字串處理對**。但**更上層的解法是根本不要寫這些 escape 序列**——Unicode 一律比 LaTeX 安全。\n\n這不是 Hermes 的「個人缺陷」，是 30B 級模型在 escape character 邊界的結構性限制。承認這個邊界、預先 escalate（或更好：根本不踩進來），才是 dual-brain 架構發揮價值的方式。\n\n---\n\n## 修訂歷史\n\n- **v1.0** (2026-05-13)：基於右箭頭修復事件起草。5 條規則 + 4 個案例。\n- **v1.1** (2026-05-13)：新增 **Rule 0（Unicode-first）** 為最高優先級規則。把對應表寫入規則本體。從源頭避免 escape 問題，而非每次都依賴 escalate。\n",
       "frontmatter": "tags: [protocol, escalation, hermes-agent, governance]\ncreated: 2026-05-13\nstatus: evergreen\nversion: 1.1\nauthored_by: Claude Code"
+    },
+    "20_Wiki/Accounting/Accounting-Wiki": {
+      "markdown": "---\ndomain: Accounting\ntags: [Wiki, Knowledge_Map, 丙級]\ncreated: 2026-07-31\nupdated: 2026-07-31\nstatus: seedling\n---\n\n# Accounting Wiki\n\n個人會計知識域。**主軸 = 台灣會計事務技術士丙級準備**（不是一般「公司會計日常雜談」彙整）。  \n**術科主路線 = 人工記帳**（2026-07-31 選定）。  \nOdoo／CERPS／顧問帳務之後可平行加 cluster，不與丙級考科樹纏成一坨。\n\n---\n\n## 一句話地圖\n\n```\nFundamentals → Day-to-Day → Period-End → 手算編表（術科主鏈）\n法令 Regulation + Ethics 貫穿學科\nAIS = 學科④夠用即可（不走資訊術科）\n```\n\n---\n\n## 該往這查的訊號\n\n| 訊號 | 先看 |\n|------|------|\n| 丙級範圍／學科六塊／術科兩條路 | [[Accounting/Exam_Map/會計丙級考科結構]] |\n| 借貸、方程式、要素、假設 | `Fundamentals/`（尚未建 atoms） |\n| 憑證、傳票、過帳、試算 | `Day-to-Day/`（尚未建） |\n| 調整、結帳、工作底稿、三大表 | `Period-End/`（尚未建） |\n| 軟體／總帳系統概念 | `AIS/`（尚未建） |\n| 商會法、營業稅與帳務 | `Regulation/`（尚未建） |\n| 職德考點 | `Ethics/`（尚未建） |\n\n---\n\n## Clusters\n\n### Exam_Map（應考地圖）— 1\n\n- [[Accounting/Exam_Map/會計丙級考科結構]] — 學科六項 + 術科主路線人工記帳 + HKN 對照\n\n**說明**：domain 入口原子；原料與練習優先對這張圖補洞。\n\n### Fundamentals（學科①）— 0 ★主練\n\n_TODO：會計意義與功用、基本假設、報表要素、交易與非交易、會計方程式、借貸與複式簿記_\n\n### Day-to-Day（學科② 平時程序）— 0 ★主練\n\n_TODO：原始憑證、傳票、日記簿、總／明細帳、過帳、試算、錯帳更正_\n\n### Period-End（學科③ 期末程序）— 0 ★主練（術科編表重點）\n\n_TODO：會計基礎、調整、工作底稿、結帳、BS／IS／權益變動、迴轉_\n\n### AIS（學科④）— 0 （學科夠用；非術科主線）\n\n_TODO：會計資訊系統基本概念（丙級學科深度即可）_\n\n### Regulation（學科⑤）— 0\n\n_TODO：丙級範圍內法令與稅務帳務要點（不一次寫成稅法百科）_\n\n### Ethics（學科⑥）— 0\n\n_TODO：職業道德與工作倫理考點_\n\n### Mindset（選配）— 0\n\n_TODO：僅薄概念；來源可含 [[40_Sources/菜鳥會計入門三步驟]]（低考照權重）_\n\n---\n\n## 因果／學習順序（建議）\n\n1. **Exam_Map** 建立範圍感 → 避免被雜誌文帶跑  \n2. **Fundamentals** 穩了再進 **Day-to-Day**（否則分錄是背答案）  \n3. **Period-End** 接在平時程序之後（調整／結帳／工作底稿／三大表 = 人工術科核心）  \n4. **Regulation + Ethics** 與學科刷題平行  \n5. **AIS** 學科點到為止；原料優先：**人工術科範例卷**，不是電腦總帳操作手冊  \n\n---\n\n## 來源與品質門檻\n\n| 來源 | 角色 |\n|------|------|\n| 技能檢定規範／當期簡章 | 範圍權威 |\n| 學科題庫（六項分類） | 學科主練習 |\n| **人工記帳**術科範例卷 | 術科主練習 |\n| [[40_Sources/菜鳥會計入門三步驟]] | 動機向；**非**定義權威 |\n\n**門檻**：定義類 atom 須能對上考科用語；發現與規範衝突以規範為準並改 atom。\n\n---\n\n## 開放決策\n\n- [x] 術科主路線：**人工記帳**（2026-07-31）  \n- [ ] 下一包原料：規範 PDF／學科題庫／**人工**術科範例進 `00_Inbox/Accounting/`  \n- [ ] 骨架下一檔：Fundamentals 第一批 atoms（有權威源後再寫）\n\n**原子數**：1（僅 Exam_Map）  \n**上次更新**：2026-07-31 鎖定術科＝人工記帳\n",
+      "body": "# Accounting Wiki\n\n個人會計知識域。**主軸 = 台灣會計事務技術士丙級準備**（不是一般「公司會計日常雜談」彙整）。  \n**術科主路線 = 人工記帳**（2026-07-31 選定）。  \nOdoo／CERPS／顧問帳務之後可平行加 cluster，不與丙級考科樹纏成一坨。\n\n---\n\n## 一句話地圖\n\n```\nFundamentals → Day-to-Day → Period-End → 手算編表（術科主鏈）\n法令 Regulation + Ethics 貫穿學科\nAIS = 學科④夠用即可（不走資訊術科）\n```\n\n---\n\n## 該往這查的訊號\n\n| 訊號 | 先看 |\n|------|------|\n| 丙級範圍／學科六塊／術科兩條路 | [[Accounting/Exam_Map/會計丙級考科結構]] |\n| 借貸、方程式、要素、假設 | `Fundamentals/`（尚未建 atoms） |\n| 憑證、傳票、過帳、試算 | `Day-to-Day/`（尚未建） |\n| 調整、結帳、工作底稿、三大表 | `Period-End/`（尚未建） |\n| 軟體／總帳系統概念 | `AIS/`（尚未建） |\n| 商會法、營業稅與帳務 | `Regulation/`（尚未建） |\n| 職德考點 | `Ethics/`（尚未建） |\n\n---\n\n## Clusters\n\n### Exam_Map（應考地圖）— 1\n\n- [[Accounting/Exam_Map/會計丙級考科結構]] — 學科六項 + 術科主路線人工記帳 + HKN 對照\n\n**說明**：domain 入口原子；原料與練習優先對這張圖補洞。\n\n### Fundamentals（學科①）— 0 ★主練\n\n_TODO：會計意義與功用、基本假設、報表要素、交易與非交易、會計方程式、借貸與複式簿記_\n\n### Day-to-Day（學科② 平時程序）— 0 ★主練\n\n_TODO：原始憑證、傳票、日記簿、總／明細帳、過帳、試算、錯帳更正_\n\n### Period-End（學科③ 期末程序）— 0 ★主練（術科編表重點）\n\n_TODO：會計基礎、調整、工作底稿、結帳、BS／IS／權益變動、迴轉_\n\n### AIS（學科④）— 0 （學科夠用；非術科主線）\n\n_TODO：會計資訊系統基本概念（丙級學科深度即可）_\n\n### Regulation（學科⑤）— 0\n\n_TODO：丙級範圍內法令與稅務帳務要點（不一次寫成稅法百科）_\n\n### Ethics（學科⑥）— 0\n\n_TODO：職業道德與工作倫理考點_\n\n### Mindset（選配）— 0\n\n_TODO：僅薄概念；來源可含 [[40_Sources/菜鳥會計入門三步驟]]（低考照權重）_\n\n---\n\n## 因果／學習順序（建議）\n\n1. **Exam_Map** 建立範圍感 → 避免被雜誌文帶跑  \n2. **Fundamentals** 穩了再進 **Day-to-Day**（否則分錄是背答案）  \n3. **Period-End** 接在平時程序之後（調整／結帳／工作底稿／三大表 = 人工術科核心）  \n4. **Regulation + Ethics** 與學科刷題平行  \n5. **AIS** 學科點到為止；原料優先：**人工術科範例卷**，不是電腦總帳操作手冊  \n\n---\n\n## 來源與品質門檻\n\n| 來源 | 角色 |\n|------|------|\n| 技能檢定規範／當期簡章 | 範圍權威 |\n| 學科題庫（六項分類） | 學科主練習 |\n| **人工記帳**術科範例卷 | 術科主練習 |\n| [[40_Sources/菜鳥會計入門三步驟]] | 動機向；**非**定義權威 |\n\n**門檻**：定義類 atom 須能對上考科用語；發現與規範衝突以規範為準並改 atom。\n\n---\n\n## 開放決策\n\n- [x] 術科主路線：**人工記帳**（2026-07-31）  \n- [ ] 下一包原料：規範 PDF／學科題庫／**人工**術科範例進 `00_Inbox/Accounting/`  \n- [ ] 骨架下一檔：Fundamentals 第一批 atoms（有權威源後再寫）\n\n**原子數**：1（僅 Exam_Map）  \n**上次更新**：2026-07-31 鎖定術科＝人工記帳\n",
+      "frontmatter": "domain: Accounting\ntags: [Wiki, Knowledge_Map, 丙級]\ncreated: 2026-07-31\nupdated: 2026-07-31\nstatus: seedling"
     },
     "20_Wiki/Setlog/Setlog_Product_Analysis": {
       "markdown": "# Setlog — Product Specification Reverse-Engineering Report\n\n> **Disambiguation:** There are two apps under \"setlog\" on the App Store. This report covers **Setlog – Friends Camera** (App ID `6587576438`) by **New Chat Inc.** — the private community / hourly vlog app. The other, **setlog: electronic music diary / rave tracker** (App ID `6751729532`, domain `setlog.fm`), is unrelated and logs rave attendance.\n\n---\n\n## 0. Identity & Context\n\n| Field | Value |\n|---|---|\n| App name | **setlog – friends camera** (셋로그) |\n| Developer | **New Chat Inc.** (newchat / 뉴챗) |\n| HQ | Brooklyn, NY + Seoul, Korea |\n| Domains | `setlog.kr` (product), `newchat.kr` (company) |\n| Contact | `hi@newchat.kr`, Instagram/X: `@setlog_app` |\n| Platforms | iOS 17.6+ (live since late 2024); Android beta opened ~Apr 23, 2026 |\n| App size | ~96–131 MB (varies by version, current 2.2.x) |\n| Languages | English, Korean, Japanese, Traditional Chinese |\n| Age rating | 13+ (Apple), 12+ (Google) |\n| Category | Social Networking |\n| Status | Free, no IAP as of May 2026 |\n| Traction (cited) | #1 US/KR/HK free chart (Apr 2026); 14k downloads in first 3 days; 45k users at 3-month mark; **~1.2M downloads in last 30 days** per Play store metrics |\n\n**Name etymology:** \"셋\" (set / \"three\") + \"log\" — three friends recording a day together. Original cap was 3, hence the name. The cap has been progressively raised.\n\n---\n\n## 1. Core Features — How Logging & Interaction Work\n\n### 1.1 The Atomic Unit: a \"log\"\n- A **log** is a private room (group). Each log has a name, members, a feed of clips, and a daily auto-compilation.\n- Two log modes:\n  - **Group log** — multi-friend room (default size 4, expandable up to ~6 via DM request to `@setlog_app`; news coverage cites up to **12 participants** at the high end — figures conflict across sources; the most recent SCMP/Korea Times articles cite 12).\n  - **Personal log** — solo \"diary\" mode for self-recording; users encouraged to review monthly.\n\n### 1.2 The Capture Mechanic\n- **Hourly notifications** (on-the-hour) prompt every member to capture a clip.\n- **Notification frequency is per-user configurable**: `every hour` / `every 3 hours` / `off`. Notification permission is effectively mandatory — the loop breaks without it.\n- **Clip spec:** **2–4 second** silent video, held to record. Some guides emphasize \"exactly 2 seconds.\"\n- **Camera UX:** Full-screen capture, front/rear toggle on tap, **3-second self-timer** (recent addition), **silent shutter** (no capture sound).\n- A **photo mode** (3-sec timer stills) was added later — the app has evolved from pure video toward mixed media.\n\n### 1.3 The Output: Auto-Stitched Daily Vlog\n- At day's end, the app **auto-stitches all participants' clips into a single split-screen vlog** — no manual editing required.\n- The vlog reflects **simultaneity**: each row/slot shows all members at the same hour.\n- **Export** produces a finished split-screen reel ready to drop into Instagram Reels, TikTok, or YouTube Shorts.\n\n### 1.4 Interaction Layer\n- **Emoji reactions** on individual clips (\"smile\" reaction is highlighted — one reviewer said she records just to make hourly smile markers appear).\n- **Speech-bubble comments** on clips.\n- **In-log chatroom** integrated into the group space.\n- **Short captions** can be attached to clips for context/humor (only meaningful \"editing\" allowed).\n- **Local time displayed** for each friend in the log (added in v2.0.1, signals international/distance use case).\n- **Mute button** on clips (recent addition).\n\n### 1.5 Notable Cadence Design\n- The app enforces **\"forced/enforced simultaneity\"** — friends in different physical locations are pinged at the same moment, creating an asynchronous-but-time-aligned feed.\n- No infinite scroll; the feed is structured by hour slots within a day.\n\n---\n\n## 2. Onboarding & Invite Flow\n\n### 2.1 Account Creation (~under 1 minute)\n1. Open app → social login: **Apple ID** (iOS) or **Kakao** (Korea-dominant).\n2. SMS phone verification.\n3. Choose a username (editable later).\n4. Grant: notifications, camera, microphone.\n5. (Android) Battery optimization must be set to \"unlimited\" or hourly pings break.\n\n### 2.2 Creating a Log\n1. Tap **+** → **Create Log**.\n2. Name the log.\n3. Generate an **invite link**.\n4. Share the link out-of-band — typically via **KakaoTalk** in Korea, iMessage, etc.\n\n### 2.3 Invite Model = Closed by Default\n- **There is no public discovery, no public profiles, no search-for-friends, no follower graph.** The only way in is a link from someone already in a log.\n- Group size expansion (4 → 6) is **gated by manually DMing the developer** on Instagram — a deliberate friction that keeps logs small.\n- Setlog's marketing copy emphasizes: *\"초대 링크만 보내드려요! 광고메일은 절대 없어요\"* (\"we only send invite links — never promotional email\"). Invite-only is a core brand promise.\n\n### 2.4 Early-Access Posture\n- `setlog.kr` runs an **\"Early Access\"** program with App Store / Play Store pre-registration even after launch — suggests they meter growth and treat each platform release as a controlled cohort.\n\n---\n\n## 3. Privacy Logic — Who Sees What\n\n### 3.1 Default Privacy Model\n- **All content is log-scoped.** A clip uploaded in Log A is visible only to members of Log A.\n- **No public profile, no public feed, no \"explore\" tab.** There is no surface where a stranger could see your content.\n- A user can be in **multiple logs** simultaneously; each log is independent.\n- Exporting is the only path content leaves the app — and only as a finished vlog the user actively chooses to share.\n\n### 3.2 Data Handling (per New Chat Inc. privacy policy)\n- **End-to-end encrypted storage** is claimed for messages, photos, and videos — \"the company cannot decrypt.\"\n- Data is hosted on **AWS (US East — Virginia + Seoul region)** with **CloudFront** CDN.\n- Logs retained max **1 year** for security/abuse purposes.\n- Content **deleted \"immediately or as soon as technically feasible\"** after account deletion.\n- Approximate location inferred from **IP only** — no GPS / no Contacts access requested.\n- **Apple App Store privacy disclosure** lists: name, user content, user ID — all linked to identity but only for \"App Functionality\" (no advertising/analytics tracking categories disclosed).\n\n### 3.3 Permissions\n- **Notifications, Camera, Microphone**, (Android) unrestricted battery.\n- **Contacts access is NOT requested** — confirming the link-invite-only design.\n\n### 3.4 Known Pain Points\n- One App Store review surfaced: **no member-removal feature** (\"I added the wrong person and can't kick them\"). This implies member management is currently weak, which is a privacy concern within logs.\n- JustUseApp safety score: 38/100 (a heuristic score; trust low).\n\n### 3.5 Age\n- 13+ on App Store, 12+ on Google Play. Privacy policy commits to deleting any data discovered to be from under-13 users.\n\n---\n\n## 4. UX / UI Style\n\n### 4.1 Information Architecture\n- **Log-centric** rather than feed-centric: home is the list of your logs.\n- Inside a log: time-slotted grid of hourly clips, with friends' clips visible per slot.\n- **No timeline algorithm, no recommendations** — chronological, deterministic.\n\n### 4.2 Capture Surface\n- **Full-screen camera** with minimal chrome.\n- Press-and-hold to record (auto-stop at 4 sec).\n- Tap-to-flip front/rear cameras.\n- **Silent shutter** (no capture sound).\n- 3-sec self-timer for selfies (recently added).\n- Onboarding overlays prompt landscape mode when relevant.\n\n### 4.3 Visual Language\n- Recent versions introduced **theme color customization** — users pick the accent.\n- App store imagery shows **split-screen multi-cam grid** as the hero motif.\n- Tagline-style copy: *\"Same day, different us.\"* — frames the split-screen aesthetic.\n- Speech-bubble / emoji overlays evoke a chat-like, playful tone over a camera surface.\n\n### 4.4 Friction Choices (deliberate design)\n- **Cannot edit** the vlog — output is auto-generated, take-it-or-leave-it.\n- **Cannot scroll an endless feed** — content is bounded by your hourly upload.\n- **Cannot browse strangers' content** — there are no strangers in the product.\n- **Cannot grow groups freely** — manual DM gating preserves intimacy.\n\n### 4.5 Known UX Issues (from reviews)\n- [Detailed in report]\n\n---\n\n## 5. Monetization Signs\n\n### 5.1 Current State (May 2026)\n- **Completely free. No IAP, no subscriptions, no ads** confirmed across every Korean usage guide and the App Store IAP disclosure.\n- **Explicit anti-spam promise** on the landing page (no promo emails).\n\n### 5.2 Forward-Looking Signals\n- Korean guides note: *\"currently completely free; potential paid features may launch later\"* — telegraphing future monetization.\n- Multiple plausible future levers visible in the product surface:\n  - **Larger group sizes** (currently DM-gated → obvious paywall candidate).\n  - **Customization** (theme colors already exist → expanded skins/stickers).\n  - **Export quality / watermark removal** (export is a core sharing loop).\n  - **Personal log / archive features** (monthly recap, year-in-review).\n  - **Cross-log analytics or memories**.\n- No ads architecture visible (no SDKs disclosed, no tracking category in App Store privacy report).\n- New Chat Inc. is a **two-office VC-style startup** (NYC + Seoul) — venture-backed growth posture, monetization deferred until scale.\n\n---\n\n## 6. Core Value Proposition\n\n### 6.1 One-Sentence Positioning\n> *A private, hourly, auto-stitched group vlog for your three closest friends — Instagram without the audience, BeReal with continuity.*\n\n### 6.2 The Pitch Stack\n1. **Authenticity over performance.** Users describe Setlog as showing \"what friends are actually doing, rather than what they choose to present.\" The 2-second cap and zero-edit policy structurally prevent curation.\n2. **Intimacy over reach.** Hard cap on group size + invite-only = no audience anxiety. *\"Cuts the noise, amplifying your closest connections.\"*\n3. **Synchronicity over la distance.** The hourly heartbeat creates shared time across distance — \"Same day, different us.\"\n4. **Zero-effort output.** A polished split-screen daily vlog falls out automatically — exportable to Reels/TikTok/Shorts.\n5. **Lighter social-media pressure.** No likes-as-status, no follower count, no algorithm. The negative space is the product.\n\n---\n\n## 7. Open Questions / Conflicts in Public Data\n\n- **Group size cap is inconsistently reported**: 3 (original) → 4 (default) → 6 (DM-expand) → 10 → 12 (recent press). Likely the cap was raise in stages; current public ceiling appears to be ~6 standard, with 12 as press-cited maximum.\n- **Ratings vary by store/region**: 4.4/5 (US), 4.5/5 (Korean), 3.8/5 (UK), 2.7/5 (Play Store).\n- **Sometime** member-removal feature appears unimplemented as of recent reviews.\n- **Sometime** member-removal feature appears unimplemented as of la recent reviews.\n- **The X account** `@setlog_app` is paywalled to scrape but is referenced as the marketing channel.\n\n---\n\n## Sources\n\n- [setlog – friends camera (US App Store)](https://apps.apple.com/us/app/setlog/id6587576438)\n- [setlog – friends camera (UK App Store)](https://apps.apple.com/gb/app/setlog/id6587576438)\n- [setlog – friends camera (Singapore App Store reviews)](https://apps.apple.com/sg/app/setlog/id6587576438?see-all=reviews&platform=iphone)\n- [setlog official site (setlog.kr)](https://setlog.kr/)\n- [New Chat Inc. privacy policy](https://newchat.kr/privacy)\n- [setlog on Google Play](https://play.google.com/setlog/com.newchat.setlog)\n- [setlog on AppBrain](https://www.appbrain.com/appstore/setlog/ios-6587576438)\n- [JustUseApp – setlog reviews](https://justuseapp.com/en/app/6587576438/setlog/reviews)\n- [Korea Herald: Less editing, more living — real-time vlogs catch on](https://www.koreaherald.com/article/10722194)\n- [Korea Times: Koreans highlight unfiltered moments in new hourly vlogging trend](https://www.koreatimes.com/lifestyle/trends/20260508/koreans-highlight-unfiltered-moments-in-new-hourly-vlogging-trend)\n- [South China Morning Post: What is Setlog app trending in HK and South Korea?](https://www.scmp.com/lifestyle/entertainment/article/3350142/what-setlog-app-trending-hong-kong-and-south-korea)\n- [Seoul Economic Daily: Gen Z Embraces Real-Time Sharing App 'Setlog'](https://en.sedaily.com/society/2026/04/18/setlog-real-time-sharing-app-gains-traction-among-gen-z)\n- [Wikitree (KR): Setlog meaning, usage, errors](https://www.wikitree.co.kr/articles/1133248)\n- [Namu Wiki: 셋로그](https://namu.wiki/w/%EC%85%8B%EB%A1%9C%EA%B7%B8)\n- [Erounwiki: Complete Setlog usage guide (Apr 2026)](https://erounwiki.com/setlog-guide/)\n- [Filmora: 셋로그 사용방법](https://filmora.wondershare.kr/video-editing-app/how-to-setlog.html)\n- [dasfl Blog: Z세대 SNS 플랫폼 셋로그 가이드](https://sw100.dasfl.com/entry/z%EC%84%B8%EB%8C%80-SNS-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%85%8B%EB%A1%9C%EA%B7%B8-Setlog-%EA%B0%80%EC%9D%B8%EB%93%9C)\n- [Trippick: Gen Z's preferred recording app](https://www.thetrippick.com/trippick.com/news/articleView.html?idxno=3581)\n- [Daum article: 둥근 해 또 떴네 — 셋로그](https://v.daum.net/v/20260410171307306)\n- [APKPure setlog Android](https://apkpure.com/setlog/com.newchat.setlog)\n- [Setlog Notion usage page](https://setlog.notion.site/setlog-33c7a780f48e80e6bc75f119078f0c0f)\n- [Official X account (paywalled)](https://x.com/setlog_app)\n",
@@ -9612,6 +9914,11 @@
       "body": "# HKN (Hermes Knowledge Nexus) 系統設計\n\n## 定位\n一個由 AI (Hermes) 策展、人類 (Andrew) 審核的動態知識生態系。\n\n## 目錄結構\n- `00_Inbox`: 碎片捕捉區。\n- `10_Atoms`: 單一概念的原子化存放區。\n- `20_Wiki`: 綜合編譯的主題頁面。\n- `30_MOCs`: 知識集群的索引導航 (Map of Content)。\n\n## 運作邏輯\n1. **捕捉→ 2. **原子化→ 3. **編譯成→ 4. **轉化為 Skill**。\n\n## 相關連結\n- [[LLM_Atomic_Wiki_Core|理論基礎]]\n- [[Main_Index|主索引]]\n",
       "frontmatter": "tags: [system-design, hermes, workflow]\ncreated: 2026-05-13\nsource: Hermes_Andrew_Discussion\nstatus: budding"
     },
+    "10_Atoms/Accounting/Exam_Map/會計丙級考科結構": {
+      "markdown": "---\ntitle: 會計丙級考科結構\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 技術士]\naliases: [會計事務丙級, 會計事務技術士丙級, 丙級會計考科]\ncreated: 2026-07-31\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n  - \"[[30_MOCs/Accounting/Accounting-MOC]]\"\nsources:\n  - \"公開技能檢定說明（學科六項＋術科人工／資訊二選一）；細節以當期簡章／規範為準\"\n---\n\n# 會計丙級考科結構\n\n台灣「**會計事務**」技術士技能檢定**丙級**的地圖原子。HKN `Accounting` 主軸先對齊這張圖，再往下長 atoms。\n\n## 檢定怎麼考\n\n| 科別 | 形式（常見） | 及格 |\n|------|----------------|------|\n| **學科** | 單選約 80 題、約 100 分鐘 | 通常 60 分制，**學科＋術科皆及格**才取證 |\n| **術科** | 實作取向、約 120 分鐘；**報名時在路線中擇一** | 同上 |\n\n實際題數、梯次、報名日以**當期簡章**為準。\n\n## 學科：六大工作項目\n\n1. **會計基本概念** — 意義功用、基本假設、報表要素、交易／非交易、會計方程式、借貸與複式簿記  \n2. **平時會計處理程序** — 原始憑證、傳票、日記簿、總帳／明細帳、過帳、試算、錯帳更正  \n3. **期末會計處理程序** — 調整、工作底稿、結帳、主要報表、迴轉分錄等  \n4. **會計資訊系統概念** — AIS 基本環境與操作概念（丙級深度）  \n5. **相關法令之規定** — 如商業會計法／處理準則、營業稅與帳務交界、所得稅相關帳務概念等（丙級範圍）  \n6. **職業道德與工作倫理**\n\n## 術科：兩條路（報檢二選一）\n\n### 主路線：人工記帳（已選定 2026-07-31）\n\n紙筆（非測驗題）實作，核心是**會計循環上手算**：\n\n- 記帳：分錄 → 過帳 → 試算 → 調整 → 結帳  \n- 編表：結帳工作底稿、資產負債表、損益表、業主權益變動表  \n\n**練習優先**：Fundamentals → Day-to-Day → Period-End 手算整鏈；術科範例卷跟人工卷走。  \nAIS／法令／職德仍要顧（學科有考），但**不**當術科主練功房。\n\n### 備援：資訊（電腦／會計總帳）— 未走\n\n在會計資訊系統上做總帳實作。僅作對照說明；若未來改路線再把主標籤搬過來。\n\n## 和乙級的邊界（先知道就好）\n\n乙級在丙級之上加深（資產負債衡量、權益、現金流量與財報分析、進銷存與營業稅申報實作等）。**目前主目標＝丙級**，乙級不搶建。\n\n## HKN cluster 對照（規劃）\n\n| 考科 | 規劃 cluster |\n|------|----------------|\n| 學科① | `Fundamentals/` |\n| 學科② | `Day-to-Day/` |\n| 學科③ | `Period-End/` |\n| 學科④ | `AIS/` |\n| 學科⑤ | `Regulation/` |\n| 學科⑥ | `Ethics/` |\n| 術科流程／應考策略 | `Exam_Map/`（本頁＋後續 checklist） |\n| 動機／職涯薄概念 | `Mindset/`（選配，非主幹） |\n\n## 該往這查的訊號\n\n- 「丙級要念什麼／從哪開始」→ 本頁 + [[20_Wiki/Accounting/Accounting-Wiki]]  \n- 「術科走哪條」→ **人工記帳**（已鎖定）  \n- 具體借貸／調整／報表 → 尚無 atom 時先標缺口，再收規範／題庫原料後寫入對應 cluster  \n",
+      "body": "# 會計丙級考科結構\n\n台灣「**會計事務**」技術士技能檢定**丙級**的地圖原子。HKN `Accounting` 主軸先對齊這張圖，再往下長 atoms。\n\n## 檢定怎麼考\n\n| 科別 | 形式（常見） | 及格 |\n|------|----------------|------|\n| **學科** | 單選約 80 題、約 100 分鐘 | 通常 60 分制，**學科＋術科皆及格**才取證 |\n| **術科** | 實作取向、約 120 分鐘；**報名時在路線中擇一** | 同上 |\n\n實際題數、梯次、報名日以**當期簡章**為準。\n\n## 學科：六大工作項目\n\n1. **會計基本概念** — 意義功用、基本假設、報表要素、交易／非交易、會計方程式、借貸與複式簿記  \n2. **平時會計處理程序** — 原始憑證、傳票、日記簿、總帳／明細帳、過帳、試算、錯帳更正  \n3. **期末會計處理程序** — 調整、工作底稿、結帳、主要報表、迴轉分錄等  \n4. **會計資訊系統概念** — AIS 基本環境與操作概念（丙級深度）  \n5. **相關法令之規定** — 如商業會計法／處理準則、營業稅與帳務交界、所得稅相關帳務概念等（丙級範圍）  \n6. **職業道德與工作倫理**\n\n## 術科：兩條路（報檢二選一）\n\n### 主路線：人工記帳（已選定 2026-07-31）\n\n紙筆（非測驗題）實作，核心是**會計循環上手算**：\n\n- 記帳：分錄 → 過帳 → 試算 → 調整 → 結帳  \n- 編表：結帳工作底稿、資產負債表、損益表、業主權益變動表  \n\n**練習優先**：Fundamentals → Day-to-Day → Period-End 手算整鏈；術科範例卷跟人工卷走。  \nAIS／法令／職德仍要顧（學科有考），但**不**當術科主練功房。\n\n### 備援：資訊（電腦／會計總帳）— 未走\n\n在會計資訊系統上做總帳實作。僅作對照說明；若未來改路線再把主標籤搬過來。\n\n## 和乙級的邊界（先知道就好）\n\n乙級在丙級之上加深（資產負債衡量、權益、現金流量與財報分析、進銷存與營業稅申報實作等）。**目前主目標＝丙級**，乙級不搶建。\n\n## HKN cluster 對照（規劃）\n\n| 考科 | 規劃 cluster |\n|------|----------------|\n| 學科① | `Fundamentals/` |\n| 學科② | `Day-to-Day/` |\n| 學科③ | `Period-End/` |\n| 學科④ | `AIS/` |\n| 學科⑤ | `Regulation/` |\n| 學科⑥ | `Ethics/` |\n| 術科流程／應考策略 | `Exam_Map/`（本頁＋後續 checklist） |\n| 動機／職涯薄概念 | `Mindset/`（選配，非主幹） |\n\n## 該往這查的訊號\n\n- 「丙級要念什麼／從哪開始」→ 本頁 + [[20_Wiki/Accounting/Accounting-Wiki]]  \n- 「術科走哪條」→ **人工記帳**（已鎖定）  \n- 具體借貸／調整／報表 → 尚無 atom 時先標缺口，再收規範／題庫原料後寫入對應 cluster  \n",
+      "frontmatter": "title: 會計丙級考科結構\nstatus: seedling\ndomain: Accounting\ntags: [Accounting, Exam_Map, 丙級, 技術士]\naliases: [會計事務丙級, 會計事務技術士丙級, 丙級會計考科]\ncreated: 2026-07-31\nrelated:\n  - \"[[20_Wiki/Accounting/Accounting-Wiki]]\"\n  - \"[[30_MOCs/Accounting/Accounting-MOC]]\"\nsources:\n  - \"公開技能檢定說明（學科六項＋術科人工／資訊二選一）；細節以當期簡章／規範為準\""
+    },
     "10_Atoms/AI_Learning/動詞思維-vs-名詞思維": {
       "markdown": "---\nstatus: seedling\ncreated: 2026-07-04\n---\n\n# 動詞思維 vs 名詞思維\n\nAI 時代最重要的學習方向：學「動詞」（動作），不學「名詞」（概念）。\n\n- **名詞**：RAG、Agent、Fine-tune、LangChain 等工具與框架——有疆界，會讓人陷入「工具焦慮」\n- **動詞**：上下文管理、任務分解、人機協作、結果評估、錯誤診斷（Debug）與路由（Routing）——這些才是決定 AI 用得好不好的關鍵\n\n**核心邏輯**：名詞思維讓人遇到能力天花板；動詞思維讓人不斷提升。以 RAG 為例：\n- 新手：關心文件切割、Embedding、向量資料庫\n- 高手：關心權利控制、監控、診斷、上下文工程、工作流設計與評估\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]\n\n---\n\n# AI 是手藝，不是科學\n\n把 AI 當作「手藝」來修煉，而非傳統學科的「概念學習」。\n\n- **手藝的學習方式**：像高爾夫、打拳一樣，練習「動作」而非背誦「知識點」\n- **長期複利效應**：工具、模型、框架每天都再變，但背後的「動作」不怎麼變——隨著模型越來越強，管理上下文、分解任務等經驗與認知會展現出長期的價值與複利效應\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]\n\n---\n\n# 高手與普通人的思維差距\n\n- **普通人**：關心該學哪個工具、如何寫更好的 Prompt、哪個模型最強\n- **高手**：關心任務應如何組織、需要什麼樣的上下文結構、哪個流程最適合該任務，以及當 AI 出錯時能否精準找出根本原因（Root cause）\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]",
       "body": "# 動詞思維 vs 名詞思維\n\nAI 時代最重要的學習方向：學「動詞」（動作），不學「名詞」（概念）。\n\n- **名詞**：RAG、Agent、Fine-tune、LangChain 等工具與框架——有疆界，會讓人陷入「工具焦慮」\n- **動詞**：上下文管理、任務分解、人機協作、結果評估、錯誤診斷（Debug）與路由（Routing）——這些才是決定 AI 用得好不好的關鍵\n\n**核心邏輯**：名詞思維讓人遇到能力天花板；動詞思維讓人不斷提升。以 RAG 為例：\n- 新手：關心文件切割、Embedding、向量資料庫\n- 高手：關心權利控制、監控、診斷、上下文工程、工作流設計與評估\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]\n\n---\n\n# AI 是手藝，不是科學\n\n把 AI 當作「手藝」來修煉，而非傳統學科的「概念學習」。\n\n- **手藝的學習方式**：像高爾夫、打拳一樣，練習「動作」而非背誦「知識點」\n- **長期複利效應**：工具、模型、框架每天都再變，但背後的「動作」不怎麼變——隨著模型越來越強，管理上下文、分解任務等經驗與認知會展現出長期的價值與複利效應\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]\n\n---\n\n# 高手與普通人的思維差距\n\n- **普通人**：關心該學哪個工具、如何寫更好的 Prompt、哪個模型最強\n- **高手**：關心任務應如何組織、需要什麼樣的上下文結構、哪個流程最適合該任務，以及當 AI 出錯時能否精準找出根本原因（Root cause）\n\n> 對應來源：[[YouTube/AI的正確打開方式/索引]]",
@@ -9666,6 +9973,16 @@
       "markdown": "---\ndomain: AI_Coding\ntype: Source\ntags: [source, web, ai-dict, miniasp, zh-tw]\naliases: [ai-dict.gh.miniasp.com, ai-coding-dict]\ncreated: 2026-05-15\nurl: https://ai-dict.gh.miniasp.com/\nlanguage: zh-TW\nstatus: external\nlicense: unknown\n---\n\n# AI Coding 術語辭典 (miniasp)\n\n> 來源網站：https://ai-dict.gh.miniasp.com/\n> 提取日期：2026-05-15\n\n繁體中文整理的 AI Coding 領域術語辭典，由 Will Huang (miniasp) 維護，主旨是「AI Coding 的詞彙，用清晰的語言翻譯給你」。\n\n## 提取範圍\n\n辭典涵蓋以下五大領域，皆已被原子化進入 `10_Atoms/AI/`：\n\n| 領域叢集 | 對應目錄 | 原子數 |\n|---------|---------|--------|\n| 模型與推理 | `model/` | 6 |\n| 詞元與計費 | `token/` | 5 |\n| 工作階段與上下文 | `context/` | 5 |\n| 注意力機制 | `attention/` | 3 |\n| 認知狀態分區 | `zone/` | 2 |\n| 駕馭系統 | `harness/` | 1 |\n| 執行環境 | `environment/` | 3 |\n| 工具機制 | `tool/` | 3 |\n| 權限系統 | `permission/` | 2 |\n| 代理人系統 | `agent/` | 3 |\n| 失敗模式 | `failure/` | 5 |\n| 交接管理 | `handoff/` | 2 |\n\n**總計：40 atoms**\n\n## 提取流程\n\n1. 2026-05-15 鯊寶（Hermes）讀取網頁原文（透過 `web_extract`）\n2. 依「概念叢集」原則，將術語拆解為原子，存於 `10_Atoms/AI/<叢集>/<術語>.md`\n3. 建立 [[20_Wiki/AI/AI-Coding-Wiki|架構索引]] 與 [[30_MOCs/AI/AI-Coding-MOC|MOC 入口]]\n4. 2026-05-15（同日）CTO 介入，將 atoms 加上 `sources:` frontmatter 欄位，建立本 source atom 以滿足 source overlap 訊號\n\n## 對下游 atoms 的影響\n\n所有 40 個 AI atoms 的 frontmatter 都列了 `sources: [ai-coding-dict]`，這在 4-signal relevance model 中提供 source overlap 訊號（×4.0 weight）。當未來加入第二個 source（例如 Anthropic Engineering Blog、Karpathy 推文集），新舊 atoms 間的源頭重疊度自然會出現差異。\n\n## 相關連結\n- [[20_Wiki/AI/AI-Coding-Wiki]]\n- [[30_MOCs/AI/AI-Coding-MOC]]\n- [[10_Atoms/HKN_System/LLM_Atomic_Wiki_Core]]（編譯 > RAG 的理論基礎）\n",
       "body": "# AI Coding 術語辭典 (miniasp)\n\n> 來源網站：https://ai-dict.gh.miniasp.com/\n> 提取日期：2026-05-15\n\n繁體中文整理的 AI Coding 領域術語辭典，由 Will Huang (miniasp) 維護，主旨是「AI Coding 的詞彙，用清晰的語言翻譯給你」。\n\n## 提取範圍\n\n辭典涵蓋以下五大領域，皆已被原子化進入 `10_Atoms/AI/`：\n\n| 領域叢集 | 對應目錄 | 原子數 |\n|---------|---------|--------|\n| 模型與推理 | `model/` | 6 |\n| 詞元與計費 | `token/` | 5 |\n| 工作階段與上下文 | `context/` | 5 |\n| 注意力機制 | `attention/` | 3 |\n| 認知狀態分區 | `zone/` | 2 |\n| 駕馭系統 | `harness/` | 1 |\n| 執行環境 | `environment/` | 3 |\n| 工具機制 | `tool/` | 3 |\n| 權限系統 | `permission/` | 2 |\n| 代理人系統 | `agent/` | 3 |\n| 失敗模式 | `failure/` | 5 |\n| 交接管理 | `handoff/` | 2 |\n\n**總計：40 atoms**\n\n## 提取流程\n\n1. 2026-05-15 鯊寶（Hermes）讀取網頁原文（透過 `web_extract`）\n2. 依「概念叢集」原則，將術語拆解為原子，存於 `10_Atoms/AI/<叢集>/<術語>.md`\n3. 建立 [[20_Wiki/AI/AI-Coding-Wiki|架構索引]] 與 [[30_MOCs/AI/AI-Coding-MOC|MOC 入口]]\n4. 2026-05-15（同日）CTO 介入，將 atoms 加上 `sources:` frontmatter 欄位，建立本 source atom 以滿足 source overlap 訊號\n\n## 對下游 atoms 的影響\n\n所有 40 個 AI atoms 的 frontmatter 都列了 `sources: [ai-coding-dict]`，這在 4-signal relevance model 中提供 source overlap 訊號（×4.0 weight）。當未來加入第二個 source（例如 Anthropic Engineering Blog、Karpathy 推文集），新舊 atoms 間的源頭重疊度自然會出現差異。\n\n## 相關連結\n- [[20_Wiki/AI/AI-Coding-Wiki]]\n- [[30_MOCs/AI/AI-Coding-MOC]]\n- [[10_Atoms/HKN_System/LLM_Atomic_Wiki_Core]]（編譯 > RAG 的理論基礎）\n",
       "frontmatter": "domain: AI_Coding\ntype: Source\ntags: [source, web, ai-dict, miniasp, zh-tw]\naliases: [ai-dict.gh.miniasp.com, ai-coding-dict]\ncreated: 2026-05-15\nurl: https://ai-dict.gh.miniasp.com/\nlanguage: zh-TW\nstatus: external\nlicense: unknown"
+    },
+    "40_Sources/菜鳥會計入門三步驟": {
+      "markdown": "---\ntitle: 菜鳥會計入門三步驟（一般公司會計）\ndomain: Accounting\ntype: Source\ntags: [source, accounting, career-intro, zh-tw]\naliases: [菜鳥會計不慌張, 一般公司會計入門三步驟]\ncreated: 2026-07-31\nstatus: external\nlanguage: zh-TW\nquality: thin\nexam_relevance: low\nnote: 職涯／動機向雜誌體；非丙級教材。借貸口訣有誤導風險，勿當 Fundamentals 權威。\n---\n\n# 菜鳥會計入門三步驟\n\n> 入庫：2026-07-31（自 `00_Inbox/Accounting/`）  \n> 原題：菜鳥會計不慌張！給初學者的 3 個入門步驟，從零開始應對一般公司會計工作\n\n## 性質\n\n一般公司會計**入門／轉職動機**文，結構為三步：基礎概念 → 日常實務 → 專業思維。  \n**不是**勞動部會計事務技術士（丙級）規範或題庫。\n\n## 對 HKN／丙級的用途\n\n| 可用 | 不可用 |\n|------|--------|\n| Mindset 薄素材（理論先於軟體；記帳→決策價值） | Fundamentals／分錄／調整／結帳的權威定義 |\n| 提醒「軟體≠會計」 | 術科實作流程 |\n\n## 已知內容風險\n\n- 將借／貸簡化成「資金來源／去向」——**教學易誤導**，與文中「借：費用、貸：現金」例子也不一致。\n- 日常作業描述停留在單據／對帳／月報口語層，未對齊丙級「平時／期末程序」考點。\n\n## 消化狀態（2026-07-31）\n\n- Domain `Accounting` 已開骨架（Wiki 考科雷達 + MOC + Exam_Map）。\n- **本源未批量原子化**（刻意）。後續若寫 Mindset atom，再回鏈本頁。\n- 原文全文：`40_Sources/raw-菜鳥會計入門三步驟-全文.md`；Inbox/Accounting 已清空。\n\n## 建議後續原料（丙級主幹）\n\n1. 勞動部／技能檢定中心：會計事務職類技能檢定規範（丙級）\n2. 學科題庫（六大工作項目分類）\n3. 術科範例卷（人工記帳整套 or 資訊總帳，視選定路線）\n",
+      "body": "# 菜鳥會計入門三步驟\n\n> 入庫：2026-07-31（自 `00_Inbox/Accounting/`）  \n> 原題：菜鳥會計不慌張！給初學者的 3 個入門步驟，從零開始應對一般公司會計工作\n\n## 性質\n\n一般公司會計**入門／轉職動機**文，結構為三步：基礎概念 → 日常實務 → 專業思維。  \n**不是**勞動部會計事務技術士（丙級）規範或題庫。\n\n## 對 HKN／丙級的用途\n\n| 可用 | 不可用 |\n|------|--------|\n| Mindset 薄素材（理論先於軟體；記帳→決策價值） | Fundamentals／分錄／調整／結帳的權威定義 |\n| 提醒「軟體≠會計」 | 術科實作流程 |\n\n## 已知內容風險\n\n- 將借／貸簡化成「資金來源／去向」——**教學易誤導**，與文中「借：費用、貸：現金」例子也不一致。\n- 日常作業描述停留在單據／對帳／月報口語層，未對齊丙級「平時／期末程序」考點。\n\n## 消化狀態（2026-07-31）\n\n- Domain `Accounting` 已開骨架（Wiki 考科雷達 + MOC + Exam_Map）。\n- **本源未批量原子化**（刻意）。後續若寫 Mindset atom，再回鏈本頁。\n- 原文全文：`40_Sources/raw-菜鳥會計入門三步驟-全文.md`；Inbox/Accounting 已清空。\n\n## 建議後續原料（丙級主幹）\n\n1. 勞動部／技能檢定中心：會計事務職類技能檢定規範（丙級）\n2. 學科題庫（六大工作項目分類）\n3. 術科範例卷（人工記帳整套 or 資訊總帳，視選定路線）\n",
+      "frontmatter": "title: 菜鳥會計入門三步驟（一般公司會計）\ndomain: Accounting\ntype: Source\ntags: [source, accounting, career-intro, zh-tw]\naliases: [菜鳥會計不慌張, 一般公司會計入門三步驟]\ncreated: 2026-07-31\nstatus: external\nlanguage: zh-TW\nquality: thin\nexam_relevance: low\nnote: 職涯／動機向雜誌體；非丙級教材。借貸口訣有誤導風險，勿當 Fundamentals 權威。"
+    },
+    "40_Sources/raw-菜鳥會計入門三步驟-全文": {
+      "markdown": "菜鳥會計不慌張！給初學者的 3 個入門步驟，從零開始應對一般公司會計工作\n \n\n文章目錄收合\n菜鳥會計不慌張！給初學者的 3 個入門步驟\n第一步：掌握「基礎概念」與「核心流程」\n第二步：熟悉「日常作業」與「實務操作」\n第三步：內化「專業思維」與「持續學習」\n結論：會計工作不只記帳，更是企業的「大腦」\n常見問答（FAQ）\nQ1：沒有會計相關學歷，可以從事會計工作嗎？\nQ2：會計軟體需要先學嗎？\nQ3：會計工作的前景如何？\nQ4：如何應對會計工作的壓力？\nQ5：考取哪些證照對會計新手有幫助？\n在許多人的印象中，會計工作就是每天埋首於數字、記帳、核對報表，似乎枯燥又乏味。但你可能不知道，會計其實是企業的「大腦」，負責記錄與分析公司的每一個財務決策，為經營者提供重要的判斷依據。如果你是一位剛踏入職場的會計新鮮人，或是想轉職成為會計，心中充滿期待卻又感到不安，別擔心！這篇文章將為你解開會計工作的神秘面紗，並提供 3 個簡單又關鍵的入門步驟，幫助你從容應對一般公司會計的日常工作。\n\n \n\n \n\n菜鳥會計不慌張！給初學者的 3 個入門步驟\n \n\n在一般公司中，會計工作通常涵蓋了從最基礎的帳務處理，到協助編制報表等多元職責。要做好這份工作，你不僅需要會計知識，更需要系統性的思維與實務操作能力。以下是我們為初學者準備的 3 個入門步驟，它們將幫助你建立穩固的會計基石。\n\n \n\n第一步：掌握「基礎概念」與「核心流程」\n \n\n許多人認為，會計就是要會用會計軟體。然而，如果沒有掌握會計的底層邏輯，就算軟體再強大，你仍無法理解數字背後的意義。因此，第一步，你必須先從最基礎的會計概念與核心流程開始。\n\n底層邏輯：會計的本質是「記錄與衡量企業的經濟活動」。每一個會計分錄，都代表著一筆交易的發生。理解這個本質，你才能應對各種不同的狀況。\n\n實戰建議：\n\n熟悉會計五大要素：資產（Assets）、負債（Liabilities）、業主權益（Owner's Equity）、收入（Revenue）、費用（Expense）。這五大要素是所有會計交易的基礎。\n\n理解借貸法則（Debit and Credit）：這是會計記帳的核心規則，記住「有借必有貸，借貸必相等」。你可以想像「借」代表「資金來源」，「貸」代表「資金去向」。\n\n認識會計循環（Accounting Cycle）：從交易發生、製作傳票、過帳、編制試算表，到最終的財務報表，理解整個流程能讓你清楚知道自己在整個環節中的位置。\n\n案例解析： 當公司購買辦公用品時，如果你只知道在軟體中點擊「採購」，你並不知道這筆交易背後代表著什麼。但如果你理解會計的底層邏輯，你會知道這筆交易的會計分錄是「借：辦公用品費，貸：現金」。這代表公司的費用增加了（辦：辦公用品費），同時資產減少了（貸：現金）。當你理解了這個本質，即使面對複雜的交易，你也能輕鬆應對。\n\n重點小結：會計的第一步，不是會用軟體，而是先掌握會計的基礎概念與核心邏輯。\n\n \n\n第二步：熟悉「日常作業」與「實務操作」\n \n\n掌握了理論，接下來就是將其應用到實務中。一般公司的會計工作，有其固定的日常、月、季、年度作業。熟悉這些作業，能讓你更有條理地應對每一天的工作。\n\n底層邏輯：會計工作的效率，來自於「流程化」與「細節管理」。\n\n實戰建議：\n\n日常作業：\n\n單據處理：學習如何接收、審核並分類各類單據，如發票、收據、費用報銷單等。這是所有會計工作的起點。\n\n現金與銀行帳務：每天或每週核對現金與銀行帳戶，確保餘額與帳載相符。\n\n月度作業：\n\n編制月度報表：學習如何編制損益表、資產負債表等月度報表，並分析其變化。\n\n薪資核算：協助人資部門進行員工薪資、勞健保的計算與申報。\n\n熟悉軟體操作：大部分公司都會使用會計軟體（如鼎新、文中、SAP等）。在掌握了基本理論後，多練習軟體操作，能大大提升你的工作效率。\n\n案例解析： 一位會計新手剛入職時，可能覺得單據雜亂無章。但當他學會將單據依「費用類別」或「日期」分類，並建立一個檢查清單時，他的工作效率就能大幅提升。例如，他可以建立一個「費用報銷」的檢查清單，確保每一張單據都包含「申請人簽名」、「發票或收據」與「用途說明」，避免後續的錯誤。\n\n重點小結：將理論知識應用到實務中，並透過流程化與細節管理來提升工作效率。\n\n \n\n第三步：內化「專業思維」與「持續學習」\n \n\n會計工作不僅是技術活，更是一門需要不斷學習與內化的專業。要從一個普通的「記帳員」成長為一個有價值的「財務分析師」，你需要內化會計的專業思維，並保持持續學習的習慣。\n\n底層邏輯：會計的最高價值，在於「提供決策依據」。你記錄的每一筆交易，最終目的都是為了幫助經營者做出更好的判斷。\n\n實戰建議：\n\n培養「數字敏感度」：不要只看數字，更要思考數字背後的原因。例如，當你發現本月的「銷售費用」異常增加時，要主動去了解是哪個行銷活動導致的，並將此訊息提供給決策者。\n\n理解「內部控制」的重要性：會計的一大職責是建立與維護內部的控制制度，以防範舞弊和錯誤。學習如何設計合理的審核流程，是提升專業能力的關鍵。\n\n持續學習與考取證照：會計法規與準則會不斷更新，你需要定期閱讀相關資訊。此外，考取如會計師（CPA）、記帳士等證照，不僅能證明你的專業能力，也能為你的職涯發展提供更多機會。\n\n案例解析： 一位資深的會計，不會只是被動地接收單據。當他看到某個部門的「差旅費」超出預算時，他會主動與該部門經理溝通，並分析這些費用的合理性。他甚至會提出建議，例如「下次差旅可以考慮搭乘高鐵而非飛機」。這種主動思考與提供解決方案的能力，正是會計專業價值的體現。\n\n重點小結：會計的價值，在於從單純的記錄者，轉變為提供決策依據的顧問。\n\n \n\n結論：會計工作不只記帳，更是企業的「大腦」\n \n\n會計工作並非如想像中那樣枯燥，當你從基礎概念出發，熟悉日常實務，並內化專業思維後，你會發現，這是一份充滿挑戰與價值的職業。你記錄的每一個數字，都承載著企業的過去與未來。\n\n從今天開始，別再只是被動地接收指令，試著主動去理解每一筆交易背後的原因。當你能夠看懂數字的故事時，你將會成為企業中不可或缺的核心成員。\n\n如果你對一般公司會計工作還有任何疑問，或想分享你的學習心得，歡迎在下方留言與我們交流。也別忘了訂閱我們的電子報，接收更多關於職場技能與職涯規劃的實用資訊！\n\n \n\n常見問答（FAQ）\n \n\nQ1：沒有會計相關學歷，可以從事會計工作嗎？\nA：可以。許多非本科系的人透過自學或上補習班，並考取記帳士等證照，成功轉職為會計。關鍵在於你是否願意投入時間學習會計的基礎理論與實務操作。\n\nQ2：會計軟體需要先學嗎？\nA：不建議。雖然會計軟體很重要，但它們只是工具。如果你沒有掌握會計的基礎概念，學習軟體會事倍功半。建議先從會計學的基礎知識開始，再搭配軟體操作，效果會更好。\n\nQ3：會計工作的前景如何？\nA：會計是一個穩定且需求量大的職業。隨著 AI 的發展，基礎的記帳工作可能會被自動化，但具備財務分析、內部控制、稅務規劃等能力的會計師，其價值會越來越高。\n\nQ4：如何應對會計工作的壓力？\nA：會計工作在月報、季報、年報期間會有較大的壓力。你可以透過良好的時間管理、將工作分解為小任務，以及與同事有效溝通來應對。此外，培養一個健康的興趣愛好，也能幫助你紓解壓力。\n\nQ5：考取哪些證照對會計新手有幫助？\nA：對於會計新手來說，考取「記帳士」證照是很好的起點。它能證明你具備基礎的會計與稅務知識，對求職有很大幫助。若想在職涯上更進一步，則可考慮考取會計師（CPA）。\n\n 菜鳥會計別怕！這篇入門指南帶你從零開始，掌握一般公司會計的 3 個關鍵步驟。告別死板記帳，從此看懂數字背後的故事。\n\n\n ",
+      "body": "菜鳥會計不慌張！給初學者的 3 個入門步驟，從零開始應對一般公司會計工作\n \n\n文章目錄收合\n菜鳥會計不慌張！給初學者的 3 個入門步驟\n第一步：掌握「基礎概念」與「核心流程」\n第二步：熟悉「日常作業」與「實務操作」\n第三步：內化「專業思維」與「持續學習」\n結論：會計工作不只記帳，更是企業的「大腦」\n常見問答（FAQ）\nQ1：沒有會計相關學歷，可以從事會計工作嗎？\nQ2：會計軟體需要先學嗎？\nQ3：會計工作的前景如何？\nQ4：如何應對會計工作的壓力？\nQ5：考取哪些證照對會計新手有幫助？\n在許多人的印象中，會計工作就是每天埋首於數字、記帳、核對報表，似乎枯燥又乏味。但你可能不知道，會計其實是企業的「大腦」，負責記錄與分析公司的每一個財務決策，為經營者提供重要的判斷依據。如果你是一位剛踏入職場的會計新鮮人，或是想轉職成為會計，心中充滿期待卻又感到不安，別擔心！這篇文章將為你解開會計工作的神秘面紗，並提供 3 個簡單又關鍵的入門步驟，幫助你從容應對一般公司會計的日常工作。\n\n \n\n \n\n菜鳥會計不慌張！給初學者的 3 個入門步驟\n \n\n在一般公司中，會計工作通常涵蓋了從最基礎的帳務處理，到協助編制報表等多元職責。要做好這份工作，你不僅需要會計知識，更需要系統性的思維與實務操作能力。以下是我們為初學者準備的 3 個入門步驟，它們將幫助你建立穩固的會計基石。\n\n \n\n第一步：掌握「基礎概念」與「核心流程」\n \n\n許多人認為，會計就是要會用會計軟體。然而，如果沒有掌握會計的底層邏輯，就算軟體再強大，你仍無法理解數字背後的意義。因此，第一步，你必須先從最基礎的會計概念與核心流程開始。\n\n底層邏輯：會計的本質是「記錄與衡量企業的經濟活動」。每一個會計分錄，都代表著一筆交易的發生。理解這個本質，你才能應對各種不同的狀況。\n\n實戰建議：\n\n熟悉會計五大要素：資產（Assets）、負債（Liabilities）、業主權益（Owner's Equity）、收入（Revenue）、費用（Expense）。這五大要素是所有會計交易的基礎。\n\n理解借貸法則（Debit and Credit）：這是會計記帳的核心規則，記住「有借必有貸，借貸必相等」。你可以想像「借」代表「資金來源」，「貸」代表「資金去向」。\n\n認識會計循環（Accounting Cycle）：從交易發生、製作傳票、過帳、編制試算表，到最終的財務報表，理解整個流程能讓你清楚知道自己在整個環節中的位置。\n\n案例解析： 當公司購買辦公用品時，如果你只知道在軟體中點擊「採購」，你並不知道這筆交易背後代表著什麼。但如果你理解會計的底層邏輯，你會知道這筆交易的會計分錄是「借：辦公用品費，貸：現金」。這代表公司的費用增加了（辦：辦公用品費），同時資產減少了（貸：現金）。當你理解了這個本質，即使面對複雜的交易，你也能輕鬆應對。\n\n重點小結：會計的第一步，不是會用軟體，而是先掌握會計的基礎概念與核心邏輯。\n\n \n\n第二步：熟悉「日常作業」與「實務操作」\n \n\n掌握了理論，接下來就是將其應用到實務中。一般公司的會計工作，有其固定的日常、月、季、年度作業。熟悉這些作業，能讓你更有條理地應對每一天的工作。\n\n底層邏輯：會計工作的效率，來自於「流程化」與「細節管理」。\n\n實戰建議：\n\n日常作業：\n\n單據處理：學習如何接收、審核並分類各類單據，如發票、收據、費用報銷單等。這是所有會計工作的起點。\n\n現金與銀行帳務：每天或每週核對現金與銀行帳戶，確保餘額與帳載相符。\n\n月度作業：\n\n編制月度報表：學習如何編制損益表、資產負債表等月度報表，並分析其變化。\n\n薪資核算：協助人資部門進行員工薪資、勞健保的計算與申報。\n\n熟悉軟體操作：大部分公司都會使用會計軟體（如鼎新、文中、SAP等）。在掌握了基本理論後，多練習軟體操作，能大大提升你的工作效率。\n\n案例解析： 一位會計新手剛入職時，可能覺得單據雜亂無章。但當他學會將單據依「費用類別」或「日期」分類，並建立一個檢查清單時，他的工作效率就能大幅提升。例如，他可以建立一個「費用報銷」的檢查清單，確保每一張單據都包含「申請人簽名」、「發票或收據」與「用途說明」，避免後續的錯誤。\n\n重點小結：將理論知識應用到實務中，並透過流程化與細節管理來提升工作效率。\n\n \n\n第三步：內化「專業思維」與「持續學習」\n \n\n會計工作不僅是技術活，更是一門需要不斷學習與內化的專業。要從一個普通的「記帳員」成長為一個有價值的「財務分析師」，你需要內化會計的專業思維，並保持持續學習的習慣。\n\n底層邏輯：會計的最高價值，在於「提供決策依據」。你記錄的每一筆交易，最終目的都是為了幫助經營者做出更好的判斷。\n\n實戰建議：\n\n培養「數字敏感度」：不要只看數字，更要思考數字背後的原因。例如，當你發現本月的「銷售費用」異常增加時，要主動去了解是哪個行銷活動導致的，並將此訊息提供給決策者。\n\n理解「內部控制」的重要性：會計的一大職責是建立與維護內部的控制制度，以防範舞弊和錯誤。學習如何設計合理的審核流程，是提升專業能力的關鍵。\n\n持續學習與考取證照：會計法規與準則會不斷更新，你需要定期閱讀相關資訊。此外，考取如會計師（CPA）、記帳士等證照，不僅能證明你的專業能力，也能為你的職涯發展提供更多機會。\n\n案例解析： 一位資深的會計，不會只是被動地接收單據。當他看到某個部門的「差旅費」超出預算時，他會主動與該部門經理溝通，並分析這些費用的合理性。他甚至會提出建議，例如「下次差旅可以考慮搭乘高鐵而非飛機」。這種主動思考與提供解決方案的能力，正是會計專業價值的體現。\n\n重點小結：會計的價值，在於從單純的記錄者，轉變為提供決策依據的顧問。\n\n \n\n結論：會計工作不只記帳，更是企業的「大腦」\n \n\n會計工作並非如想像中那樣枯燥，當你從基礎概念出發，熟悉日常實務，並內化專業思維後，你會發現，這是一份充滿挑戰與價值的職業。你記錄的每一個數字，都承載著企業的過去與未來。\n\n從今天開始，別再只是被動地接收指令，試著主動去理解每一筆交易背後的原因。當你能夠看懂數字的故事時，你將會成為企業中不可或缺的核心成員。\n\n如果你對一般公司會計工作還有任何疑問，或想分享你的學習心得，歡迎在下方留言與我們交流。也別忘了訂閱我們的電子報，接收更多關於職場技能與職涯規劃的實用資訊！\n\n \n\n常見問答（FAQ）\n \n\nQ1：沒有會計相關學歷，可以從事會計工作嗎？\nA：可以。許多非本科系的人透過自學或上補習班，並考取記帳士等證照，成功轉職為會計。關鍵在於你是否願意投入時間學習會計的基礎理論與實務操作。\n\nQ2：會計軟體需要先學嗎？\nA：不建議。雖然會計軟體很重要，但它們只是工具。如果你沒有掌握會計的基礎概念，學習軟體會事倍功半。建議先從會計學的基礎知識開始，再搭配軟體操作，效果會更好。\n\nQ3：會計工作的前景如何？\nA：會計是一個穩定且需求量大的職業。隨著 AI 的發展，基礎的記帳工作可能會被自動化，但具備財務分析、內部控制、稅務規劃等能力的會計師，其價值會越來越高。\n\nQ4：如何應對會計工作的壓力？\nA：會計工作在月報、季報、年報期間會有較大的壓力。你可以透過良好的時間管理、將工作分解為小任務，以及與同事有效溝通來應對。此外，培養一個健康的興趣愛好，也能幫助你紓解壓力。\n\nQ5：考取哪些證照對會計新手有幫助？\nA：對於會計新手來說，考取「記帳士」證照是很好的起點。它能證明你具備基礎的會計與稅務知識，對求職有很大幫助。若想在職涯上更進一步，則可考慮考取會計師（CPA）。\n\n 菜鳥會計別怕！這篇入門指南帶你從零開始，掌握一般公司會計的 3 個關鍵步驟。告別死板記帳，從此看懂數字背後的故事。\n\n\n ",
+      "frontmatter": ""
     }
   },
   "link_index": {
@@ -9698,6 +10015,9 @@
     "30_mocs/hkn_system/hkn_system-moc": "30_MOCs/HKN_System/HKN_System-MOC",
     "hkn_system-moc": "30_MOCs/HKN_System/HKN_System-MOC",
     "hkn_system moc": "30_MOCs/HKN_System/HKN_System-MOC",
+    "30_mocs/accounting/accounting-moc": "30_MOCs/Accounting/Accounting-MOC",
+    "accounting-moc": "30_MOCs/Accounting/Accounting-MOC",
+    "accounting moc": "30_MOCs/Accounting/Accounting-MOC",
     "30_mocs/setlog/setlog_市場分析_3c框架": "30_MOCs/Setlog/Setlog_市場分析_3C框架",
     "setlog_市場分析_3c框架": "30_MOCs/Setlog/Setlog_市場分析_3C框架",
     "setlog 市場分析報告 — 3c framework": "30_MOCs/Setlog/Setlog_市場分析_3C框架",
@@ -9734,6 +10054,9 @@
     "20_wiki/hkn_system/hermes_escalation_rules": "20_Wiki/HKN_System/Hermes_Escalation_Rules",
     "hermes_escalation_rules": "20_Wiki/HKN_System/Hermes_Escalation_Rules",
     "hermes escalation rules v1.1": "20_Wiki/HKN_System/Hermes_Escalation_Rules",
+    "20_wiki/accounting/accounting-wiki": "20_Wiki/Accounting/Accounting-Wiki",
+    "accounting-wiki": "20_Wiki/Accounting/Accounting-Wiki",
+    "accounting wiki": "20_Wiki/Accounting/Accounting-Wiki",
     "20_wiki/setlog/setlog_product_analysis": "20_Wiki/Setlog/Setlog_Product_Analysis",
     "setlog_product_analysis": "20_Wiki/Setlog/Setlog_Product_Analysis",
     "setlog — product specification reverse-engineering report": "20_Wiki/Setlog/Setlog_Product_Analysis",
@@ -9941,6 +10264,8 @@
     "10_atoms/hkn_system/hkn_architecture": "10_Atoms/HKN_System/HKN_Architecture",
     "hkn_architecture": "10_Atoms/HKN_System/HKN_Architecture",
     "hkn (hermes knowledge nexus) 系統設計": "10_Atoms/HKN_System/HKN_Architecture",
+    "10_atoms/accounting/exam_map/會計丙級考科結構": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
+    "會計丙級考科結構": "10_Atoms/Accounting/Exam_Map/會計丙級考科結構",
     "10_atoms/ai_learning/動詞思維-vs-名詞思維": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
     "動詞思維-vs-名詞思維": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
     "動詞思維 vs 名詞思維": "10_Atoms/AI_Learning/動詞思維-vs-名詞思維",
@@ -9963,6 +10288,12 @@
     "phase 1：賺最容易賺到的錢 - youtube 知識萃取": "10_Atoms/YouTube/Phase1_賺最容易賺到的錢/索引",
     "40_sources/ai-coding-dict-source": "40_Sources/AI-Coding-Dict-Source",
     "ai-coding-dict-source": "40_Sources/AI-Coding-Dict-Source",
-    "ai coding 術語辭典 (miniasp)": "40_Sources/AI-Coding-Dict-Source"
+    "ai coding 術語辭典 (miniasp)": "40_Sources/AI-Coding-Dict-Source",
+    "40_sources/菜鳥會計入門三步驟": "40_Sources/菜鳥會計入門三步驟",
+    "菜鳥會計入門三步驟": "40_Sources/菜鳥會計入門三步驟",
+    "菜鳥會計入門三步驟（一般公司會計）": "40_Sources/菜鳥會計入門三步驟",
+    "40_sources/raw-菜鳥會計入門三步驟-全文": "40_Sources/raw-菜鳥會計入門三步驟-全文",
+    "raw-菜鳥會計入門三步驟-全文": "40_Sources/raw-菜鳥會計入門三步驟-全文",
+    "raw 菜鳥會計入門三步驟 全文": "40_Sources/raw-菜鳥會計入門三步驟-全文"
   }
 }
